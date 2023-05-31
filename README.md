@@ -9,6 +9,6 @@
 2) remaking Nova's map to focus on trade loops. Most planets should have a trade good that they produce and one they demand, to encourage through and profitable exploration and travelling of the universe.
 
 ## Installing
-1) Download the [ES Launcher](https://github.com/EndlessSkyCommunity/ESLauncher2) and use that to download continuous ES
-3) Clone/download endless-sky triskelion
+1) Download the [ES Launcher](https://github.com/EndlessSkyCommunity/ESLauncher2) and use that to download continuous ES. Download buttons for various OSes are found in the Readme, just scroll down.
+3) Clone/download endless-sky triskelion. To do this, scroll up and click the green 'code' button to find a 'download .zip' option.
 4) Copy the .dll and .exe files from continuous ES into endless-sky triskelion's folder.
