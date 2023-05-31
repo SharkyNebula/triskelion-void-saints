@@ -11,4 +11,4 @@
 ## Installing
 1) Download the [ES Launcher](https://github.com/EndlessSkyCommunity/ESLauncher2) and use that to download continuous ES
 3) Clone/download endless-sky triskelion
-4) Move the .dll and .exe files from continuous ES into endless-sky triskelion's folder.
+4) Copy the .dll and .exe files from continuous ES into endless-sky triskelion's folder.
