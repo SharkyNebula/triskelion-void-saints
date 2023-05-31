@@ -1,0 +1,191 @@
+# Copyright (c) 2014 by Michael Zahniser
+#
+# Endless Sky is free software: you can redistribute it and/or modify it under the
+# terms of the GNU General Public License as published by the Free Software
+# Foundation, either version 3 of the License, or (at your option) any later version.
+#
+# Endless Sky is distributed in the hope that it will be useful, but WITHOUT ANY
+# WARRANTY; without even the implied warranty of MERCHANTABILITY or FITNESS FOR A
+# PARTICULAR PURPOSE. See the GNU General Public License for more details.
+#
+# You should have received a copy of the GNU General Public License along with
+# this program. If not, see <https://www.gnu.org/licenses/>.
+
+color "governments: Escort" 1 1 1
+
+color "governments: Uninhabited" 0.47 0.47 0.47
+
+color "governments: Void" 0 0 0
+
+color "governments: Heraan" 0.612 0.847 0.275
+
+color "governments: Moash" 0.694 0.612 0.392
+
+color "governments: Federation" 0.51 0.69 1
+
+color "governments: Rebellion" 0.012 0.62 0.118
+
+color "governments: Pirate" 1 0.314 0.098
+
+color "governments: Empire" 0.80 0 0.157
+
+color "governments: Independent" 1 0.941 0.651
+
+color "governments: Vella" 0.988 0.702 0.071
+
+color "governments: Polaris" 0.475 0.20 0.882
+
+color "governments: Dani" 0.008 0.306 0.776
+
+color "governments: Replicant" 1 0.557 0.165
+
+color "governments: Wild Geese" 0 0.20 0
+
+color "governments: Ronin" 0.365 0 0.086
+
+color "governments: Krypt" 0.89 0.494 1
+
+color "governments: Tekel" 0.855 0.204 0.776
+
+color "governments: Vell-os" 0 0.718 0.922
+
+color "governments: Nil'kemorya" 0.808 0.808 0.808
+
+color "governments: ATMOS" 0.686 0 0.478
+
+color "governments: Dechtakar" 0.447 0.184 0.216
+
+color "governments: Wraith" 0.565 0.51 0.808
+
+color "governments: Roughnecks" 0.165 0.173 0.459
+
+government Escort
+	color "governments: Escort"
+	swizzle 10
+	"fine" 0
+
+government NebulaTank
+	color "governments: Escort"
+	swizzle 10
+	"fine" 0
+
+government Uninhabited
+	color "governments: Uninhabited"
+	"bribe" 0
+	"fine" 0
+
+government Void
+	color "governments: Void"
+	"bribe" 0
+	"fine" 0
+
+government Heraan
+	color "governments: Heraan"
+	"bribe" 0
+	"fine" 0
+
+government Moash
+	color "governments: Moash"
+	"bribe" 0
+	"fine" 0
+
+government Federation
+	color "governments: Federation"
+	"bribe" 0
+	"fine" 0
+
+government Rebellion
+	color "governments: Rebellion"
+	"bribe" 0
+	"fine" 0
+
+government Pirate
+	color "governments: Pirate"
+	"bribe" 0
+	"fine" 0
+
+government Empire
+	color "governments: Empire"
+	"bribe" 0
+	"fine" 0
+
+government Independent
+	color "governments: Independent"
+	"bribe" 0
+	"fine" 0
+
+government Vella
+	color "governments: Vella"
+	"bribe" 0
+	"fine" 0
+
+government Polaris
+	color "governments: Polaris"
+	"bribe" 0
+	"fine" 0
+
+government Dani
+	color "governments: Dani"
+	"bribe" 0
+	"fine" 0
+
+government Replicant
+	color "governments: Replicant"
+	"bribe" 0
+	"fine" 0
+
+government "Wild Geese"
+	color "governments: Wild Geese"
+	"bribe" 0
+	"fine" 0
+
+government Ronin
+	color "governments: Ronin"
+	"bribe" 0
+	"fine" 0
+
+government Krypt
+	color "governments: Krypt"
+	"bribe" 0
+	"fine" 0
+
+government Tekel
+	color "governments: Tekel"
+	"bribe" 0
+	"fine" 0
+
+government Vell-os
+	color "governments: Vell-os"
+	"bribe" 0
+	"fine" 0
+
+government Nil'kemorya
+	color "governments: Nil'kemorya"
+	"bribe" 0
+	"fine" 0
+
+government ATMOS
+	color "governments: ATMOS"
+	"bribe" 0
+	"fine" 0
+
+government NebulaTank
+	color "governments: ATMOS"
+	"bribe" 0
+	"fine" 0
+
+government Dechtakar
+	color "governments: Dechtakar"
+	"bribe" 0
+	"fine" 0
+
+government Wraith
+	color "governments: Wraith"
+	"bribe" 0
+	"fine" 0
+
+government Roughnecks
+	color "governments: Roughnecks"
+	"bribe" 0
+	"fine" 0
+

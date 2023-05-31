@@ -1,0 +1,26 @@
+# Copyright (c) 2016 by Michael Zahniser
+#
+# Endless Sky is free software: you can redistribute it and/or modify it under the
+# terms of the GNU General Public License as published by the Free Software
+# Foundation, either version 3 of the License, or (at your option) any later version.
+#
+# Endless Sky is distributed in the hope that it will be useful, but WITHOUT ANY
+# WARRANTY; without even the implied warranty of MERCHANTABILITY or FITNESS FOR A
+# PARTICULAR PURPOSE. See the GNU General Public License for more details.
+#
+# You should have received a copy of the GNU General Public License along with
+# this program. If not, see <https://www.gnu.org/licenses/>.
+
+"landing message" "You cannot land on a gas giant."
+
+"landing message" "This planet has too much tectonic activity for you to land safely on it."
+
+"landing message" "You cannot land on this part of the ringworld."
+
+"landing message" "You are not sure what this is, but it's not something you can land on."
+
+"landing message" "You cannot land on a black hole!"
+
+"landing message" "You cannot land on this part of the Dyson sphere."
+
+"landing message" "You cannot land on a brown dwarf."

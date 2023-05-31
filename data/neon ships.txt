@@ -1,0 +1,906 @@
+# Copyright (c) 2015 by Michael Zahniser
+#
+# Endless Sky is free software: you can redistribute it and/or modify it under the
+# terms of the GNU General Public License as published by the Free Software
+# Foundation, either version 3 of the License, or (at your option) any later version.
+#
+# Endless Sky is distributed in the hope that it will be useful, but WITHOUT ANY
+# WARRANTY; without even the implied warranty of MERCHANTABILITY or FITNESS FOR A
+# PARTICULAR PURPOSE. See the GNU General Public License for more details.
+#
+# You should have received a copy of the GNU General Public License along with
+# this program. If not, see <https://www.gnu.org/licenses/>.
+
+# Planets
+
+planet "Neon Station"
+	attributes station
+	shipyard "Neon"
+	outfitter "Neon"
+	description `Neon Station`
+	spaceport `Neon Spaceport`
+	landscape land/CCStation
+
+planet "Clear Arena"
+	attributes station
+	government Uninhabited
+	description `Your arena missions should have ended.`
+	landscape land/CCStationSmall
+
+# Governments
+
+government "Red"
+	swizzle 7
+	"player reputation" 0
+	"attitude toward"
+		"Blue" -0.01
+	"penalty for"
+		assist 0
+		disable 0
+		board 0
+		capture 0
+		destroy 0
+		atrocity 0
+
+government "Blue"
+	swizzle 13
+	"player reputation" 0
+	"attitude toward"
+		"Red" -0.01
+	"penalty for"
+		assist 0
+		disable 0
+		board 0
+		capture 0
+		destroy 0
+		atrocity 0
+
+# Arena Mission
+
+mission "Fighter, Neon, Team Red"
+	source
+		government "NebulaTank"
+	destination "Clear Arena"
+	job
+	repeat
+	npc
+		government "Red"
+		personality staying vindictive
+			confusion 90
+		ship "Neon Fighter"
+
+mission "Fighter, Neon, Team Blue"
+	source
+		government "NebulaTank"
+	destination "Clear Arena"
+	job
+	repeat
+	npc
+		government "Blue"
+		personality entering staying vindictive
+			confusion 90
+		ship "Neon Fighter"
+
+mission "Gunship, Neon, Team Red"
+	source
+		government "NebulaTank"
+	destination "Clear Arena"
+	job
+	repeat
+	npc
+		government "Red"
+		personality staying vindictive
+			confusion 90
+		ship "Neon Gunship"
+
+mission "Gunship, Neon, Team Blue"
+	source
+		government "NebulaTank"
+	destination "Clear Arena"
+	job
+	repeat
+	npc
+		government "Blue"
+		personality entering staying vindictive
+			confusion 90
+		ship "Neon Gunship"
+
+mission "Corvette, Neon, Team Red"
+	source
+		government "NebulaTank"
+	destination "Clear Arena"
+	job
+	repeat
+	npc
+		government "Red"
+		personality staying vindictive
+			confusion 90
+		ship "Neon Corvette"
+
+mission "Corvette, Neon, Team Blue"
+	source
+		government "NebulaTank"
+	destination "Clear Arena"
+	job
+	repeat
+	npc
+		government "Blue"
+		personality entering staying vindictive
+			confusion 90
+		ship "Neon Corvette"
+
+mission "Frigate, Neon, Team Red"
+	source
+		government "NebulaTank"
+	destination "Clear Arena"
+	job
+	repeat
+	npc
+		government "Red"
+		personality staying vindictive
+			confusion 90
+		ship "Neon Frigate"
+
+mission "Frigate, Neon, Team Blue"
+	source
+		government "NebulaTank"
+	destination "Clear Arena"
+	job
+	repeat
+	npc
+		government "Blue"
+		personality entering staying vindictive
+			confusion 90
+		ship "Neon Frigate"
+
+mission "Destroyer, Neon, Team Red"
+	source
+		government "NebulaTank"
+	destination "Clear Arena"
+	job
+	repeat
+	npc
+		government "Red"
+		personality staying vindictive
+			confusion 90
+		ship "Neon Destroyer"
+
+mission "Destroyer, Neon, Team Blue"
+	source
+		government "NebulaTank"
+	destination "Clear Arena"
+	job
+	repeat
+	npc
+		government "Blue"
+		personality entering staying vindictive
+			confusion 90
+		ship "Neon Destroyer"
+
+mission "Cruiser, Neon, Team Red"
+	source
+		government "NebulaTank"
+	destination "Clear Arena"
+	job
+	repeat
+	npc
+		government "Red"
+		personality staying vindictive
+			confusion 90
+		ship "Neon Cruiser"
+
+mission "Cruiser, Neon, Team Blue"
+	source
+		government "NebulaTank"
+	destination "Clear Arena"
+	job
+	repeat
+	npc
+		government "Blue"
+		personality entering staying vindictive
+			confusion 90
+		ship "Neon Cruiser"
+
+mission "Carrier, Neon, Team Red"
+	source
+		government "NebulaTank"
+	destination "Clear Arena"
+	job
+	repeat
+	npc
+		government "Red"
+		personality staying vindictive
+			confusion 90
+		ship "Neon Carrier"
+
+mission "Carrier, Neon, Team Blue"
+	source
+		government "NebulaTank"
+	destination "Clear Arena"
+	job
+	repeat
+	npc
+		government "Blue"
+		personality staying vindictive entering
+			confusion 90
+		system destination
+		fleet 1
+			variant
+				"Neon Carrier"
+				"Neon Fighter" 9
+
+mission "Titan, Neon, Team Red"
+	source
+		planet "Neon Station"
+	destination "Clear Arena"
+	job
+	repeat
+	npc
+		government "Red"
+		personality staying vindictive
+			confusion 90
+		system destination
+		fleet 1
+			variant
+				"Neon Titan"
+				"Neon Fighter" 6
+				"Neon Gunship" 2
+
+mission "Titan, Neon, Team Blue"
+	source
+		planet "Neon Station"
+	destination "Clear Arena"
+	job
+	repeat
+	npc
+		government "Blue"
+		personality staying vindictive entering
+			confusion 90
+		system destination
+		fleet 1
+			variant
+				"Neon Titan"
+				"Neon Fighter" 6
+				"Neon Gunship" 2
+
+# Ships
+
+shipyard "Neon"
+	"Neon Fighter (shipyard)"
+	"Neon Gunship (shipyard)"
+	"Neon Corvette (shipyard)"
+	"Neon Frigate (shipyard)"
+	"Neon Destroyer (shipyard)"
+	"Neon Cruiser (shipyard)"
+	"Neon Carrier (shipyard)"
+	"Neon Titan (shipyard)"
+
+ship "Neon Fighter" "Neon Fighter (shipyard)"
+	swizzle 18
+
+ship "Neon Gunship" "Neon Gunship (shipyard)"
+	swizzle 18
+
+ship "Neon Corvette" "Neon Corvette (shipyard)"
+	swizzle 18
+
+ship "Neon Frigate" "Neon Frigate (shipyard)"
+	swizzle 18
+
+ship "Neon Destroyer" "Neon Destroyer (shipyard)"
+	swizzle 18
+
+ship "Neon Cruiser" "Neon Cruiser (shipyard)"
+	swizzle 18
+
+ship "Neon Carrier" "Neon Carrier (shipyard)"
+	swizzle 18
+
+ship "Neon Titan" "Neon Titan (shipyard)"
+	swizzle 18
+
+ship "Neon Fighter"
+	sprite "ship/Fighter-Neon"
+	thumbnail "thumbnail/Fighter-Neon"
+	attributes
+		category "Fighter"
+		hyperdrive 1
+		"jump speed" .2
+		"jump fuel" 100
+		"flare sprite" "engine/Fighter-Neon"
+	engine 0 0
+		over
+	attributes
+		"cost" 51609
+		"shields" 1000
+		"hull" 1500
+		"threshold percentage" 0.3
+		"outfit space" 20
+		"cargo space" 20
+		"engine capacity" 20
+	gun -29 23
+		over
+	gun 29 23
+		over
+	attributes
+		"bunks" 2
+		"required crew" 1
+		"fuel capacity" 300
+		"energy capacity" 300
+		"fuel generation" 0.016
+		"energy generation" 0.016
+		"shield generation" 1.08
+		"hull repair rate" 1.08
+		"slowing protection" 2.83
+		"slowing resistance" 0.10
+		"heat dissipation" 0.85
+		"thrust" 17.60
+		"turn" 192
+		"mass" 24.00
+		"drag" 1.22
+	description `* Ship: Fighter`
+	description `* Faction: Neon`
+	description `* Producer: VR Battle`
+	description `* Condition: Standard`
+	description `* Loadout: Lineform, Electric`
+	description `* Size 2: Tiny (Fighter)`
+	description `* Role: Virtual Starfighter`
+	description `* Dimensions (WxLxH): 24 x 22 x 5m`
+	outfits
+		"Lineform 1" 2
+
+ship "Neon Gunship"
+	sprite "ship/Gunship-Neon"
+	thumbnail "thumbnail/Gunship-Neon"
+	attributes
+		category "Gunship"
+		hyperdrive 1
+		"jump speed" .2
+		"jump fuel" 100
+		"flare sprite" "engine/Gunship-Neon"
+	engine 0 0
+		over
+	attributes
+		"cost" 100344
+		"shields" 2000
+		"hull" 2222
+		"threshold percentage" 0.1
+		"outfit space" 30
+		"cargo space" 30
+		"engine capacity" 20
+	gun 0 -56
+		over
+	gun -21 28
+		over
+	gun 21 28
+		over
+	turret 0 -11
+	attributes
+		"bunks" 5
+		"required crew" 2
+		"fuel capacity" 400
+		"energy capacity" 400
+		"fuel generation" 0.016
+		"energy generation" 0.016
+		"shield generation" 0.83
+		"hull repair rate" 0.83
+		"slowing protection" 5.00
+		"slowing resistance" 0.12
+		"heat dissipation" 0.80
+		"thrust" 29.35
+		"turn" 276
+		"mass" 48.00
+		"drag" 2.44
+	description `* Ship: Gunship`
+	description `* Faction: Neon`
+	description `* Producer: VR Battle`
+	description `* Condition: Standard`
+	description `* Loadout: Lineform, Electric`
+	description `* Size 3: Overtiny (Gunship)`
+	description `* Role: Virtual Gunship`
+	description `* Dimensions (WxLxH): 30 x 41 x 9m`
+	outfits
+		"Lineform 1" 3
+
+ship "Neon Corvette"
+	sprite "ship/Corvette-Neon"
+	thumbnail "thumbnail/Corvette-Neon"
+	attributes
+		category "Corvette"
+		hyperdrive 1
+		"jump speed" .2
+		"jump fuel" 100
+		"flare sprite" "engine/Corvette-Neon"
+	engine 0 0
+		over
+	attributes
+		"cost" 307707
+		"shields" 3500
+		"hull" 3889
+		"threshold percentage" 0.1
+		"outfit space" 50
+		"cargo space" 50
+		"engine capacity" 20
+	gun 0 -80
+		over
+	gun 0 -37
+		over
+	gun -39 9
+		over
+	gun 39 9
+		over
+	turret -38 57
+	turret 38 57
+	bay "Fighter" 0 26
+	attributes
+		"bunks" 14
+		"required crew" 7
+		"fuel capacity" 500
+		"energy capacity" 500
+		"fuel generation" 0.016
+		"energy generation" 0.016
+		"shield generation" 0.58
+		"hull repair rate" 0.58
+		"slowing protection" 7.58
+		"slowing resistance" 0.14
+		"heat dissipation" 0.75
+		"thrust" 35.24
+		"turn" 360
+		"mass" 72.00
+		"drag" 3.66
+	description `* Ship: Corvette`
+	description `* Faction: Neon`
+	description `* Producer: VR Battle`
+	description `* Condition: Standard`
+	description `* Loadout: Lineform, Electric`
+	description `* Size 4: Small (Corvette)`
+	description `* Role: Virtual Corvette`
+	description `* Dimensions (WxLxH): 50 x 68 x 15m`
+	outfits
+		"Lineform 2" 4
+
+ship "Neon Frigate"
+	sprite "ship/Frigate-Neon"
+	thumbnail "thumbnail/Frigate-Neon"
+	attributes
+		category "Frigate"
+		hyperdrive 1
+		"jump speed" .2
+		"jump fuel" 100
+		"flare sprite" "engine/Frigate-Neon"
+	engine 0 0
+		over
+	attributes
+		"cost" 454491
+		"shields" 8000
+		"hull" 8889
+		"threshold percentage" 0.1
+		"outfit space" 100
+		"cargo space" 100
+		"engine capacity" 20
+	gun 0 -94
+		under
+	gun -83 60
+		over
+	gun -83 60
+		under
+	gun 83 60
+		over
+	gun 83 60
+		under
+	turret 0 -53
+	turret 0 -14
+	turret 0 48
+	bay "Fighter" -48 60
+	bay "Fighter" 48 60
+	attributes
+		"bunks" 27
+		"required crew" 14
+		"fuel capacity" 600
+		"energy capacity" 600
+		"fuel generation" 0.016
+		"energy generation" 0.016
+		"shield generation" 0.46
+		"hull repair rate" 0.46
+		"slowing protection" 10.08
+		"slowing resistance" 0.17
+		"heat dissipation" 0.7
+		"thrust" 50.09
+		"turn" 438
+		"mass" 117.00
+		"drag" 5.94
+	description `* Ship: Frigate`
+	description `* Faction: Neon`
+	description `* Producer: VR Battle`
+	description `* Condition: Standard`
+	description `* Loadout: Lineform, Electric`
+	description `* Size 5: Submedium (Frigate)`
+	description `* Role: Virtual Frigate`
+	description `* Dimensions (WxLxH): 139 x 138 x 36m`
+	outfits
+		"Lineform 2" 5
+
+
+ship "Neon Destroyer"
+	sprite "ship/Destroyer-Neon"
+	thumbnail "thumbnail/Destroyer-Neon"
+	attributes
+		category "Destroyer"
+		hyperdrive 1
+		"jump speed" .2
+		"jump fuel" 100
+		"flare sprite" "engine/Destroyer-Neon"
+	engine 0 0
+		over
+	attributes
+		"cost" 619298
+		"shields" 8000
+		"hull" 8889
+		"threshold percentage" 0.1
+		"outfit space" 100
+		"cargo space" 100
+		"engine capacity" 20
+	gun 0 -106.25
+		under
+	gun 0 -63
+		over
+	gun -27 -54
+		over
+	gun 27 -54
+		over
+	gun -46 -19
+		over
+	gun 46 -19
+		over
+	turret -36 23
+	turret 36 23
+	turret -49 84
+	turret 49 84
+	bay "Fighter" -82 80
+	bay "Fighter" 82 80
+	bay "Fighter" -60 106
+	bay "Fighter" 60 106
+	attributes
+		"bunks" 54
+		"required crew" 27
+		"fuel capacity" 700
+		"energy capacity" 700
+		"fuel generation" 0.016
+		"energy generation" 0.016
+		"shield generation" 0.67
+		"hull repair rate" 0.67
+		"slowing protection" 12.00
+		"slowing resistance" 0.21
+		"heat dissipation" 0.65
+		"thrust" 70.03
+		"turn" 573
+		"mass" 191.00
+		"drag" 9.70
+	description `* Ship: Destroyer`
+	description `* Faction: Neon`
+	description `* Producer: VR Battle`
+	description `* Condition: Standard`
+	description `* Loadout: Lineform, Electric`
+	description `* Size 6: Medium (Destroyer)`
+	description `* Role: Virtual Destroyer`
+	description `* Dimensions (WxLxH): 193 x 217 x 66m`
+	outfits
+		"Lineform 3" 6
+
+
+ship "Neon Cruiser"
+	sprite "ship/Cruiser-Neon"
+	thumbnail "thumbnail/Cruiser-Neon"
+	attributes
+		category "Cruiser"
+		hyperdrive 1
+		"jump speed" .2
+		"jump fuel" 100
+		"flare sprite" "engine/Cruiser-Neon"
+	engine 0 0
+		over
+	attributes
+		"cost" 1048699
+		"shields" 11000
+		"hull" 12222
+		"threshold percentage" 0.1
+		"outfit space" 150
+		"cargo space" 150
+		"engine capacity" 20
+	gun 0 -190
+		under
+	gun -27 -156
+		over
+	gun 27 -156
+		over
+	gun -41 -127
+		over
+	gun 41 -127
+		over
+	gun -55 -98
+		over
+	gun 55 -98
+		over
+	turret 0 -106
+	turret 0 -38
+	turret 0 31
+	turret -51 144
+	turret 51 144
+	bay "Fighter" -82 121
+	bay "Fighter" 82 121
+	bay "Fighter" -94 167
+	bay "Fighter" 94 167
+	bay "Fighter" -59 191
+	bay "Fighter" 59 191
+	attributes
+		"bunks" 108
+		"required crew" 54
+		"fuel capacity" 800
+		"energy capacity" 800
+		"fuel generation" 0.016
+		"energy generation" 0.016
+		"shield generation" 0.92
+		"hull repair rate" 0.92
+		"slowing protection" 14.67
+		"slowing resistance" 0.25
+		"heat dissipation" 0.6
+		"thrust" 108.69
+		"turn" 621
+		"mass" 355.00
+		"drag" 18.02
+	description `* Ship: Cruiser`
+	description `* Faction: Neon`
+	description `* Producer: VR Battle`
+	description `* Condition: Standard`
+	description `* Loadout: Lineform, Electric`
+	description `* Size 7: Overmedium (Cruiser)`
+	description `* Role: Virtual Cruiser`
+	description `* Dimensions (WxLxH): 233 x 446 x 78m`
+	outfits
+		"Lineform 3" 7
+
+ship "Neon Carrier"
+	sprite "ship/Carrier-Neon"
+	thumbnail "thumbnail/Carrier-Neon"
+	attributes
+		category "Carrier"
+		hyperdrive 1
+		"jump speed" .2
+		"jump fuel" 100
+		"flare sprite" "engine/Carrier-Neon"
+	engine 0 0
+		over
+	attributes
+		"cost" 1048699
+		"shields" 14500
+		"hull" 16111
+		"threshold percentage" 0.1
+		"outfit space" 300
+		"cargo space" 300
+		"engine capacity" 20
+	gun 0 -182
+		under
+	gun -33 -144
+		over
+	gun 33 -144
+		over
+	gun 86 -86
+		over
+	gun 43 -52
+		over
+	gun 0 -20
+		over
+	gun -42 13
+		over
+	gun -84 45
+		over
+	turret 1 -119
+	turret -38 -79
+	turret 128 -90
+	turret -127 105
+	turret 52 81
+	turret 59 131
+	bay "Fighter" 150 -135
+	bay "Fighter" 150 -107
+	bay "Fighter" 150 -79
+	bay "Fighter" -150 96
+	bay "Fighter" -150 122
+	bay "Fighter" -150 150
+	bay "Fighter" 150 -135
+	bay "Fighter" 150 -107
+	bay "Fighter" 150 -79
+	bay "Gunship" -150 96
+	bay "Gunship" -150 122
+	bay "Gunship" -150 150
+	attributes
+		"bunks" 216
+		"required crew" 108
+		"fuel capacity" 900
+		"energy capacity" 900
+		"fuel generation" 0.016
+		"energy generation" 0.016
+		"shield generation" 1.21
+		"hull repair rate" 1.21
+		"slowing protection" 16.92
+		"slowing resistance" 0.3
+		"heat dissipation" 0.55
+		"thrust" 127.03
+		"turn" 648
+		"mass" 519
+		"drag" 26.35
+	description `* Ship: Carrier`
+	description `* Faction: Neon`
+	description `* Producer: VR Battle`
+	description `* Condition: Standard`
+	description `* Loadout: Lineform, Electric`
+	description `* Size 8: Large (Carrier)`
+	description `* Role: Virtual Carrier`
+	description `* Dimensions (WxLxH): 586 x 721 x 170m`
+	outfits
+		"Lineform 3" 4
+
+ship "Neon Titan"
+	sprite "ship/Titan-Neon"
+	thumbnail "thumbnail/Titan-Neon"
+	attributes
+		category "Titan"
+		hyperdrive 1
+		"jump speed" .2
+		"jump fuel" 100
+		"flare sprite" "engine/Titan-Neon"
+	engine 0 0
+		over
+	attributes
+		"cost" 1244819
+		"shields" 18500
+		"hull" 20556
+		"threshold percentage" 0.1
+		"outfit space" 450
+		"cargo space" 450
+		"engine capacity" 20
+	gun 0 -209
+		under
+	gun -31 -156
+		over
+	gun 31 -156
+		over
+	gun -45 -121
+		over
+	gun 45 -121
+		over
+	gun -51 -84
+		over
+	gun 51 -84
+		over
+	gun -124 -46
+		over
+	gun 124 -46
+		over
+	turret -1 -127
+	turret -1 -45
+	turret 0 35
+	turret -124 67
+	turret 124 67
+	turret -124 141
+	turret 124 141
+	bay "Fighter" -146 -23
+	bay "Fighter" 146 -23
+	bay "Fighter" -146 37
+	bay "Fighter" 146 37
+	bay "Fighter" -146 97
+	bay "Fighter" 146 97
+	bay "Gunship" -146 157
+	bay "Gunship" 146 157
+	attributes
+		"bunks" 432
+		"required crew" 216
+		"fuel capacity" 1000
+		"energy capacity" 1000
+		"fuel generation" 0.016
+		"energy generation" 0.016
+		"shield generation" 1.54
+		"hull repair rate" 1.54
+		"slowing protection" 18.50
+		"slowing resistance" 0.36
+		"heat dissipation" 0.5
+		"thrust" 126.13
+		"turn" 516
+		"mass" 688
+		"drag" 34.93
+	description `* Ship: Titan`
+	description `* Faction: Neon`
+	description `* Producer: VR Battle`
+	description `* Condition: Standard`
+	description `* Loadout: Lineform, Electric`
+	description `* Size 9: Massive (Titan)`
+	description `* Role: Virtual Titan`
+	description `* Dimensions (WxLxH): 721 x 994 x 257m`
+	outfits
+		"Lineform 4" 4
+
+# Outfits
+
+outfitter "Neon"
+	"Lineform 1"
+	"Lineform 2"
+	"Lineform 3"
+	"Lineform 4"
+	"Map"
+
+outfit "Map"
+	category "Special"
+	cost 1000
+	thumbnail "outfit/Unknown"
+	"map" 1000
+
+outfit "Lineform 1"
+	category "Guns"
+	cost 20000
+	thumbnail "outfit/Unknown"
+	"mass" 5
+	"outfit space" -5
+	"gun ports" -1
+	weapon
+		cluster
+		sprite "projectile/Lineform 1"
+			"frame rate" 2
+		"inaccuracy" 4
+		"velocity" 18
+		"lifetime" 22
+		"reload" 30
+		"shield damage" 50
+		"hull damage" 100
+
+outfit "Lineform 2"
+	category "Guns"
+	cost 60000
+	thumbnail "outfit/Unknown"
+	"mass" 12
+	"outfit space" -12
+	"gun ports" -1
+	weapon
+		cluster
+		sprite "projectile/Lineform 2"
+			"frame rate" 2
+		"inaccuracy" 3
+		"velocity" 17
+		"lifetime" 33
+		"reload" 40
+		"shield damage" 80
+		"hull damage" 320
+
+outfit "Lineform 3"
+	category "Guns"
+	cost 180000
+	thumbnail "outfit/Unknown"
+	"mass" 30
+	"outfit space" -30
+	"gun ports" -1
+	weapon
+		cluster
+		sprite "projectile/Lineform 3"
+			"frame rate" 2
+		"inaccuracy" 2
+		"velocity" 16
+		"lifetime" 50
+		"reload" 50
+		"shield damage" 128
+		"hull damage" 512
+
+outfit "Lineform 4"
+	category "Guns"
+	cost 300000
+	thumbnail "outfit/Unknown"
+	"mass" 75
+	"outfit space" -75
+	"gun ports" -1
+	weapon
+		cluster
+		sprite "projectile/Lineform 4"
+			"frame rate" 2
+		"inaccuracy" 1
+		"velocity" 15
+		"lifetime" 75
+		"reload" 60
+		"shield damage" 205
+		"hull damage" 820

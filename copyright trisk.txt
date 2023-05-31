@@ -1,0 +1,7 @@
+Files: data/Mi swizzling.txt
+Copyright: Darcy Manoel <Darcman00@gmail.com>
+License: CC-BY-SA-4.0
+
+Writing: Spacedock VII description
+Copyright: Geek
+License: explicit permission given
