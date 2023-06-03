@@ -1,15 +1,19 @@
-# Copyright (c) 2014 by Michael Zahniser
-#
-# Endless Sky is free software: you can redistribute it and/or modify it under the
-# terms of the GNU General Public License as published by the Free Software
-# Foundation, either version 3 of the License, or (at your option) any later version.
-#
-# Endless Sky is distributed in the hope that it will be useful, but WITHOUT ANY
-# WARRANTY; without even the implied warranty of MERCHANTABILITY or FITNESS FOR A
-# PARTICULAR PURPOSE. See the GNU General Public License for more details.
-#
-# You should have received a copy of the GNU General Public License along with
-# this program. If not, see <https://www.gnu.org/licenses/>.
+
+galaxy "Obatta Nebula"
+	pos -218 143
+	sprite galaxy/Obatta
+
+galaxy "Holpa Nebula"
+	pos 502 139
+	sprite galaxy/Holpa
+
+galaxy "L1551 Nebula"
+	pos -468 -411
+	sprite galaxy/L1551
+
+galaxy "Rochak Dust Field"
+	pos 290 370
+	sprite galaxy/Rochak
 
 system Aalolph
 	pos -161 378
@@ -2346,7 +2350,7 @@ system Kel'ariy
 		period 360
 		offset 180
 	object "Kel'ar Iy"
-		sprite "planet/Ascension Device ortho"
+		sprite "planet/Ascension Device"
 		distance 1000
 		period 360
 		object

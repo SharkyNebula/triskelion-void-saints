@@ -1,15 +1,3 @@
-# Copyright (c) 2014 by Michael Zahniser
-#
-# Endless Sky is free software: you can redistribute it and/or modify it under the
-# terms of the GNU General Public License as published by the Free Software
-# Foundation, either version 3 of the License, or (at your option) any later version.
-#
-# Endless Sky is distributed in the hope that it will be useful, but WITHOUT ANY
-# WARRANTY; without even the implied warranty of MERCHANTABILITY or FITNESS FOR A
-# PARTICULAR PURPOSE. See the GNU General Public License for more details.
-#
-# You should have received a copy of the GNU General Public License along with
-# this program. If not, see <https://www.gnu.org/licenses/>.
 
 # Colors used to reflect the active or hovered interface button.
 color "hover" 1. 1. 1. 0.
@@ -151,7 +139,7 @@ color "message importance default"	1. 1. 1. 1.
 # Colors used when drawing the map (system names, links, and the player's desired route).
 # (The color of the ring that represents a given system is context-sensitive.)
 color "map link" .6 .6 .6 .6
-color "map name" .6 .6 .6 .6
+color "map name" 1 1 1 1
 color "map travel ok fleet" .2 .5 0. 0.
 color "map travel ok flagship" .5 .4 0. 0.
 color "map travel ok none" .55 .1 0. 0.

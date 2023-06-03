@@ -1,15 +1,3 @@
-# Copyright (c) 2015 by Michael Zahniser
-#
-# Endless Sky is free software: you can redistribute it and/or modify it under the
-# terms of the GNU General Public License as published by the Free Software
-# Foundation, either version 3 of the License, or (at your option) any later version.
-#
-# Endless Sky is distributed in the hope that it will be useful, but WITHOUT ANY
-# WARRANTY; without even the implied warranty of MERCHANTABILITY or FITNESS FOR A
-# PARTICULAR PURPOSE. See the GNU General Public License for more details.
-#
-# You should have received a copy of the GNU General Public License along with
-# this program. If not, see <https://www.gnu.org/licenses/>.
 
 # Planets
 
@@ -67,7 +55,8 @@ mission "Fighter, Neon, Team Red"
 		government "Red"
 		personality staying vindictive
 			confusion 90
-		ship "Neon Fighter"
+		system destination
+		fleet "Loaded Neon Fighter"
 
 mission "Fighter, Neon, Team Blue"
 	source
@@ -77,9 +66,18 @@ mission "Fighter, Neon, Team Blue"
 	repeat
 	npc
 		government "Blue"
-		personality entering staying vindictive
+		personality staying vindictive entering
 			confusion 90
-		ship "Neon Fighter"
+		system destination
+		fleet "Loaded Neon Fighter"
+
+fleet "Loaded Neon Fighter"
+	government "Independent"
+	cargo 0
+	personality vindictive
+	names "syndicate fighter"
+	variant
+		"Neon Fighter"
 
 mission "Gunship, Neon, Team Red"
 	source
@@ -91,7 +89,8 @@ mission "Gunship, Neon, Team Red"
 		government "Red"
 		personality staying vindictive
 			confusion 90
-		ship "Neon Gunship"
+		system destination
+		fleet "Loaded Neon Gunship"
 
 mission "Gunship, Neon, Team Blue"
 	source
@@ -101,9 +100,18 @@ mission "Gunship, Neon, Team Blue"
 	repeat
 	npc
 		government "Blue"
-		personality entering staying vindictive
+		personality staying vindictive entering
 			confusion 90
-		ship "Neon Gunship"
+		system destination
+		fleet "Loaded Neon Gunship"
+
+fleet "Loaded Neon Gunship"
+	government "Independent"
+	cargo 0
+	personality vindictive
+	names "syndicate fighter"
+	variant
+		"Neon Gunship"
 
 mission "Corvette, Neon, Team Red"
 	source
@@ -115,7 +123,8 @@ mission "Corvette, Neon, Team Red"
 		government "Red"
 		personality staying vindictive
 			confusion 90
-		ship "Neon Corvette"
+		system destination
+		fleet "Loaded Neon Corvette"
 
 mission "Corvette, Neon, Team Blue"
 	source
@@ -125,9 +134,20 @@ mission "Corvette, Neon, Team Blue"
 	repeat
 	npc
 		government "Blue"
-		personality entering staying vindictive
+		personality staying vindictive entering
 			confusion 90
-		ship "Neon Corvette"
+		system destination
+		fleet "Loaded Neon Corvette"
+
+fleet "Loaded Neon Corvette"
+	government "Independent"
+	cargo 0
+	personality vindictive
+	names "syndicate small"
+	fighters "syndicate fighter"
+	variant
+		"Neon Corvette"
+		"Neon Fighter"
 
 mission "Frigate, Neon, Team Red"
 	source
@@ -139,7 +159,8 @@ mission "Frigate, Neon, Team Red"
 		government "Red"
 		personality staying vindictive
 			confusion 90
-		ship "Neon Frigate"
+		system destination
+		fleet "Loaded Neon Frigate"
 
 mission "Frigate, Neon, Team Blue"
 	source
@@ -149,9 +170,20 @@ mission "Frigate, Neon, Team Blue"
 	repeat
 	npc
 		government "Blue"
-		personality entering staying vindictive
+		personality staying vindictive entering
 			confusion 90
-		ship "Neon Frigate"
+		system destination
+		fleet "Loaded Neon Frigate"
+
+fleet "Loaded Neon Frigate"
+	government "Independent"
+	cargo 0
+	personality vindictive
+	names "syndicate small"
+	fighters "syndicate fighter"
+	variant
+		"Neon Frigate"
+		"Neon Fighter" 2
 
 mission "Destroyer, Neon, Team Red"
 	source
@@ -163,7 +195,8 @@ mission "Destroyer, Neon, Team Red"
 		government "Red"
 		personality staying vindictive
 			confusion 90
-		ship "Neon Destroyer"
+		system destination
+		fleet "Loaded Neon Destroyer"
 
 mission "Destroyer, Neon, Team Blue"
 	source
@@ -173,9 +206,20 @@ mission "Destroyer, Neon, Team Blue"
 	repeat
 	npc
 		government "Blue"
-		personality entering staying vindictive
+		personality staying vindictive entering
 			confusion 90
-		ship "Neon Destroyer"
+		system destination
+		fleet "Loaded Neon Destroyer"
+
+fleet "Loaded Neon Destroyer"
+	government "Independent"
+	cargo 0
+	personality vindictive
+	names "syndicate small"
+	fighters "syndicate fighter"
+	variant
+		"Neon Destroyer"
+		"Neon Fighter" 4
 
 mission "Cruiser, Neon, Team Red"
 	source
@@ -187,7 +231,8 @@ mission "Cruiser, Neon, Team Red"
 		government "Red"
 		personality staying vindictive
 			confusion 90
-		ship "Neon Cruiser"
+		system destination
+		fleet "Loaded Neon Cruiser"
 
 mission "Cruiser, Neon, Team Blue"
 	source
@@ -197,9 +242,20 @@ mission "Cruiser, Neon, Team Blue"
 	repeat
 	npc
 		government "Blue"
-		personality entering staying vindictive
+		personality staying vindictive entering
 			confusion 90
-		ship "Neon Cruiser"
+		system destination
+		fleet "Loaded Neon Cruiser"
+		
+fleet "Loaded Neon Cruiser"
+	government "Independent"
+	cargo 0
+	personality vindictive
+	names "syndicate small"
+	fighters "syndicate fighter"
+	variant
+		"Neon Cruiser"
+		"Neon Fighter" 6
 
 mission "Carrier, Neon, Team Red"
 	source
@@ -211,7 +267,8 @@ mission "Carrier, Neon, Team Red"
 		government "Red"
 		personality staying vindictive
 			confusion 90
-		ship "Neon Carrier"
+		system destination
+		fleet "Loaded Neon Carrier"
 
 mission "Carrier, Neon, Team Blue"
 	source
@@ -224,10 +281,18 @@ mission "Carrier, Neon, Team Blue"
 		personality staying vindictive entering
 			confusion 90
 		system destination
-		fleet 1
-			variant
-				"Neon Carrier"
-				"Neon Fighter" 9
+		fleet "Loaded Neon Carrier"
+
+fleet "Loaded Neon Carrier"
+	government "Independent"
+	cargo 0
+	personality vindictive
+	names "syndicate small"
+	fighters "syndicate fighter"
+	variant
+		"Neon Carrier"
+		"Neon Fighter" 9
+		"Neon Gunship" 3
 
 mission "Titan, Neon, Team Red"
 	source
@@ -240,11 +305,7 @@ mission "Titan, Neon, Team Red"
 		personality staying vindictive
 			confusion 90
 		system destination
-		fleet 1
-			variant
-				"Neon Titan"
-				"Neon Fighter" 6
-				"Neon Gunship" 2
+		fleet "Loaded Neon Titan"
 
 mission "Titan, Neon, Team Blue"
 	source
@@ -257,11 +318,19 @@ mission "Titan, Neon, Team Blue"
 		personality staying vindictive entering
 			confusion 90
 		system destination
-		fleet 1
-			variant
-				"Neon Titan"
-				"Neon Fighter" 6
-				"Neon Gunship" 2
+		fleet "Loaded Neon Titan"
+
+fleet "Loaded Neon Titan"
+	government "Independent"
+	cargo 0
+	personality vindictive
+	names "syndicate small"
+	fighters "syndicate fighter"
+	variant
+		"Neon Titan"
+		"Neon Fighter" 4
+		"Neon Gunship" 2
+		"Neon Corvette" 2
 
 # Ships
 
@@ -755,8 +824,8 @@ ship "Neon Titan"
 		"shields" 18500
 		"hull" 20556
 		"threshold percentage" 0.1
-		"outfit space" 450
-		"cargo space" 450
+		"outfit space" 520
+		"cargo space" 520
 		"engine capacity" 20
 	gun 0 -209
 		under
@@ -787,10 +856,10 @@ ship "Neon Titan"
 	bay "Fighter" 146 -23
 	bay "Fighter" -146 37
 	bay "Fighter" 146 37
-	bay "Fighter" -146 97
-	bay "Fighter" 146 97
-	bay "Gunship" -146 157
-	bay "Gunship" 146 157
+	bay "Gunship" -146 97
+	bay "Gunship" 146 97
+	bay "Corvette" -146 157
+	bay "Corvette" 146 157
 	attributes
 		"bunks" 432
 		"required crew" 216
