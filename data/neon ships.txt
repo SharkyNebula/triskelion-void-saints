@@ -35,13 +35,6 @@ government "Blue"
 	"player reputation" 0
 	"attitude toward"
 		"Red" -0.01
-	"penalty for"
-		assist 0
-		disable 0
-		board 0
-		capture 0
-		destroy 0
-		atrocity 0
 
 # Arena Mission
 
@@ -328,9 +321,8 @@ fleet "Loaded Neon Titan"
 	fighters "syndicate fighter"
 	variant
 		"Neon Titan"
-		"Neon Fighter" 4
+		"Neon Fighter" 6
 		"Neon Gunship" 2
-		"Neon Corvette" 2
 
 # Ships
 
@@ -856,10 +848,10 @@ ship "Neon Titan"
 	bay "Fighter" 146 -23
 	bay "Fighter" -146 37
 	bay "Fighter" 146 37
-	bay "Gunship" -146 97
-	bay "Gunship" 146 97
-	bay "Corvette" -146 157
-	bay "Corvette" 146 157
+	bay "Fighter" -146 97
+	bay "Fighter" 146 97
+	bay "Gunship" -146 157
+	bay "Gunship" 146 157
 	attributes
 		"bunks" 432
 		"required crew" 216

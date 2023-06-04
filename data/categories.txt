@@ -16,10 +16,6 @@ category "bay type"
 	"Lifepod"
 	"Fighter"
 	"Gunship"
-	"Corvette"
-	"Frigate"
-	"Destroyer"
-
 
 # Outfits of these types can be bought and sold via the outfitter.
 category "outfit"
