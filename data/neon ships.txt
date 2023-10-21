@@ -379,6 +379,7 @@ ship "Neon Fighter"
 		"outfit space" 20
 		"cargo space" 20
 		"engine capacity" 20
+		"landing speed" 0.04
 	gun -29 23
 		over
 	gun 29 23
@@ -819,6 +820,7 @@ ship "Neon Titan"
 		"outfit space" 520
 		"cargo space" 520
 		"engine capacity" 20
+		"landing speed" 0.005
 	gun 0 -209
 		under
 	gun -31 -156
