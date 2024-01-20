@@ -1,4 +1,8 @@
 
+galaxy Guide
+	pos 0 0
+	sprite galaxy/guide
+
 galaxy "Obatta Nebula"
 	pos -218 143
 	sprite galaxy/Obatta
@@ -58,8 +62,8 @@ system Alala
 	link Neirt
 	link Vestin
 	trade Industrial 300
-	trade Metal 600
 	trade "Luxury Goods" 2000
+	trade Metal 600
 	object
 		sprite star/k5
 		period 10
@@ -69,12 +73,12 @@ system Alala
 		period 500
 
 system Alcor
-	pos -582 -475
+	pos 548 -492
 	government Uninhabited
-	link Chicea
 	link Mizar
 	link Pentori
-	link Singular
+	link S7evyn
+	link Varden
 	link Willon
 
 system Aldebaran
@@ -84,8 +88,8 @@ system Aldebaran
 	link Mallereth
 	link Petra
 	link Tidbinbilla
-	trade Medical 750
 	trade "Luxury Goods" 2000
+	trade Medical 750
 	object
 		sprite star/k5
 		period 10
@@ -107,9 +111,9 @@ system Alesia
 	government Rebellion
 	link Capella
 	link Reticent
-	trade Industrial 300
-	trade Food 450
 	trade Equipment 1250
+	trade Food 450
+	trade Industrial 300
 	object
 		sprite star/k5
 		period 10
@@ -153,8 +157,8 @@ system Alphara
 	link Spica
 	link Xante
 	link Yria
-	trade Medical 750
 	trade Food 450
+	trade Medical 750
 	object
 		sprite star/k5
 		period 10
@@ -168,8 +172,8 @@ system Altair
 	government Pirate
 	link OG-PR
 	link Tenetria
-	trade Medical 750
 	trade Industrial 900
+	trade Medical 750
 	object
 		sprite star/k5
 		period 10
@@ -194,9 +198,9 @@ system Amnaho
 	link Hanova
 	link OG-AU
 	link Ofine
-	trade Medical 750
-	trade Equipment 1250
 	trade "Data Crystals" 900
+	trade Equipment 1250
+	trade Medical 750
 	object
 		sprite star/k5
 		period 10
@@ -221,8 +225,8 @@ system Aplix
 	link Ofine
 	link Renan
 	link Zipa
-	trade Metal 200
 	trade Equipment 1250
+	trade Metal 200
 	object
 		sprite star/k5
 		period 10
@@ -247,8 +251,8 @@ system Aral
 	link Pollux
 	link Space
 	link Venture
-	trade Metal 200
 	trade Food 450
+	trade Metal 200
 	object
 		sprite star/k5
 		period 10
@@ -269,11 +273,11 @@ system Archenar
 		period 10
 	object Trusa
 		sprite "planet/Rare Mineral Planet"
-		distance 1000
+		distance 1500
 		period 500
 		object Sirrusa
 			sprite "planet/CC Station Small side"
-			distance 200
+			distance 500
 			offset 300
 		object
 			sprite planet/Hypergate
@@ -320,8 +324,8 @@ system Astra
 	link Inci
 	link Tuente
 	link Vantra
-	trade Metal 200
 	trade Medical 1688
+	trade Metal 200
 	object
 		sprite star/k5
 		period 10
@@ -367,8 +371,8 @@ system Avalon
 	link Lotus
 	link Pontoll
 	link Procyon
-	trade Metal 200
 	trade Industrial 900
+	trade Metal 200
 	object
 		sprite star/k5
 		period 10
@@ -383,8 +387,8 @@ system Baltar
 	link Reticent
 	link Teleeli
 	link Tidbinbilla
-	trade "Luxury Goods" 1000
 	trade Food 450
+	trade "Luxury Goods" 1000
 	object
 		sprite star/k5
 		period 10
@@ -426,8 +430,8 @@ system Belt
 	link Ovia
 	link Warana
 	trade Equipment 500
-	trade Metal 600
 	trade Medical 1688
+	trade Metal 600
 	object
 		sprite star/k5
 		period 10
@@ -514,14 +518,14 @@ system Bloodstone
 	link Mallereth
 	link OG-CR
 	link Tidbinbilla
-	trade Food 300
-	trade Metal 400
-	trade Equipment 875
-	trade Medical 1219
-	trade Industrial 600
-	trade "Luxury Goods" 1500
-	trade "Local Alcohols" 600
 	trade "Data Crystals" 525
+	trade Equipment 875
+	trade Food 300
+	trade Industrial 600
+	trade "Local Alcohols" 600
+	trade "Luxury Goods" 1500
+	trade Medical 1219
+	trade Metal 400
 	object
 		sprite star/k5
 		period 10
@@ -635,9 +639,9 @@ system Caryo
 	link J'llon
 	link Pilot
 	link Tiria
-	trade Metal 200
-	trade Food 450
 	trade Equipment 1250
+	trade Food 450
+	trade Metal 200
 	object
 		sprite star/k5
 		period 10
@@ -684,12 +688,12 @@ system Chayos
 		period 500
 
 system Chicea
-	pos -534 -453
+	pos 572 -381
 	government Independent
-	link Alcor
-	link Singular
-	trade Medical 792
+	link Mizar
+	link S7evyn
 	trade Industrial 980
+	trade Medical 792
 	object
 		sprite star/k5
 		period 10
@@ -704,8 +708,8 @@ system Chirt
 	link Felos
 	link Neirt
 	link OG-MO
-	trade Metal 200
 	trade Medical 1688
+	trade Metal 200
 	object
 		sprite star/k5
 		period 10
@@ -738,8 +742,8 @@ system Codehaven
 	link NGC-1317
 	link Scheros
 	link Tichel
-	trade Medical 750
 	trade "Luxury Goods" 2000
+	trade Medical 750
 	object
 		sprite star/k5
 		period 10
@@ -782,9 +786,9 @@ system Cove
 	link Peflek
 	link Vemap
 	link Xell
-	trade Metal 600
 	trade Equipment 500
 	trade "Luxury Goods" 2000
+	trade Metal 600
 	object
 		sprite star/k5
 		period 10
@@ -872,8 +876,8 @@ system Dani
 	link Himear
 	link Kilik
 	link Renan
-	trade Metal 200
 	trade Food 450
+	trade Metal 200
 	object
 		sprite star/k5
 		period 10
@@ -930,6 +934,49 @@ system Derlic
 	link Kaow
 	link Khyste
 
+system "Dnun Har"
+	pos -535.512 -453.097
+	government Uninhabited
+	habitable 1080
+	belt 1836
+	link Zillon
+	asteroids "large metal" 1 6.384
+	trade "Data Crystals" 0
+	trade Equipment 0
+	trade Food 0
+	trade Industrial 0
+	trade "Local Alcohols" 0
+	trade "Luxury Goods" 0
+	trade Medical 0
+	trade Metal 0
+	object
+		sprite star/g0
+		period 10
+	object
+		sprite planet/dust5
+		distance 192.61
+		period 32.5362
+	object
+		sprite planet/lava1
+		distance 362.86
+		period 84.1311
+	object
+		sprite planet/ocean0
+		distance 657.35
+		period 205.137
+	object
+		sprite planet/desert2
+		distance 1104.6
+		period 446.844
+		object
+			sprite planet/dust7
+			distance 151
+			period 20.7822
+	object
+		sprite planet/ice7
+		distance 3450.76
+		period 2467.29
+
 system Eeniar
 	pos 32 -100
 	government Federation
@@ -952,15 +999,15 @@ system Eguit
 	government Tekel
 	link Nutin
 	link Smada
-	trade Industrial 300
-	trade Metal 200
 	trade Food 450
+	trade Industrial 300
 	trade Medical 1688
+	trade Metal 200
 	object
 		sprite star/k5
 		period 10
 	object "Eguit Prime"
-		sprite "planet/Chlorine Atmosphere cities"
+		sprite "planet/Ice Planet"
 		distance 1000
 		period 500
 
@@ -969,9 +1016,9 @@ system Enlightenment
 	government Federation
 	link Agate
 	link Pontoll
+	trade Equipment 1250
 	trade Industrial 300
 	trade "Luxury Goods" 1000
-	trade Equipment 1250
 	object
 		sprite star/k5
 		period 10
@@ -1007,8 +1054,8 @@ system Eplic
 	link Felos
 	link Neirt
 	trade Equipment 500
-	trade Metal 600
 	trade "Luxury Goods" 2000
+	trade Metal 600
 	object
 		sprite star/k5
 		period 10
@@ -1056,8 +1103,8 @@ system Evera
 	government Dani
 	link Himear
 	link Ivar
-	trade Medical 750
 	trade Equipment 1250
+	trade Medical 750
 	object
 		sprite star/k5
 		period 10
@@ -1177,8 +1224,8 @@ system "Fomalhaut a"
 	link "Fomalhaut b"
 	link Nemesis
 	link Quandary
-	trade "Luxury Goods" 1000
 	trade Food 450
+	trade "Luxury Goods" 1000
 	object
 		sprite star/k5
 		period 10
@@ -1193,8 +1240,8 @@ system "Fomalhaut b"
 	link Boundary
 	link "Fomalhaut a"
 	link OG-PR
-	trade Metal 200
 	trade Industrial 900
+	trade Metal 200
 	object
 		sprite star/k5
 		period 10
@@ -1258,8 +1305,8 @@ system Futurend
 	link Hepen
 	link Odnan
 	link Sonete
-	trade Medical 750
 	trade Equipment 1250
+	trade Medical 750
 	object
 		sprite star/k5
 		period 10
@@ -1281,9 +1328,9 @@ system Fyre
 	link Canopus
 	link HJG-0637
 	link Yennin
-	trade Metal 200
 	trade Equipment 1250
 	trade Medical 1688
+	trade Metal 200
 	object
 		sprite star/k5
 		period 10
@@ -1315,8 +1362,8 @@ system Galvan
 	government Federation
 	link Tirna
 	link Zone
-	trade Industrial 300
 	trade Food 450
+	trade Industrial 300
 	object
 		sprite star/k5
 		period 10
@@ -1350,8 +1397,8 @@ system Gary
 	link Nutin
 	link Zipa
 	trade Food 150
-	trade Metal 600
 	trade "Luxury Goods" 2000
+	trade Metal 600
 	object
 		sprite star/k5
 		period 10
@@ -1366,8 +1413,8 @@ system Gateway
 	link NGC-1170
 	link SPC-1927
 	link Uroa
-	trade "Luxury Goods" 1000
 	trade Food 450
+	trade "Luxury Goods" 1000
 	object
 		sprite star/k5
 		period 10
@@ -1401,10 +1448,10 @@ system Gefjon
 	link Horizon
 	link Tidbinbilla
 	link Venture
-	trade Food 150
-	trade Metal 200
 	trade Equipment 1250
+	trade Food 150
 	trade Medical 1688
+	trade Metal 200
 	object
 		sprite star/k5
 		period 10
@@ -1427,8 +1474,8 @@ system Glimmer
 	government Independent
 	link Demos
 	link OG-SO
-	trade Industrial 300
 	trade Food 450
+	trade Industrial 300
 	object
 		sprite star/k5
 		period 10
@@ -1454,9 +1501,9 @@ system Grak
 	link Kanto
 	link Narcissus
 	trade Equipment 500
-	trade Metal 600
-	trade Medical 1688
 	trade "Luxury Goods" 2000
+	trade Medical 1688
+	trade Metal 600
 	object
 		sprite star/k5
 		period 10
@@ -1484,8 +1531,8 @@ system Gulag
 	government Heraan
 	link Pimen
 	link Typin
-	trade Metal 200
 	trade Food 450
+	trade Metal 200
 	object
 		sprite star/k5
 		period 10
@@ -1521,8 +1568,8 @@ system Hannaford
 	link OG-SE
 	link Spica
 	link Yennin
-	trade "Luxury Goods" 1000
 	trade Equipment 1250
+	trade "Luxury Goods" 1000
 	object
 		sprite star/k5
 		period 10
@@ -1562,8 +1609,8 @@ system Heraan
 	link Chayos
 	link OG-HE
 	link Peflek
-	trade Industrial 300
 	trade Food 450
+	trade Industrial 300
 	trade "Luxury Goods" 2000
 	object
 		sprite star/k5
@@ -1600,9 +1647,9 @@ system Hevel
 	link Erante
 	link OG-VE
 	link Warana
-	trade Medical 750
 	trade Food 450
 	trade "Local Alcohols" 1000
+	trade Medical 750
 	object
 		sprite star/k5
 		period 10
@@ -1626,6 +1673,58 @@ system Hiferryl
 		sprite "planet/Auroran Listening Post side"
 		distance 1000
 		period 500
+
+system Higiron
+	pos -515.512 -505.097
+	government ATMOS
+	habitable 486.68
+	belt 1495
+	link Numamba
+	link Umbira
+	link Zillon
+	asteroids "small rock" 44 7.83
+	asteroids "medium rock" 72 5.67
+	asteroids "large rock" 3 4.6575
+	asteroids "small metal" 9 4.05
+	asteroids "medium metal" 9 9.18
+	asteroids "large metal" 17 4.5225
+	minables aluminum 33 8.10781
+	minables iron 13 10.202
+	trade "Data Crystals" 0
+	trade Equipment 0
+	trade Food 0
+	trade Industrial 0
+	trade "Local Alcohols" 0
+	trade "Luxury Goods" 0
+	trade Medical 0
+	trade Metal 600
+	object
+		sprite star/k0
+		period 10
+	object
+		sprite planet/cloud7
+		distance 143.81
+		period 31.2696
+	object
+		sprite planet/gas16
+		distance 482.45
+		period 192.14
+	object
+		sprite planet/forest2
+		distance 846.7
+		period 446.717
+	object
+		sprite planet/gas6
+		distance 1608.39
+		period 1169.57
+		object
+			sprite planet/dust3
+			distance 305
+			period 13.6055
+		object
+			sprite planet/rock7
+			distance 402
+			period 20.5875
 
 system Himear
 	pos 135 248
@@ -1658,13 +1757,57 @@ system Hiro
 		distance 500
 		period 500
 
+system Hogun
+	pos -591.512 -525.097
+	government ATMOS
+	habitable 135
+	belt 1298
+	link Numamba
+	link Zillon
+	asteroids "large rock" 16 0.9828
+	asteroids "medium metal" 4 0.9048
+	asteroids "large metal" 13 1.1388
+	minables copper 3 1.08447
+	minables silver 3 1.32972
+	trade "Data Crystals" 0
+	trade Equipment 0
+	trade Food 0
+	trade Industrial 0
+	trade "Local Alcohols" 0
+	trade "Luxury Goods" 0
+	trade Medical 0
+	trade Metal 600
+	object
+		sprite star/m8
+		period 10
+	object
+		sprite planet/ocean8
+		distance 163.24
+		period 71.8014
+	object
+		sprite planet/lava5
+		distance 458.88
+		period 338.409
+	object
+		sprite planet/gas5
+		distance 893.77
+		period 919.881
+	object
+		sprite planet/desert4
+		distance 1665.02
+		period 2338.96
+	object
+		sprite planet/ice8
+		distance 2165.27
+		period 3468.66
+
 system Holpa
 	pos 522 196
 	government Empire
 	link Caldos
 	link Grip
-	trade Medical 750
 	trade Equipment 1250
+	trade Medical 750
 	object
 		sprite star/k5
 		period 10
@@ -1678,8 +1821,8 @@ system Homeland
 	government Federation
 	link Capella
 	link Teleeli
-	trade Food 150
 	trade Equipment 1250
+	trade Food 150
 	object
 		sprite star/k5
 		period 10
@@ -1694,9 +1837,9 @@ system Hook
 	link Grip
 	link J'llon
 	link Zeles
+	trade Equipment 1250
 	trade Food 150
 	trade Industrial 900
-	trade Equipment 1250
 	object
 		sprite star/k5
 		period 10
@@ -1719,14 +1862,14 @@ system Horizon
 	link Boundary
 	link Gefjon
 	link Petra
-	trade "Luxury Goods" 1000
 	trade Industrial 900
+	trade "Luxury Goods" 1000
 	object
 		sprite star/k5
 		period 10
 	object Greenwich
 		sprite "planet/Class M Terraformed cities"
-		distance 1000
+		distance 1500
 		period 500
 		object Chronos
 			sprite "planet/Moon Water"
@@ -1789,8 +1932,8 @@ system Inkira
 	link Ento
 	link Oban
 	trade Equipment 500
-	trade Metal 600
 	trade Medical 1688
+	trade Metal 600
 	object
 		sprite star/k5
 		period 10
@@ -1981,8 +2124,8 @@ system Jocci
 	link Manit
 	link OG-VE
 	link Uvon
-	trade Medical 750
 	trade Industrial 900
+	trade Medical 750
 	object
 		sprite star/k5
 		period 10
@@ -2002,8 +2145,8 @@ system "Journey's End"
 	link HJG-0637
 	link "Nesre Secundus"
 	link Spica
-	trade Medical 750
 	trade "Luxury Goods" 2000
+	trade Medical 750
 	object
 		sprite star/k5
 		period 10
@@ -2063,8 +2206,8 @@ system K'minkek
 	link P'ecksa
 	link Z'precti
 	link Za'iuso
-	trade Food 450
 	trade "Data Crystals" 150
+	trade Food 450
 	object
 		sprite star/k5
 		period 10
@@ -2278,8 +2421,8 @@ system Kania
 	link Eeniar
 	link Kanius
 	link OG-KA
-	trade Medical 750
 	trade "Luxury Goods" 2000
+	trade Medical 750
 	object
 		sprite star/k5
 		period 10
@@ -2338,9 +2481,9 @@ system Kel'ariy
 	government Polaris
 	link Bis'routak
 	link OG-DR
+	trade "Data Crystals" 900
 	trade Food 150
 	trade "Luxury Goods" 2000
-	trade "Data Crystals" 900
 	object
 		sprite star/k5
 		period 10
@@ -2366,8 +2509,8 @@ system Kel'fella
 	link Tre'olepla
 	link Ver'ashan
 	link Ver'asplast
-	trade "Luxury Goods" 2000
 	trade "Data Crystals" 150
+	trade "Luxury Goods" 2000
 	object
 		sprite star/k5
 		period 10
@@ -2382,10 +2525,10 @@ system Kel'hepera
 	link Bis'usoca
 	link Ne'helipar
 	link Nil'ikro
-	trade Food 150
 	trade "Data Crystals" 150
-	trade Metal 600
+	trade Food 150
 	trade "Luxury Goods" 1000
+	trade Metal 600
 	object
 		sprite star/k5
 		period 10
@@ -2402,14 +2545,14 @@ system Kerella
 	link Narcissus
 	link Rimshot
 	link Zalo
-	trade Metal 200
 	trade Food 450
 	trade Medical 1688
+	trade Metal 200
 	object
 		sprite star/k5
 		period 10
 	object "Spacedock VI"
-		sprite "planet/CC Station Small side"
+		sprite "planet/CC Station"
 		distance 500
 		period 500
 
@@ -2517,14 +2660,14 @@ system Kipa
 	link OG-RO
 	link Pippa
 	link Zipa
-	trade Food 450
-	trade Metal 600
-	trade Industrial 900
-	trade Equipment 1250
-	trade Medical 1688
-	trade "Luxury Goods" 2000
-	trade "Local Alcohols" 1000
 	trade "Data Crystals" 525
+	trade Equipment 1250
+	trade Food 450
+	trade Industrial 900
+	trade "Local Alcohols" 1000
+	trade "Luxury Goods" 2000
+	trade Medical 1688
+	trade Metal 600
 	object
 		sprite star/k5
 		period 10
@@ -2570,9 +2713,9 @@ system Koria
 	government Rebellion
 	link SPC-1555
 	link Teltar
-	trade Metal 600
 	trade Equipment 1250
 	trade Medical 1688
+	trade Metal 600
 	object
 		sprite star/k5
 		period 10
@@ -2619,8 +2762,8 @@ system Kymon
 	link Aradne
 	link Cipa
 	link Smada
-	trade Medical 750
 	trade Industrial 900
+	trade Medical 750
 	object
 		sprite star/k5
 		period 10
@@ -2628,7 +2771,7 @@ system Kymon
 		sprite "planet/Bacterial Sludge"
 		distance 1000
 		period 500
-		object Kymonth
+		object "Kymonth Station"
 			sprite "planet/Auroran Station Triple side"
 			distance 500
 			period 500
@@ -2640,13 +2783,13 @@ system Lacora
 	link Saal
 	link Typin
 	trade Equipment 500
-	trade Metal 600
 	trade Industrial 900
+	trade Metal 600
 	object
 		sprite star/k5
 		period 10
 	object Fetumschk
-		sprite "planet/Class M Polluted cities"
+		sprite "planet/Chlorine Atmosphere Yellow cities"
 		distance 500
 		period 500
 
@@ -2656,8 +2799,8 @@ system Lalande
 	link Blleia
 	link Demos
 	link Narcissus
-	trade Industrial 300
 	trade Equipment 1250
+	trade Industrial 300
 	object
 		sprite star/k5
 		period 10
@@ -2722,8 +2865,8 @@ system Llima
 	government Moash
 	link Jerlyl
 	link Qreck
-	trade Industrial 300
 	trade Equipment 500
+	trade Industrial 300
 	trade Metal 600
 	object
 		sprite star/k5
@@ -2768,8 +2911,8 @@ system Lotus
 	government Federation
 	link Avalon
 	link Demos
-	trade Medical 750
 	trade "Luxury Goods" 2000
+	trade Medical 750
 	object
 		sprite star/k5
 		period 10
@@ -2829,9 +2972,9 @@ system Malo
 	link Inci
 	link Ivia
 	link Peflek
-	trade Medical 750
-	trade Industrial 900
 	trade Equipment 1250
+	trade Industrial 900
+	trade Medical 750
 	object
 		sprite star/k5
 		period 10
@@ -2894,14 +3037,14 @@ system McMurdo
 	link Hannaford
 	link Iris
 	link Obatta
-	trade Food 300
-	trade Metal 400
-	trade Equipment 875
-	trade Medical 1219
-	trade Industrial 600
-	trade "Luxury Goods" 1500
-	trade "Local Alcohols" 600
 	trade "Data Crystals" 525
+	trade Equipment 875
+	trade Food 300
+	trade Industrial 600
+	trade "Local Alcohols" 600
+	trade "Luxury Goods" 1500
+	trade Medical 1219
+	trade Metal 400
 	object
 		sprite star/k5
 		period 10
@@ -2915,8 +3058,8 @@ system Merrynne
 	government Federation
 	link Tirna
 	link Yennin
-	trade Medical 750
 	trade Equipment 1250
+	trade Medical 750
 	object
 		sprite star/k5
 		period 10
@@ -2973,12 +3116,13 @@ system Mis'E'Odres
 	link Tin'E'Tivel
 
 system Mizar
-	pos -562 -565
+	pos 525 -403
 	government Uninhabited
 	link Alcor
+	link Chicea
 	link Pentori
-	link Singular
-	link Varden
+	link S7evyn
+	link Willon
 
 system Mjolnir
 	pos 211 35
@@ -3005,8 +3149,8 @@ system Moash
 	link OG-MO
 	link Qreck
 	link Teckra
-	trade "Luxury Goods" 1000
 	trade Food 450
+	trade "Luxury Goods" 1000
 	object
 		sprite star/k5
 		period 10
@@ -3024,9 +3168,9 @@ system Moonrise
 	government Federation
 	link Agate
 	link Claimer
-	trade Metal 200
-	trade "Luxury Goods" 2000
 	trade Food 450
+	trade "Luxury Goods" 2000
+	trade Metal 200
 	object
 		sprite star/k5
 		period 10
@@ -3048,13 +3192,13 @@ system Mu'hari
 	pos 607 69
 	government Polaris
 	link Ki'manora
-	trade Industrial 300
 	trade Food 450
+	trade Industrial 300
 	object
 		sprite star/k5
 		period 10
 	object "Mu'ar Haro"
-		sprite "planet/Class M Terraformed cities"
+		sprite "planet/Dark World cities"
 		distance 1000
 		period 360
 		object
@@ -3067,9 +3211,9 @@ system Murasaki
 	government Federation
 	link NGC-1170
 	link Tirna
-	trade "Luxury Goods" 1000
 	trade Equipment 1250
 	trade "Local Alcohols" 1000
+	trade "Luxury Goods" 1000
 	object
 		sprite star/k5
 		period 10
@@ -3178,14 +3322,14 @@ system Ne'ritai
 	link Ki'manora
 	link Ne'helipar
 	link Ne'mora
-	trade Food 150
 	trade Equipment 1250
+	trade Food 150
 	trade Medical 1688
 	object
 		sprite star/k5
 		period 10
 	object "Nil'ar Riai"
-		sprite "planet/Arboreal World"
+		sprite "planet/Class O cities"
 		distance 1000
 		period 500
 		object "Nil'a Vi"
@@ -3199,8 +3343,8 @@ system Neck
 	link Hiferryl
 	link Moash
 	link Pact
-	trade Metal 200
 	trade Medical 1688
+	trade Metal 200
 	object
 		sprite star/k5
 		period 10
@@ -3245,9 +3389,9 @@ system "Nesre Primus"
 	government Federation
 	link Boundary
 	link Pollux
+	trade "Luxury Goods" 2000
 	trade Medical 750
 	trade Metal 600
-	trade "Luxury Goods" 2000
 	object
 		sprite star/k5
 		period 10
@@ -3271,8 +3415,8 @@ system "Nesre Secundus"
 	link Metter
 	link Yria
 	link Zalo
-	trade Industrial 300
 	trade Equipment 1250
+	trade Industrial 300
 	object
 		sprite star/k5
 		period 10
@@ -3307,8 +3451,8 @@ system Nibos
 	government Empire
 	link Caldos
 	trade Food 150
-	trade "Local Alcohols" 200
 	trade Industrial 900
+	trade "Local Alcohols" 200
 	object
 		sprite star/k5
 		period 10
@@ -3377,7 +3521,7 @@ system Nil'kemorya
 	link Ferris
 	link J'narr
 	link K'marak
-	trade Equipment 500 
+	trade Equipment 500
 	trade Food 450
 	object
 		sprite star/k5
@@ -3396,8 +3540,8 @@ system Nil'kol
 	government Nil'kemorya
 	link Algol
 	link Tri'niphu
-	trade Metal 600
 	trade Equipment 500
+	trade Metal 600
 	object
 		sprite star/k5
 		period 10
@@ -3476,6 +3620,63 @@ system Nil'vran
 		sprite "planet/Polaris Defence Station"
 		distance 1000
 		period 500
+
+system Numamba
+	pos -560.512 -562.097
+	government ATMOS
+	habitable 1050.92
+	belt 1148
+	link Higiron
+	link Hogun
+	link Umbira
+	link Zillon
+	asteroids "medium rock" 11 7.935
+	asteroids "large rock" 1 8.073
+	asteroids "small metal" 61 5.244
+	asteroids "medium metal" 125 4.485
+	asteroids "large metal" 50 8.832
+	minables gold 11 8.17901
+	trade "Data Crystals" 0
+	trade Equipment 0
+	trade Food 0
+	trade Industrial 0
+	trade "Local Alcohols" 0
+	trade "Luxury Goods" 0
+	trade Medical 0
+	trade Metal 600
+	object
+		sprite star/g5
+		distance 45.797
+		period 14.8215
+		offset 180
+	object
+		sprite star/k5
+		distance 67.203
+		period 14.8215
+	object
+		sprite planet/cloud8
+		distance 252.203
+		period 49.4198
+	object
+		sprite planet/gas0
+		distance 675.493
+		period 216.624
+		object
+			sprite planet/europa
+			distance 258
+			period 12.1447
+	object
+		sprite planet/water0
+		distance 1292.5
+		period 573.354
+	object
+		sprite planet/gas11
+		distance 2388.5
+		period 1440.34
+		object
+			sprite planet/desert4
+			distance 228
+			period 11.3548
 
 system Nutin
 	pos 282 428
@@ -3802,8 +4003,8 @@ system Okiia
 	government Heraan
 	link Aalolph
 	link Saal
-	trade Medical 750
 	trade Equipment 1250
+	trade Medical 750
 	object
 		sprite star/k5
 		period 10
@@ -3822,8 +4023,8 @@ system Olaralo
 	link Hydden
 	link Mikhail
 	link Shel
-	trade Food 150
 	trade Equipment 1250
+	trade Food 150
 	object
 		sprite star/k5
 		period 10
@@ -3857,9 +4058,9 @@ system Outbound
 	link Algol
 	link Nil'kvee
 	link Threshold
-	trade "Luxury Goods" 1000
-	trade Food 450
 	trade Equipment 1250
+	trade Food 450
+	trade "Luxury Goods" 1000
 	object
 		sprite star/k5
 		period 10
@@ -3884,7 +4085,7 @@ system "Outpost 819"
 		sprite star/k5
 		period 10
 	object Gineia
-		sprite "planet/Chlorine Atmosphere"
+		sprite "planet/Chlorine Atmosphere Yellow cities"
 		distance 1000
 		period 500
 
@@ -3929,8 +4130,8 @@ system P'aedt
 	link J'raphit
 	link K'falla
 	link Ki'ade
-	trade Industrial 300
 	trade Equipment 1250
+	trade Industrial 300
 	object
 		sprite star/k5
 		period 10
@@ -3989,8 +4190,8 @@ system P'omlpha
 	government Polaris
 	link Z'elta
 	trade Equipment 500
-	trade Metal 600
 	trade Industrial 900
+	trade Metal 600
 	object
 		sprite star/k5
 		period 10
@@ -4027,12 +4228,12 @@ system Peflek
 	link Malo
 
 system Pentori
-	pos -592 -524
+	pos 514 -453
 	government Independent
 	link Alcor
 	link Mizar
-	trade Industrial 300
 	trade Equipment 1250
+	trade Industrial 300
 	object
 		sprite star/k5
 		period 10
@@ -4068,8 +4269,8 @@ system Pilot
 	link Iplik
 	link J'narr
 	link Reer
-	trade Metal 200
 	trade Medical 1688
+	trade Metal 200
 	object
 		sprite star/k5
 		period 10
@@ -4084,8 +4285,8 @@ system Pimen
 	link Freya
 	link Gulag
 	link OG-AU
-	trade "Luxury Goods" 1000
 	trade Food 450
+	trade "Luxury Goods" 1000
 	trade Medical 1688
 	object
 		sprite star/k5
@@ -4154,8 +4355,8 @@ system Pren
 	link Ofine
 	link Renan
 	trade "Luxury Goods" 1000
-	trade Metal 600
 	trade Medical 1688
+	trade Metal 600
 	object
 		sprite star/k5
 		period 10
@@ -4177,7 +4378,7 @@ system Procyon
 		sprite star/k5
 		period 10
 	object UHP-1002
-		sprite "planet/Chlorine Atmosphere"
+		sprite "planet/Chlorine Atmosphere Yellow"
 		distance 500
 		period 500
 	object
@@ -4242,7 +4443,7 @@ system PsiD-5
 	pos -473 -461
 	government Uninhabited
 	link K9
-	link Singular
+	link Residio
 	object
 		sprite star/k5
 		period 10
@@ -4280,8 +4481,8 @@ system Queq
 	government Vella
 	link Manit
 	link OG-VE
-	trade Food 150
 	trade Equipment 1250
+	trade Food 150
 	object
 		sprite star/k5
 		period 10
@@ -4311,8 +4512,8 @@ system Rautherion
 	link Mark
 	link Nemesis
 	trade Equipment 500
-	trade Metal 600
 	trade Industrial 900
+	trade Metal 600
 	object
 		sprite star/k5
 		period 10
@@ -4349,9 +4550,9 @@ system Reap
 	link Biri
 	link Felos
 	link Jerlyl
+	trade Equipment 1250
 	trade Food 150
 	trade Industrial 900
-	trade Equipment 1250
 	object
 		sprite star/k5
 		period 10
@@ -4373,7 +4574,7 @@ system "Red Winged Blackbird"
 	government NebulaTank
 	link Jenner
 	object "Neon Station"
-		sprite "planet/Racetrack"
+		sprite planet/Racetrack
 		object "Clear Arena"
 			sprite "planet/CC Station Small"
 			distance 500
@@ -4401,9 +4602,9 @@ system Reeva
 	link Aradne
 	link Kratos
 	link Reer
-	trade Metal 200
 	trade Equipment 1250
 	trade Medical 1688
+	trade Metal 200
 	object
 		sprite star/k5
 		period 10
@@ -4454,6 +4655,11 @@ system Repede
 	link Marion
 	link SPC-1927
 
+system Residio
+	pos -489 -475
+	government Uninhabited
+	link PsiD-5
+
 system Reticent
 	pos -159 -324
 	government Uninhabited
@@ -4494,8 +4700,8 @@ system Rimshot
 	link Demos
 	link Kerella
 	link Metter
-	trade Metal 200
 	trade Industrial 900
+	trade Metal 200
 	object
 		sprite star/k5
 		period 10
@@ -4521,19 +4727,23 @@ system Rome
 		sprite star/k5
 		period 10
 	object Romule
-		sprite "planet/Bacterial Sludge cities"
+		sprite "planet/Chlorine Atmosphere Yellow cities"
 		distance 1000
 		period 500
 
 system S7evyn
-	pos -703 -435
+	pos 616 -402
 	government ATMOS
+	link Alcor
+	link Chicea
+	link Mizar
+	link Willon
 	trade Metal 600
 	object
 		sprite star/k5
 		period 10
-	object "Our Spiel"
-		sprite "planet/Intergalactic Hypergate"
+	object "Ar'Za Oryhara"
+		sprite "planet/Messian Grave"
 		distance 1000
 		period 500
 
@@ -4556,14 +4766,14 @@ system SPC-1927
 	link Gateway
 	link OG-KA
 	link Repede
-	trade Food 300
-	trade Metal 400
-	trade Equipment 875
-	trade Medical 1219
-	trade Industrial 600
-	trade "Luxury Goods" 1500
-	trade "Local Alcohols" 600
 	trade "Data Crystals" 525
+	trade Equipment 875
+	trade Food 300
+	trade Industrial 600
+	trade "Local Alcohols" 600
+	trade "Luxury Goods" 1500
+	trade Medical 1219
+	trade Metal 400
 	object
 		sprite star/k5
 		period 10
@@ -4631,8 +4841,8 @@ system Sanddown
 	link Canopus
 	link Jenner
 	trade Industrial 300
-	trade Metal 600
 	trade "Luxury Goods" 2000
+	trade Metal 600
 	object
 		sprite star/k5
 		period 10
@@ -4654,14 +4864,14 @@ system Scheall
 	government Pirate
 	link OG-SH
 	link Ukari
-	trade Food 450
-	trade Metal 600
-	trade Industrial 900
-	trade Equipment 1250
-	trade Medical 1688
-	trade "Luxury Goods" 2000
-	trade "Local Alcohols" 1000
 	trade "Data Crystals" 525
+	trade Equipment 1250
+	trade Food 450
+	trade Industrial 900
+	trade "Local Alcohols" 1000
+	trade "Luxury Goods" 2000
+	trade Medical 1688
+	trade Metal 600
 	object
 		sprite star/k5
 		period 10
@@ -4771,22 +4981,13 @@ system Sibko
 		distance 500
 		period 500
 
-system Singular
-	pos -489 -475
-	government Uninhabited
-	link Alcor
-	link Chicea
-	link Mizar
-	link PsiD-5
-	link Willon
-
 system Sirius
 	pos 31 -27
 	government Federation
 	link Antares
 	link Conden
-	trade Metal 200
 	trade Medical 1688
+	trade Metal 200
 	object
 		sprite star/k5
 		distance 100
@@ -4835,8 +5036,8 @@ system "Sol a"
 	link Naka
 	link "Sol b"
 	link "Sol c"
-	trade Medical 750
 	trade Equipment 1250
+	trade Medical 750
 	object
 		sprite star/k5
 		period 10
@@ -4851,15 +5052,19 @@ system "Sol b"
 	link Canopus
 	link "Sol a"
 	link "Sol c"
-	trade Industrial 300
 	trade Food 450
+	trade Industrial 300
 	object
 		sprite star/k5
 		period 10
 	object Mars
 		sprite planet/Mars
-		distance 500
+		distance 1000
 		period 500
+		object "Hunter Station"
+			sprite "planet/CC Station Small side"
+			distance 400
+			offset 300
 
 system "Sol c"
 	pos -235 -95
@@ -4887,8 +5092,8 @@ system Sonete
 	link Futurend
 	link Odnan
 	link Sale
-	trade "Luxury Goods" 1000
 	trade Food 450
+	trade "Luxury Goods" 1000
 	object
 		sprite star/k5
 		period 10
@@ -4952,8 +5157,8 @@ system "Tau Ceti"
 	link HJG-0637
 	link Metter
 	link "Sol c"
-	trade Food 150
 	trade Equipment 500
+	trade Food 150
 	trade Medical 1688
 	object
 		sprite star/k5
@@ -4977,9 +5182,9 @@ system Teckra
 	government Moash
 	link Moash
 	link Neirt
-	trade Medical 750
-	trade Industrial 900
 	trade Equipment 1250
+	trade Industrial 900
+	trade Medical 750
 	object
 		sprite star/k5
 		period 10
@@ -4993,8 +5198,8 @@ system Teft
 	government Empire
 	link Llysla
 	link Shel
-	trade Metal 200
 	trade Food 450
+	trade Metal 200
 	object
 		sprite star/k5
 		period 10
@@ -5010,8 +5215,8 @@ system Tekel
 	link OG-TE
 	link Smada
 	link Tocc
-	trade Industrial 300
 	trade Food 450
+	trade Industrial 300
 	trade "Luxury Goods" 2000
 	object
 		sprite star/k5
@@ -5056,8 +5261,8 @@ system Terval
 	link Cworn
 	link Firmantar
 	link Issar
-	trade Metal 200
 	trade Medical 1688
+	trade Metal 200
 	object
 		sprite star/k5
 		period 10
@@ -5096,8 +5301,8 @@ system Tichel
 	link Eeniar
 	link Nemesis
 	link Threshold
-	trade Metal 200
 	trade "Luxury Goods" 2000
+	trade Metal 200
 	object
 		sprite star/k5
 		period 10
@@ -5160,12 +5365,12 @@ system Til'kolecto
 	link K'marak
 	link Tre'illica
 	link Tri'cikilla
-	trade Food 150
-	trade Metal 200
-	trade Industrial 300
 	trade Equipment 500
-	trade Medical 750
+	trade Food 150
+	trade Industrial 300
 	trade "Luxury Goods" 1000
+	trade Medical 750
+	trade Metal 200
 	object
 		sprite star/k5
 		period 10
@@ -5231,9 +5436,9 @@ system Tre'erman
 	link Ki'actia
 	link Nil'nesa
 	link Ver'asplast
+	trade Industrial 900
 	trade "Luxury Goods" 1000
 	trade Metal 600
-	trade Industrial 900
 	object
 		sprite star/k5
 		period 10
@@ -5252,9 +5457,9 @@ system Tre'helov
 	link OG-DR
 	link P'ecksa
 	link Ver'ashan
-	trade Metal 200
 	trade Food 450
 	trade Medical 1688
+	trade Metal 200
 	object
 		sprite star/k5
 		period 10
@@ -5269,8 +5474,8 @@ system Tre'illica
 	link K'onl
 	link Til'kolecto
 	link Z'precti
-	trade Food 150
 	trade Equipment 1250
+	trade Food 150
 	object
 		sprite star/k5
 		period 10
@@ -5291,8 +5496,8 @@ system Tre'minor
 	link G'amit
 	link Til'hapin
 	link Z'elta
-	trade Industrial 300
 	trade Food 450
+	trade Industrial 300
 	object
 		sprite star/k5
 		period 10
@@ -5323,8 +5528,8 @@ system Tre'olepla
 	link Kel'fella
 	link Z'elta
 	link Za'diti
+	trade Medical 1688
 	trade Metal 200
-	trade Medical 1688 
 	object
 		sprite "planet/Neutron Star"
 		period 10
@@ -5338,8 +5543,8 @@ system Tre'petaka
 	government Polaris
 	link Ki'manora
 	link Tre'pirana
-	trade Metal 200
 	trade Medical 1688
+	trade Metal 200
 	object
 		sprite star/k5
 		period 10
@@ -5384,8 +5589,8 @@ system Tre'vasar
 	government Polaris
 	link K'marak
 	link Ne'helipar
-	trade Metal 200
 	trade Equipment 1250
+	trade Metal 200
 	object
 		sprite star/k5
 		period 10
@@ -5454,8 +5659,8 @@ system Trishka
 	link Claimer
 	link OG-SO
 	link Procyon
-	trade Medical 750
 	trade Equipment 1250
+	trade Medical 750
 	object
 		sprite star/k5
 		period 10
@@ -5528,6 +5733,73 @@ system Ukari
 	link Scheall
 	link Sedina
 
+system Umbira
+	pos -476.512 -522.097
+	government Uninhabited
+	habitable 486.68
+	belt 1263
+	link Higiron
+	link Numamba
+	asteroids "small rock" 18 6.9552
+	asteroids "medium rock" 56 6.6528
+	asteroids "large rock" 4 7.56
+	asteroids "small metal" 3 5.7456
+	asteroids "medium metal" 7 3.5784
+	asteroids "large metal" 3 7.4088
+	minables iron 13 8.5099
+	minables lead 14 12.5663
+	trade "Data Crystals" 0
+	trade Equipment 0
+	trade Food 0
+	trade Industrial 0
+	trade "Local Alcohols" 0
+	trade "Luxury Goods" 0
+	trade Medical 0
+	trade Metal 0
+	object
+		sprite star/k0
+		period 10
+	object
+		sprite planet/lava1
+		distance 129.24
+		period 26.64
+	object
+		sprite planet/lava7
+		distance 359.48
+		period 123.581
+	object
+		sprite planet/gas7
+		distance 1373.48
+		period 922.936
+		object
+			sprite planet/dust0
+			distance 234
+			period 12.7337
+		object
+			sprite planet/miranda
+			distance 330
+			period 21.3256
+		object
+			sprite planet/rhea
+			distance 500
+			period 39.7727
+	object
+		sprite planet/gas3
+		distance 2610.32
+		period 2418.13
+		object
+			sprite planet/rock14
+			distance 317
+			period 14.4163
+		object
+			sprite planet/dust3
+			distance 431
+			period 22.855
+		object
+			sprite planet/luna
+			distance 598
+			period 37.3522
+
 system Unin
 	pos 107 149
 	government Empire
@@ -5592,9 +5864,9 @@ system Vantra
 		period 500
 
 system Varden
-	pos -508 -563
+	pos 599 -492
 	government Independent
-	link Mizar 
+	link Alcor
 	trade Equipment 500
 	trade "Luxury Goods" 2000
 	object
@@ -5635,9 +5907,9 @@ system Vella
 	link Erante
 	link OG-VE
 	link Shel
+	trade Food 450
 	trade Industrial 300
 	trade "Local Alcohols" 300
-	trade Food 450
 	trade "Luxury Goods" 2000
 	object
 		sprite star/k5
@@ -5708,8 +5980,8 @@ system Ver'ashan
 	link Kel'fella
 	link Til'hapin
 	link Tre'helov
-	trade Medical 750
 	trade Industrial 900
+	trade Medical 750
 	object
 		sprite star/k5
 		period 10
@@ -5734,8 +6006,8 @@ system Ver'asplast
 	link Ki'actia
 	link Ki'ade
 	link Tre'erman
-	trade Medical 750
 	trade Equipment 1250
+	trade Medical 750
 	object
 		sprite star/k5
 		period 10
@@ -5754,8 +6026,8 @@ system Ver'avo
 	link Bis'valalo
 	link Z'precti
 	link Za'iuso
-	trade Industrial 300
 	trade Food 450
+	trade Industrial 300
 	object
 		sprite star/k5
 		period 10
@@ -5770,8 +6042,8 @@ system Ver'ikar
 	link Bis'routak
 	link K'yapta
 	link Til'hapin
-	trade Medical 750
 	trade Industrial 900
+	trade Medical 750
 	object
 		sprite star/k5
 		period 10
@@ -5788,8 +6060,8 @@ system Ver'roqi
 	pos 618 11
 	government Polaris
 	link Ki'manora
-	trade Medical 750
 	trade Industrial 900
+	trade Medical 750
 	object
 		sprite star/k5
 		period 10
@@ -5852,10 +6124,11 @@ system Widow
 	link Nil'vran
 
 system Willon
-	pos -477 -524
+	pos 629 -451
 	government Independent
 	link Alcor
-	link Singular
+	link Mizar
+	link S7evyn
 	trade "Luxury Goods" 1000
 	trade Medical 1688
 	object
@@ -5873,8 +6146,8 @@ system Wittor
 	link SPC-1948
 	link Unin
 	link Vemap
-	trade Metal 200
 	trade "Luxury Goods" 2000
+	trade Metal 200
 	object
 		sprite star/k5
 		period 10
@@ -5893,7 +6166,7 @@ system "Wolf 359"
 	link Maker
 	link Naka
 	trade Equipment 500
-	trade Industrial 900 
+	trade Industrial 900
 	object
 		sprite star/k5
 		period 10
@@ -6042,6 +6315,66 @@ system Zeles
 	link Kratos
 	link Nicka
 	link Over
+
+system Zillon
+	pos -579.512 -475.097
+	government Uninhabited
+	habitable 912.6
+	belt 1559
+	link "Dnun Har"
+	link Higiron
+	link Hogun
+	link Numamba
+	asteroids "small rock" 21 3.537
+	asteroids "medium rock" 4 3.24
+	asteroids "large rock" 9 2.538
+	asteroids "small metal" 168 2.106
+	asteroids "medium metal" 39 2.7
+	asteroids "large metal" 64 2.565
+	minables aluminum 23 2.47174
+	minables iron 25 4.5708
+	minables silver 1 4.05625
+	trade "Data Crystals" 0
+	trade Equipment 0
+	trade Food 0
+	trade Industrial 0
+	trade "Local Alcohols" 0
+	trade "Luxury Goods" 0
+	trade Medical 0
+	trade Metal 0
+	object
+		sprite star/k0
+		distance 41.5372
+		period 11.1174
+		offset 180
+	object
+		sprite star/k5
+		distance 47.4628
+		period 11.1174
+	object
+		sprite planet/rock14
+		distance 167.423
+		period 28.6841
+	object
+		sprite planet/rock2
+		distance 347.233
+		period 85.6743
+	object
+		sprite planet/cloud1
+		distance 585.523
+		period 187.601
+	object
+		sprite planet/gas7
+		distance 983.483
+		period 408.385
+	object
+		sprite planet/gas10
+		distance 2454.48
+		period 1610.13
+		object
+			sprite planet/rock3
+			distance 186
+			period 13.3526
 
 system Zipa
 	pos 224 369

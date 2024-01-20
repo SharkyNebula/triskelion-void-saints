@@ -1,0 +1,437 @@
+planet Alertness
+	landscape "land/Auroran Single"
+	description `This system and the Heraan Astra system were the two entry points used by Moash forces during the Great Moash Invasion of two centuries ago. When the Heraan forces finally returned to Heraan space, the station here was rebuilt and given the name 'Alertness'. The warriors who live and work out of this station remember the events during the invasion and take the station's name to heart, remaining ever vigilant.`
+	spaceport `All of the warriors here have a very serious air about them, and none of them seem to be getting drunk. As you enter nearly every eye glances in your direction, but no comments are made and you are given a decent amount of space at the bar.`
+
+planet Anex
+	landscape "land/Deimos Double"
+	description `Two hundred and fifty years ago, after having been attacked a few years earlier, Federation forces trying to send a warning to the Aurorans inadvertently passed through Moash space. Anex, the Moash Mundokiir, led a desperate counterattack against this surprise incursion. As his small emergency taskforce of fighters crumbled under heavy fire, he abandoned tactical sense and attacked the center of the Federation formation. After weaving his way through, his personal fighter was so badly damaged that it had no weapons or shields, and its guidance system was malfunctioning. He managed to smash his craft directly into the bridge of the command ship, destroying the command staff of the Federation battle fleet and forcing the Federation forces to withdraw in disorder. This event, along with other Federation incursions, led the Five Families to join with the 'Auroran' family to form the Auroran Empire.`
+	spaceport `Noisily drunk Moash warriors are far too busy drinking, singing, fighting and throwing up to take any notice of you as you enter this noisy establishment.`
+
+planet Bolshevik
+	landscape "land/Auroran Single"
+	description `Because of its infamous history, this Vella battle-station is titled after the name given to revolutionaries in an ancient, now forgotten language of Earth. Nearly a century ago, the warriors stationed here became restless due to the boring nature of life on this station. After repeated calls by many of them asking for a re-posting to anywhere else, the station as a whole revolted and declared itself independent of Vella rule. Unfortunately for them, the warriors stationed elsewhere were more battle-hardened, and when they came to retake the station, not one of the revolutionaries was left alive. Since then, the leaders of the Vella Family have decided to make this station into a training location for warriors between postings, and the surrounding space is filled with warriors practicing their skills.`
+	spaceport `This well-placed, if shonkily constructed bar is full of happy and mostly drunk off-duty warriors all trying to drink themselves into oblivion. You are immediately grabbed and dragged to the bar and challenged to a drinking competition. It is the start of a long, if slightly hazy, night.`
+
+planet "Boral I"
+	landscape "land/Boral I"
+	description `Boral I is the headquarters of Boral Mining Corp. It is here that all the noble gases harvested from Fermia's atmosphere by the small army of prospectors employed by the company are processed and refined. So far Boral has survived in the fiercely competitive universe of commerce by staying small enough that they remain beneath the notice of any of the larger, more professional mining companies.`
+	spaceport `This bar is filled with the rowdy crews of some of the small trading concerns that deal with Boral. This establishment is a spacer's dream; good beer, good service, jokes, laughs and the occasional rousing fight. What more could you want?`
+
+planet Courageous
+	landscape "land/Auroran Triple"
+	description `This station was built to protect the pastoral jewel of a planet below. The fleets here know that if Stlap were to fall to any of their rivals, the main source of income for the Moash House would be gone. They also know that the Vella battle-fleets are aware of this, and that more than once they have probed this system to see how strong its defenses are. Consequently, only the most desperate and deadly defenders are posted here.`
+	spaceport `While most Houses do not allow the consumption of alcohol on active bases, the House of Moash seems to have little problem with it. The warriors stationed here obviously agree wholeheartedly with this policy.`
+
+planet Cunjo
+	landscape "land/Auroran Triple"
+	description `Named for the predators from Cunja Loff in the Tocc system, this station was built to keep an eye on the mysterious Polaris. Many young warriors set off from here to earn battle honors, and also to seek the coveted purple battle tattoo; it can only be earned in battle against the Polaris, as there is no more formidable opponent. Even surviving such an encounter shows skill, if not necessarily courage. This system falls under the control of the Auroran central government, as opposed to one of the Five Houses. Throughout all of 'Auroran Space', there are remarkably few systems that are governed by the central seat. The Five Houses do not allow it, for the seat is always held by one of them. They all know that if the First House became too strong, then they would be incapable of wresting power from it at some later stage.`
+	spaceport `Every warrior you see is covered in the purple battle tattoos given to survivors of engagements with the mysterious Polaris. Unlike warriors elsewhere, these men and women do not seem to be overly arrogant or confident. Perhaps it is because they have met and survived against an enemy far stronger than themselves.`
+
+planet "Dani LP"
+	landscape "land/Auroran LP"
+	description `The Dani House maintains a listening post here, manned by a group of extremely dedicated warriors. It is their duty to warn the Dani fleets of any incoming hostile attackers and then hold them off for as long as possible, to give their fellow warriors time to prepare. It is an arduous position, but the honor earned is immense, and those who survive can wear their many battle tattoos with pride and are treated with respect by all.`
+	spaceport `Dani LP spaceport`
+
+planet Dauntless
+	landscape "land/Auroran Triple"
+	description `This station has the dubious honor of being the closest large Heraan outpost to Moash space in a direct line, and so the Heraan House maintains a battle fleet here so as to leave no cracks in their defense against any incursions, be they Moash or otherwise. The warriors stationed here always remember in the backs of their minds that this is one of the two entry points into Heraan space used by the Moash forces during the Great Moash Invasion two centuries ago.`
+	spaceport `Like all establishments in Heraan space, you see Heraan House warriors sitting quietly drinking non-alcoholic beverages. Somehow these frighteningly tattooed men and women seem that much fiercer because of their silence.`
+
+planet Dedication
+	landscape "land/Deimos"
+	description `This system is the most heavily defended of all Dani House outposts. Of the routes into Dani space, this is the main one. There are many incursions by warriors from the Heraan House and even the occasional raid by Federation scoutships snooping around well outside their borders. Many young warriors that are stationed here journey North to show their skills by defeating the Federation soldiers. Nearly all veterans of duty in this system have quite a few of the little blue battle tattoos that signify a successful engagement against the Federation.`
+	spaceport `This bar is filled with Dani warriors all enjoying a quiet drink after coming off duty in this very active system. Even the youngest of them seems to be covered in battle tattoos and more than a few scars.`
+
+planet Discipline
+	landscape "land/Auroran Triple"
+	description `This major military outpost is the furthest from the center of the Empire. It was built in this little bypassable system to surprise any invasion forces that the Federation might try to sneak around the normal frontlines. The warriors here spend most of their time training, so as not to lose their fighting edge during their mostly uneventful time here. This force has been steadily building up over the last decade, in preparation for a possible major push into Federation space in the next ten years or so.`
+	spaceport `This watering hole was built to allow the many warriors posted here to work off a little of the stress associated with living here. It is filled with warriors who are spending their off-duty hours trying single-mindedly to drink themselves legless.`
+
+planet Dominance
+	landscape "land/Deimos Double"
+	description `Dominance is the major military base of the Herran House. Because of its relative closeness to the Empire's border with the Federation, the tens of thousands of warriors here are assisted by many young 'Dechtakars', as the warriors who are loyal to Aurora rather than the Five Families call themselves. Because of this post, there are very tight ties between the Dechtakars and the Heraan House, and Heraan warriors who serve here carry the title 'Avarach' with pride. 'Avarach' translates into Basic as 'he who would die for his brothers from across space'.`
+	spaceport `Here the Heraan warriors and the Rimertan Dechtakars cement the ties of brotherhood forged between them in battle with a few quiet drinks and many loud stories.`
+
+planet "Empire LP I"
+	landscape "land/Auroran Triple"
+	description `This is one of the many Auroran 'Listening' Posts. Here the forward battle-fleets of the Empire hold themselves ready to invade the Federation, or to be invaded. Many young warriors crave a posting to these border stations as a chance to earn some honor and meet the Empire's oldest enemy. No warrior leaves one of these posts without earning a great number of the small blue battle tattoos that signify successful engagements fought against the Federation.`
+	spaceport `Empire LP I spaceport`
+
+planet "Empire LP II"
+	landscape "land/Auroran Triple"
+	description `This station is not really a 'listening' post; it is really a forward staging area for the Empire's forces. It is also from here that the juvenile potential warriors from Rimerta in the Pimen system begin their initiation as warriors. From here they must travel to the border and survive two weeks in Federation space. It is because of this that no warrior from any of the Five Houses will show any disrespect towards the Rimertan warriors, as their initiation trial is one that even the most experienced warriors elsewhere would find difficult to complete.`
+	spaceport `Empire LP II spaceport`
+
+planet "Empire LP III"
+	landscape "land/Auroran Single"
+	description `This is a forward assembly area for Auroran warriors to both protect the center of the Empire, and to launch task forces to settle disputes in the End sector. Nearly all young warriors spend some time at one of these stations, but only a few receive an extended posting to one. Those that are sent here for any real length of time will have the opportunity to earn some honor while sharpening their skills, as they are often sent as a ready reaction force to help out with the incessant raiding from Pirates and Houseless Warriors.`
+	spaceport `Empire LP III spaceport`
+
+planet "Empire LP IV"
+	landscape "land/Auroran Single"
+	description `This small outpost stands across one of the main routes into the Empire from the Federation to provide an anchoring point for a fairly large battle fleet. Warriors stationed here spend nearly as much time in Federation space fighting its soldiers as they do in Auroran space defending against the same. It is one of the most honorable postings that any warrior can hope to be given in their career.`
+	spaceport `Empire LP IV spaceport`
+
+planet "Empire LP V"
+	landscape "land/Auroran Single"
+	description `This is another forward observation and staging post on the border of the Federation and the Empire. Because of the fearsome and suspicious natures of the aggressively tattooed Auroran warriors, very few merchants from either side wish to cross the border and be under the constant scrutiny thereafter of these dangerous men. So while trade between the two nations is allowed, it is sporadic and is so heavily policed that most merchants are unwilling to take the risk or go to the trouble.`
+	spaceport `Empire LP V spaceport`
+
+planet "Empire LP VI"
+	landscape "land/Auroran LP"
+	description `This small station is perhaps the only Auroran listening post that is not actually a staging point for a large battle-fleet ready for action. This station is only manned by a total of fifty, warriors who see very little action. Now and then they have to escort a particularly devious Federation merchant out of Auroran space, but the last major skirmish against the Federation in this area of space occurred nearly two decades ago. However, if history is any indication, the Federation is nearly due to for another attempt to invade through this area of space rather than trying to overwhelm the Aurorans at the normal battle fronts.`
+	spaceport `Empire LP VI spaceport`
+
+planet "End Council Station"
+	landscape "land/Auroran Triple"
+	description `End Council Station description`
+	spaceport `End Council Station spaceport`
+
+planet Endurance
+	landscape "land/Deimos"
+	description `This system is the second most likely route that invaders from the Heraan House might take. Ever since the Great Moash Invasion of their space some two centuries ago, the Heraan warriors have been more than willing to harass Moash space, so the warriors stationed here are almost constantly being raided. By the end of their stint here, if they survive, they are covered by the small green heron-shaped battle tattoos indicating successful engagements against the Heraan House.`
+	spaceport `The Moash House warriors drinking here have an air of arrogance about them as if they know they are members of the First Family and are somehow stronger because of it.`
+
+planet Etrusca
+	landscape "land/Auroran Triple"
+	description `This triple Auroran Station is used to house an emergency hospital where critically injured warriors are taken if it is deemed that they cannot make the trip down to a planet. Otherwise, they would be taken to Tranquility in the Heraan Malo system; many of Etrusca's staff come from there, bringing their experience and knowledge with them. This station also serves as a training outpost for the medical students from the planet below, who come here to receive some 'on the job' training in real life conditions.`
+	spaceport `This tastefully furnished bar seems to be the drinking hole for the many members of the medical profession who live and work here. As you sit and listen you see a Heraan warrior walk in to quietly thank the staff for their efforts in ensuring his recovery from deaths door.`
+
+planet "Fallen Memorial"
+	landscape "land/Auroran LP"
+	description `This system is the location of one of the few major battles between the Empire and the Polaris. The Auroran fleet had been using Fallen as a staging post for a major incursion into Polaris space. The Polaris hypered into the system and made a pre-emptive strike against the building Auroran forces. It was only due to the glorious actions of the Tekel warriors that any part of the main body of the fleet escaped. It is the only battle with the Polaris that has earned a special battle tattoo, the purple leaf, and there are only two old grizzled warriors remaining who still carry this tattoo. Although the battle occurred over half a century ago, its repercussions linger today, in that no incursions of that size are planned into Polaris space. Even the Aurorans, with their near-suicidal bravery, see no point in sending countless young warriors off to their deaths needlessly.`
+	spaceport `This bar is filled with Tekel warriors who have made the pilgrimage to this station in order to learn more about the battle which was fought against the Polaris here over five decades ago. There is an air of quiet reverence about this place.`
+
+planet "Forticus Shipyards"
+	landscape "land/Deimos Double"
+	description `These enormous shipyards are a haven for all those whose ships have received damage during the many space battles that punctuate the life of the Dani warriors. Veterans all seem to have a tale or two about how they were uncertain of their survival until they reached these facilities. It is here that the assembly of new ships, and the repair of those that are damaged, occurs. All of the parts are manufactured on the surface of the planet below, and are then brought up to the shipyards to be used.`
+	spaceport `This room is filled with warriors all boasting about how close they came to death as they nursed what was left of their ships back to these facilities. The noise is almost deafening.`
+
+planet Fortitude
+	landscape "land/Deimos"
+	description `This station is one of the two main bases for the Tekel House battle fleets and, like many battle-stations in the Empire, is named for one of the many desired qualities in a warrior. The fleet stationed here is used mostly to blood young warriors by sending them into Polaris space to face a truly worthy enemy. More warriors from the Tekel House have earned the respected purple battle tattoo from facing the Polaris in battle than from any other of the Five Families. Nearly all moves into Polaris space are launched from here, and even though the warriors here acknowledge the higher level of technology and skill of the Polaris military, the number of Polaris-bound missions remains high.`
+	spaceport `You see no shortage of warriors who all bear a number of the small purple battle tattoos signifying successful engagements against the Polaris, although the definition of success in this case has often been deemed to mean mere survival when talking about battles with the Polaris.`
+
+planet "Gladius Shipyards"
+	landscape "land/Deimos Double"
+	description `While the surface of the planet below is used to manufacture all necessary ship parts, these huge orbital shipyards are used to build and repair everything in the Tekel House fleets. This station is by far the busiest of all ports in Tekel space, as Auroran ships, due to the relatively low technology and the warlike nature of the Empire, are always coming in for repair. All Tekel warriors have a soft spot in their heart for this place, as without these facilities many of them would have died soon after battle, lost in the vast blackness of space.`
+	spaceport `This establishment is full of warriors drinking themselves into oblivion trying to forget just how close they came to dying. Many of the ships they arrived in were held together more by sheer willpower than by anything else.`
+
+planet Harbor
+	landscape "land/CC Station Small"
+	description `This is the home of the 'Associated Guild of Free Traders'. These 'merchants' are better known throughout the galaxy as pirates. This is a surprisingly well-run station, but you should keep an eye out, as those who break the very strict code of conduct can find themselves in deep trouble very quickly. One step outside the code, and you are fair game for everybody. You are best off saying and doing nothing.`
+	spaceport `You walk into a menacingly dark and smoky yet surprisingly clean establishment. A small jazz band play classy numbers on the stage making just enough noise to cover any conversation going on. You notice six dangerously well-dressed men sitting at a table on a balcony quietly overlooking the club.`
+
+planet "Hunter Station"
+	landscape "land/CC Station Small"
+	description `Headquarters of the Guild of Bounty Hunters.`
+	spaceport `Hunter Station spaceport`
+
+planet "Heraan LP - 'Arik'"
+	landscape "land/Auroran LP"
+	description `When the Heraan forces returned home after the Great Moash Invasion, many of the young warriors quite rightly accused the leaders of their house of bringing the invasion upon them through their incompetence. A group of thirty young warriors openly stated that if the leaders did not step down, they would be killed. The Thurokiir, as the arbiter of justice for the Heraan House is called, immediately challenged all of these warriors to a duel. They all immediately attacked, and the skill he showed whilst contending against them is still a legend amongst masters of the Heron unarmed fighting style. On that day, none of them could stand against him. He then stood before the ruling council and said with a quiet dignity, "A body cannot survive if its head is diseased." He then slit his own throat in shame. His name was Arik.`
+	spaceport `Heraan LP - 'Arik' spaceport`
+
+planet "Heraan LP - 'Eyeya'"
+	landscape "land/Auroran LP"
+	description `This small Heraan outpost is an early warning station manned by fewer than fifty warriors. It is named for the Thurokiir who came up with the original defense concept for Heraan space. The Mundokiir disagreed, and the Thurokiir came to this system to act as early warning to show that his plan was necessary. After two months of maintaining his impassivity at the mocking derision of his fellow warriors, he espied a large Dani battle-fleet hypering in. Not only did Eyeya warn the Mundokiir, he kept the Dani fleet busy for three hours by flying his personal fighter into the midst of the Dani formations and destroying a few key command ships. When they finally defeated him, the Dani fleet departed knowing that they could not defeat the Heraan fleets in their own space if they were pre-warned and prepared for their arrival. Nobody has since mocked Eyeya, his plan or his actions.`
+	spaceport `Heraan LP - 'Eyeya' spaceport`
+
+planet "Heraan LP - 'Heraan'"
+	landscape "land/Auroran LP"
+	description `This listening post is named for the Heraan House in remembrance of the deaths of the many thousands of warriors who died ensuring the escape of the House leaders through this system during the Great Moash Invasion two centuries ago. Because of their sacrifice, the leadership of the Heraan Family survived and was able to travel through Federation space to lead a counterstrike against the Moash homeworld. The result of this attack caused the Moash warriors to be recalled, allowing the Heraan House to resettle its own space.`
+	spaceport `Heraan LP - 'Heraan' spaceport`
+
+planet "Heraan LP - 'Heron'"
+	landscape "land/Auroran LP"
+	description `This lightly manned early warning post is named for the Heraan style of unarmed combat. Over the centuries, the Heraan warriors have shown themselves to be nearly invincible in hand-to-hand confrontations. Their style includes very powerful strikes and a subtle understanding of wrestling techniques. Their method of fighting is called the Heron style because those who are acknowledged masters of this style by their fellow practitioners have a heron tattooed onto their faces. At any one time, there are perhaps three or four Heron masters amongst the Heraan warrior population, and they are held in the highest respect by any who meet them.`
+	spaceport `Heraan LP - 'Heron' spaceport`
+
+planet "Heraan LP - 'Irze'"
+	landscape "land/Auroran LP"
+	description `This small early warning post is named after a young Moash warrior who lived during the Great Moash invasion. This warrior was one of the main reasons for the success of the Moash forces. After passing his initiation at a very young age, he was not marked with a death tattoo, but instead journeyed to Heraan space and pretended to go through the training and trials necessary to become a Heraan warrior. After succeeding, he became a junior assistant to the Heraan Ruling Council and proceeded to pass intelligence to the Moash forces during the war while also misleading the Heraan leaders. Although he died in the conflict, he is regarded by warriors of both houses as an example of the dedication and discipline required to become a true warrior.`
+	spaceport `Heraan LP - 'Irze' spaceport`
+
+planet "Holpa Station"
+	landscape "land/Auroran Single"
+	description `The scientists of the Auroran Empire have managed to construct a research station, despite the lack of funding and respect given to scientists by Aurorans. They are trying to investigate the cause for the unique radiation signature coming from the Holpa Nebula. Most young Aurorans are completely unaware of the station's existence, because the scientists fund it themselves, and it is of absolutely no military importance whatsoever.`
+	spaceport `Holpa Station spaceport`
+
+planet Houseless
+	landscape "land/Houseless"
+	description `Situated deep in the Rochak Dust Field, Kipa is one of this group of systems that play home to ronin warriors; warriors who have been cast out of their families for dishonorable actions. These warriors occasionally attack along the trade routes close by. On this small asteroid, which they have named Houseless, these warriors have a small base for refuelling and some basic repairs. So far they have managed to avoid angering the Dani and Tekel families too much, and so they continue to plague this area. Both these great houses claim that these systems fall inside the borders of the other, and that therefore it is not their problem. In short, these pirates continue to operate freely.`
+	spaceport `This richly appointed establishment is overlooked by a balcony which has but one table. A shadowy figure sits there watching the movements of everyone in the bar.`
+
+planet "Imperial Archives"
+	landscape "land/Deimos Double"
+	description `On this immense station, all records from all over the Empire that are greater than two years old are stored. Some three centuries of Auroran history is housed here, and its loss would be catastrophic. The records that are less than two years old are kept on Aurora itself before being filed here by year and by subject. Everything from major battles to minor skirmishes, to births, deaths and any news at all is recorded on this station.`
+	spaceport `Like most bars throughout the Empire that mix warriors with workers in any other professions, the warriors, despite being fewer in number, take the lion share of the space, and limelight.`
+
+planet Joccia
+	landscape "land/Auroran Triple"
+	description `This is a massive space hospital, and nearly all Vella warrior casualties are brought here. The nurses and physicians who live here all spend many hours a day attempting to save the many critically injured warriors brought to them, and although the conditions are still a little primitive, they do amazingly well. This station has only been in operation for less than a decade, but given the advanced nature of Vella medicine, it should soon be amongst the most advanced hospitals in the Empire.`
+	spaceport `A number of recovering, heavily tattooed warriors have come here and they seem to be spending their time toasting the efforts of every hospital staff-member they see.`
+
+planet "Kymonth Station"
+	landscape "land/Auroran Triple"
+	description `This is where most critical patients and battle-injured warriors are bought. Many recovered warriors speak highly of the physicians and scientists in this place. Their existence has given at least a little credence, in the eyes of the warriors, for the necessity of the institution on Romule in the Tekel Rom system. The commanders of Kymonth Station ensure that only the hardest-working and most intelligent of the graduates are allowed to serve here.`
+	spaceport `This lounge is filled with tired doctors and nurses, most of which are trying to catch up on some sleep. As you talk to a few of them, you begin to realize how hard these people work. Most have not slept for days, some for weeks.`
+
+planet LPAD
+	landscape "land/LPAD"
+	description `LPAD was a propulsion research lab in the days before ion drives were perfected for sublight travel. According to rumor, researchers on this station actually came up with a remarkable new design for sublight travel that would reduce fuel requirements to a twentieth of the current value. However, Pyrogenesis swiftly executed a hostile takeover of Tidbinbilla Inc and quietly terminated the project, for fear of having their revenues for raw gas mining slashed. LPAD still has backup power, but anything of any great worth has long since been removed by Pyrogenesis Corp.`
+
+planet "Moash LP 1"
+	landscape "land/Auroran LP"
+	description `The Moash House maintains a small station manned by a small group of warriors here, in order to provide early warning to their battle fleets. The main threats that the warriors of this station are looking for are an invading Heraan task force, or a possible Federation incursion into the Empire. The warriors on this station all look a little bored, as they have seen no real action in or around this system for several years now.`
+	spaceport `Moash LP 1 spaceport`
+
+planet "Moash LP 2"
+	landscape "land/Auroran LP"
+	description `Some fifty Moash warriors make their home here on this tiny early warning post. They are all waiting for the day when the Heraan battle fleets hyper in to exact revenge for their humiliation during the Great Moash Invasion two hundred years ago. Never before in the entire history of the Empire has a House managed to so completely vanquish another. It was only due to the overconfidence of the Moash leaders at the time that the Heraan forces were able to attack behind their lines, forcing them relinquish their new conquests. The warriors here know that even though two centuries have passed, the Heraan warriors have not forgotten those events, and will one day seek to even the ledger.`
+	spaceport `Moash LP 2 spaceport`
+
+planet "Moash LP 3"
+	landscape "land/Auroran LP"
+	description `This early warning post is placed along one of the routes into Moash space. It is not the most common route taken, but it does allow the warriors on the Endurance station in the Moash Nek system a little preparation time. The warriors here, while not overworked, still get enough action to keep them from becoming bored or complacent, and they have saved those stationed in Moash space from being surprised by more than one sneaky attack.`
+	spaceport `Moash LP 3 spaceport`
+
+planet "Moash LP 4"
+	landscape "land/Auroran LP"
+	description `The warriors manning this listening post know that they have the perilous duty of providing early warning for the warriors protecting Stlap in the Reap system. If Stlap were to fall to the rivals of the Moash House, then one of its main sources of income would be lost. Many times, the warriors here have spotted Vella House forces hypering in, and have engaged them in order to give the forces in orbit around Stlap time to prepare. Warriors who survive their posting here end up wearing a great number of the small orange battle tattoos signifying successful engagements fought against warriors from the Vella House.`
+	spaceport `Moash LP 4 spaceport`
+
+planet "Moash LP 5"
+	landscape "land/Auroran Single"
+	description `This early warning post is on the shortest route between Vella and Moash spaces. Consequently, the warriors stationed here spend most of their lives fighting against the many probing task-forces sent by the Vella House, giving the warriors in the Reap system time to prepare for any invasion. This posting has the lowest survival rate of any Moash posting, but survival guarantees respect by members of the Moash House and from warriors from other houses.`
+	spaceport `Moash LP 5 spaceport`
+
+planet Mortosch
+	landscape "land/Deimos"
+	description `During the Great Moash Invasion two centuries ago, warriors from the Moash House came to this system after clearing the rest of Heraan space. The warriors who were stationed here fought like demons and were able to hold off the battle-weary Moash fleets for many weeks. The leaders of the Moash Family then decided to surround the system and to starve those redoubtable warriors rather than face them in open battle. After the remnants of the Heraan House attacked Moash space, drawing their warriors home, they returned to find nothing but death. The only warrior to have remained at his post had scratched the word 'Mortosch' into his station before he died. 'Mortosch' means 'I have stood before death for too long'. This hulk is left completely empty in remembrance of those warriors who could not be defeated in battle, and as a reminder to young warriors of their mortality.`
+
+planet "Neilha Memorial"
+	landscape "land/Auroran LP"
+	description `Named after the former Obsidian Heart, Arbiter of Reckoning of the Tekel House, this system was the scene of a great victory by the Tekel over the Dani. Neilha lured the Dani battle fleet into the system before single-handedly engaging the entire fleet, thus holding them in place until the Tekel fleet was able to get into position. His action enabled the Tekel House warriors to help themselves to a near-complete annihilation of the Dani fleet. Unfortunately, Neilha was killed in the engagement. Those Tekel warriors who survived wear a small dark crystal tattoo to show that they were involved in the battle, and to honor the passing of their Obsidian Heart, and his superhuman deeds.`
+	spaceport `The only decoration in this stark bar is a projection of Neilha, the man for whom this station is named. Underneath this scrolling text tells of his life and of the deed for which he was remembered.`
+
+planet "Nil'a Ca"
+	landscape "land/Polaris Defence"
+	description `The Nil'kemorya maintain their war headquarters here. The warriors on this station hold themselves ready to deal with any large-scale threat to the sovereignty of the Polaris. The only time this base has been put to its maximum use was during the first and only Polaris Civil War, when Iusia, the leader of the Nil'kemorya at the time, led the warrior caste in a seven-day campaign which crippled the capacity of the warring castes to make war on each other. The battle leader of the warrior caste, titled Iuso, meaning 'disciple of Iusia', resides here.`
+	spaceport `When you walk into this establishment you see several young warriors sitting around various tables in serious discussions about various problems. None of them appear to be drunk, and every single one glances at you when you walk in and gives you a practiced once over before you take two steps into the room. You cannot help but feel slightly overawed.`
+
+planet "Nil'a Do"
+	landscape "land/Polaris Defence"
+	description `This Nil'kemorya battlestation, while completely operational, is used mostly as a training aid for the teaching of the young prospective warriors being trained on the world below. It is from here that all Nil'kemorya for the last five centuries have received their first space familiarization and combat lessons.`
+	spaceport `Nil'a Do spaceport`
+
+planet "Nil'a He"
+	landscape "land/Polaris Defence"
+	description `He, meaning "one" in the Polaris language, signifies this as an important station. Standing on the border of Polaris space, facing hostilities from both the Federation and the Wraith, the members of the warrior caste, which is named "Nil'kemorya" in the Polaris tongue, who are housed here seem to have an almost preternatural stillness about them. Although they treat you with absolute respect, you cannot help feeling more than a little frightened.`
+	spaceport `Nil'a He spaceport`
+
+planet "Nil'a Mjolnir"
+	landscape "land/Polaris Defence"
+	description `During the brief war with the Colonial Council, the Polaris were saved by the timely intervention of the Vell-os, and also through the actions of one of the Council's cyborg-soldiers. Little is known about that man, other than part of his unit designation - Mjolnir. Apparently, he destroyed a piece of new technology that would have ensured victory over the Polaris. It is worthy of note that he is the only non-Polaris soldier to be remembered by the Polaris warrior-caste with respect, although none of them seem to be prepared to tell you exactly why.`
+	spaceport `Nil'a Mjolnir spaceport`
+
+planet "Nil'a Ni"
+	landscape "land/Polaris Defence"
+	description `This station is manned by the Nil'kemorya to fend off incursions by Wraith herds into Polaris space. They receive constant action as the tribes frequently take hostile action after wandering into Polaris territory. This station has the distinction of having the most deaths per year of any warrior caste station, mainly due to its distance from any Ver'ash facility and the unforgiving nature of the Wraith.`
+	spaceport `Nil'a Ni spaceport`
+
+planet "Nil'a Ro"
+	landscape "land/Polaris Defence"
+	description `The Nil'kemorya are the only inhabitants of this station. As a rule, the Nil'kemorya have a stillness and a seriousness of aspect about them that you have only ever seen amongst the most elite and battle-hardened soldiers elsewhere. You quickly come to the realization that they are all exceptionally capable, even compared to those soldiers considered 'exceptional' elsewhere.`
+	spaceport `Nil'a Ro spaceport`
+
+planet "Nil'a Se"
+	landscape "land/Polaris Defence"
+	description `The Nil'kemorya, as the warrior caste is named, have built a station here as a bulwark against any Federation-backed incursions. The Polaris, and specifically the Nil'kemorya, have always found that their greatest threats have always originated from Sol, humanity's homeworld. Having been on the receiving end of many Federation plots, they view anybody associated with the Federation with great suspicion.`
+	spaceport `Nil'a Se spaceport`
+
+planet "Nil'a Vi"
+	landscape "land/Polaris Defence"
+	description `This station, which is in orbit around Nil'ar Riai, is used in the continual training of the potential young warriors housed there. It is also where the young prospective members of the Nil'kemorya spend six months working with the Ver'ash, helping to repair any damaged ships, and healing the wounded.`
+	spaceport `Nil'a Vi spaceport`
+
+planet "Nil'a Ya"
+	landscape "land/Polaris Defence"
+	description `The Nil'kemorya, as the warrior caste is named, have built a station here as a bulwark against any incursions from the Auroran Empire. The Nil'kemorya have gained a great deal of respect for the warrior ethic of the Aurorans, and more than once they have been surprised by the level of skill achieved by a civilization as low in technology as the Aurorans.`
+	spaceport `Nil'a Ya spaceport`
+
+planet "P'a He"
+	landscape "land/Polaris Station"
+	description `The scientist caste, known as the "P'aedt", have established a station in orbit around P'ar Karo in order to study the unique electromagnetic bursts radiating from it. Their first challenge will be to work with the "Ver'ash", the name given to the engineer/healer caste, to produce a new way of modulating current Polaris shield technology so that they can take a ship down to the planet's surface without the radiation frying all its instruments and killing everyone on board.`
+	spaceport `P'a He spaceport`
+
+planet "P'a Ro"
+	landscape "land/Polaris Station"
+	description `The scientist caste maintains a research station here that primarily looks at the effects of various types of weaponry and space hazards on biological ship design. The P'aedt have invited a significant number of Ver'ash to observe and help them with their experiments, as they know more about the biological ships than anyone else.`
+	spaceport `As you walk in you see a number of scientists, in their dark blue clothing, talking excitedly amongst themselves. Every now and again the conversation stops momentarily when one of the Ver'ash shakes her head and smilingly tells the P'aedt why his theories will not work.`
+
+planet Philar
+	landscape "land/Deimos"
+	description `'Philar' translates as 'the last step', and the warriors stationed here, like those at its sister-station Pholar, have a grim outlook on life. They stand ready to put themselves between the center of the Auroran Empire and its absolute destruction. Only the most wily and battle-hardened of the houseless warriors from Rimerta in the Pimen system serve here. Of all Auroran warriors, the 'Dechtakars', as the Rimertan warriors call themselves, know the Federation as well as any, and hate them the most.`
+	spaceport `Philar spaceport`
+	government Dechtakar
+
+planet Pholar
+	landscape "land/Deimos"
+	description `Pholar' means 'the last wall'. It is filled with warriors that carry an air of finality around with them. They know that they are the last defense for the capital of the Empire, and they have all spent long periods on the border fighting the Federation, and know how strong they are. The warriors all believe that the infighting between the Five Houses only serves the purposes of the Federation and weakens the Empire, making their job that much harder. Still, they are proud of their posting, and would fight beyond death to fulfill their duty if they could.`
+	spaceport `Pholar spaceport`
+
+planet "Port Kane"
+	landscape "land/CC Station"
+	description `This station was named for the legendary woman behind the design of the Hypergate system, Omata Kane. Port Kane was once an important hub serving Manifest establishment of the southern Auroran colonies. Vast warehouses and loading gantries served a logistical armada yet now stand underused. Ancient battle damage speaks to it's role as a command centre in the Polaris front of the Alien War. Port Kane now occupies the vital intersection between the Auroran Empire, the Polaris and the Federation. What little trade and diplomacy is conducted between these three governments occurs here. The system is neutral ground policed by the Federation. It is something of a backwater, but it's cosmopolitan enough to have good port services, full of decent outfitters. It's also the gateway to many a "specialist" transaction, if you know where to look.`
+	spaceport `The lurid neon sign that proclaims that this bar is called 'The Hypergate' stands over a mammoth doorway shaped vaguely like an orchid which is also surrounded by neon. Inside you see sights which can not be mentioned to anyone below the age of consent.`
+
+planet "Pyrogenesis I"
+	landscape "land/Pyrogenesis I"
+	description `This sky mining station, owned by the independent weapons manufacturer Pyrogenesis, mines some rare gases from the upper reaches of Nesre Secundus IV which will be used in the production of their exotic weaponry. The chemicals used in the creation of blaster 'bolts' are easily produced from the upper atmosphere of the gas giant, and Pyrogenesis requires a constant supply of these gases.`
+	spaceport `This bar is part of the complete service offered by Pyrogenesis to trader captains. The operation is heavily subsidized by the parent company so that the service, food and drink are excellent, while maintaining low prices.`
+	government Federation
+
+planet "Rebel II"
+	landscape "land/CC Station"
+	description `This station is the forward operations base for the Rebellion. It is here that all Rebel ships and agents are given their final mission briefs before entering Federation space. It is one of the busiest ports in Known Space, which makes the secrecy of its location somewhat of a counter-intelligence coup against the Bureau of Internal Investigation. This probably is a result of the handiwork of General Cade 'Sundown' Smart, who was the former head of the Federation military, and also Frandall (code-name), who was the former Head of Federation Intelligence before the Bureau took over that role. These two, as founding members of the Rebellion, have spared no effort in looking after the military and intelligence sides of the Rebel operation.`
+	spaceport `You enter a happily noisy establishment where returning rebels toast their own efforts and wish luck to a number of outgoing operatives. You are given your own space, and a drink is placed in front of you with a welcoming smile.`
+
+planet Redhead
+	landscape "land/Deimos Double"
+	description `This enormous battle-station, named for the most common hair color of the members of Vella House, is the closest Vella system to Moash space.`
+	description `	The warriors stationed here spend their lives fending off the countless small incursions by Moash warriors. To keep the ledger even, these warriors also launch themselves across the intervening gap to harass the Moash forces inside their own borders. `
+	description `	It is an interesting reflection on Auroran life that a major house can engage in openly hostile activity against the First Family and still be acknowledged as a legitimate authority.`
+	spaceport `This bar is filled with warriors who, like their colleagues from all corners of the Empire, are covered in little tattoos showing their prowess and history. The only thing that sets them apart is that three quarters of them are redheads. You find it a little disconcerting.`
+
+planet Resilience
+	landscape "land/Auroran Single"
+	description `This battle-station was built to protect the hospitals on the surface of the planet it orbits. The warriors stationed here go out to battle gladly, because they owe huge debts of gratitude to the people below for their efforts in healing their colleagues' battle wounds. They also know that by protecting these miracle workers they are helping their fellow warriors survive. So those stationed here are called 'Korasch' which means 'they who fight with a bright soul' for they go to battle with joy in their hearts and a smile upon their faces.`
+	spaceport `This bar only serves a small number of very common drinks because the warriors stationed here, like most other Heraan warriors, never drink alcohol if there is any chance of them having to be ready to go into action.`
+
+planet Resolution
+	landscape "land/Deimos"
+	description `This station is the headquarters for the Heraan Mundokiir, as the general of the Heraan forces is called, and is the anchoring point for one of the largest battle fleets in the Empire. The warriors stationed here stay at a high level of readiness because of the proximity to the border of Heraan space, and the closeness of the Moash Family. For they are located both to the East, where Moash have their own space, and to the West, where the space they hold as the First Family is located.`
+	spaceport `Despite the fact that all the warriors stationed here are off-duty and appear relaxed, you notice that they all keep their communicators handy, and none are getting drunk.`
+
+planet "Spacedock I"
+	landscape "land/Federation Battle"
+	description `The Federation battlestation Spacedock I is the main border trading post between the Federation and the galactic south. Auroran traders don't often come here without an escort, though, and tensions are obvious throughout the station as Auroran warriors and Federation soldiers brush shoulders in the corridors of this military outpost. Under the command of Capt. Hab Scale, SD I has repelled many incursion attempts. It will continue to do so "while a single man remains alive to man the guns," he says.`
+	spaceport `The Federation soldiers who frequent this club continually cast suspicious glances at the few Auroran traders with their ferociously tattooed Auroran warrior escorts who return their stares with contempt. The tension in the air is palpable.`
+
+planet "Spacedock II"
+	landscape "land/Federation Station"
+	description `Spacedock II is the headquarters for the Federation Navy's logistics department. The base is also utilized as a secondary repair and outfitting facility with the shipyards on the Kane Band around Earth being primary. Materials and parts produced on Viking below are shipped up and assembled on base. However, the primary purpose of this base is to provide a home for the people who have to keep track of the Federation military on a day-to-day basis. An occasional Auroran skirmish keeps the pilots and gunners of Spacedock II on their toes, as the Auroran commanders see Spacedock II as a potential "weak point" along the Federation border.`
+	spaceport `Welcome to Remf's. The officer in charge of the mess, Lt. Col. Reynold M. French, ensures that this bar is open at all times, except for when the soldiers are off-duty.`
+
+planet "Spacedock III"
+	landscape "land/Federation Battle"
+	description `Spacedock III is smack-bang in the middle of one of the largest areas of ionic interference in the known galaxy. To make matters worse, it's on the vital southern border that the Federation shares with the Auroran Empire. Spacedock III has seen an enormous amount of action in the years since it was commissioned, and has recently been upgraded to hold the latest station-class blaster cannons. Ingress and egress from the station are much more difficult than is normal for this model of Federation Battlestation, due to the ion storms that regularly sweep this area of space, and also because of security procedures designed to weed out Auroran infiltrators.`
+	spaceport `Spacedock III, due to its constant action, has an informal casualties average per day count. If this quota is not reached on any one day, all serving personnel feel a responsibility to make it up by coming here and getting 'slaughtered'.`
+
+planet "Spacedock IV"
+	landscape "land/Federation Station"
+	description `Spacedock IV is the gateway to New Babylon. Most passenger ferries destined for the Nesre Primus system dock here instead of the blue-green planet below. Inter-orbital shuttles and cargo drones account for 90% of the traffic to and from Spacedock IV and New Babylon, and merchants usually have their head offices here rather than groundside. The spaceport itself is very well maintained, but it is obviously an old station, one of the first of the Federation style to be built. Regularly upgraded, it performs a vital role in housing the military barracks for this sector, supplying patrols for the outlying systems in an attempt to weed out pirates and rebel insurgents.`
+	spaceport `This bar is dedicated to a little-known action-star in the twentieth century, which was nearly two millennia ago. The mere act of ordering a beer elicits a series of bizarre squawks and somersaults from any of the bar staff, and a multitude of bottles which are switched at brain-numbing speeds before being poured into your glass. Welcome to Jackie's.`
+
+planet "Spacedock V"
+	landscape "land/Federation Station"
+	description `SD5's primary task is to supply and maintain a large Federation armada under the command of Admiral Raczak. Surviving a tour of duty in Raczak's Roughnecks almost always ensures an operational command posting elsewhere. The Roughnecks have a long and proud tradition of producing the hardest and most capable veterans of any combat unit, due to the near-continuous action that the armada sees. It is hardly worthy of note that the Roughnecks have the greatest attrition rate of any operational Federation unit. There seems to be a bone of contention between Admiral Raczak and the Wild Geese stationed on SD6, but only the closest associates of the Admiral seem to ken the reason why. However, historians have noted that Raczak's report following the Battle of Kerella doesn't paint the mercenaries in a good light.`
+	spaceport `Pictures are plastered on every wall of 'The Roughrider,' depicting successful engagements for the Roughnecks. An arcade game entitled 'Gun A Goose' sits in the corner. It seems overly violent.`
+
+planet "Spacedock VI"
+	landscape "land/CC Station"
+	description `Spacedock 6 is the home-away-from-home of New Ireland's most successful export: the Wild Geese. This mercenary unit has been stationed on SD6 for many years now as a memorial to the largest fleet engagement of recent history. An Auroran armada engaged a Federation task-force led by then-Commander Raczak, which was nearly wiped out but for the timely intervention of a small group of Wild Geese, who all but single-handedly neutralized the Auroran threat, but at massive cost to themselves; of the twelve ships committed to the battle, only two managed to limp back to SD6. The commander of the Wild Geese was quoted as saying "Today, we saved Raczak's reputation, and truly does he owe all future glories to us." This has been a long-standing bone of contention between the group and the Admiral, which has almost led to open conflict.`
+	spaceport `This bar is filled with the lilting songs from far off Ireland, and the black gold flows freely. You quickly find yourself being caught up in a world of drink, song, and dance.`
+
+planet "Spacedock VII"
+	landscape "land/Federation Battle"
+	description `One of the most recently constructed and technologically advanced of the Spacedocks, Spacedock VII was built to stand against the existential threat of the mysterious and deadly Polaris.  The Navy’s finest are at the beck and call of this station, ready to withstand any Polaris raiding party, ensuring the security of the Federation for the foreseeable future.`
+	spaceport `Landing berths are few and far between on this Spacedock, as heightened military traffic takes up much of what is available.  Hushed whispers about the almost mythical Polaris can be heard, and spacers seem to look over their shoulders quite often.  Rumors spread of hooded visitors with uncanny combat abilities, but the massive fleets that often pass through this system and dock here seem to make the idea that the Polaris could be sneaking about quite unlikely.  Still, it is best to remain on alert, just in case.`
+
+planet Steadfast
+	landscape "land/Auroran Triple"
+	description `The  Kilik system straddles one of the entrances into Dani space. This system is the route of choice used by the Ronin raiders of the Rochak Dust Field and by the warriors of House Tekel. This station was built after warriors from the Tekel House travelled around the southern tip of Dani space to get behind their lines ninety-six years ago. This relatively small expeditionary force managed to inflict enormous damage on many Dani facilities and destroy a large number of Dani warships before being forced to retreat. Dani House now maintains a well-equipped and well-trained force here to ensure that they are never again taken by surprise.`
+	spaceport `This bar is filled with Dani warriors all enjoying a quiet drink after coming off duty in this very active system. Even the youngest of them seems to be covered in battle tattoos and more than a few scars.`
+
+planet Stewardship
+	landscape "land/Deimos"
+	description `This is the second of the two major bases for the Tekel battle fleets. It is here that many of the young potential warriors find the tutors that will instruct them on the finer points of the warriors' code. Many of the old and infirm warriors remain here to help raise young warriors to bring honor to Tekel House. From here, the young aspirants journey to Agrippa in the Grip system to undergo their initiation as warriors. This station also stands across the main path for any hostile fleets coming from the rest of the Empire, especially Dani space, and so is kept fairly active maintaining the security of the Tekel Family.`
+	spaceport `This room is filled with small groups of young would-be warriors sitting listening to warriors too old to serve in any more active role. It seems that these ancient warriors are trying to teach these young hotheads some of the ideas behind what they as warriors should be trying to achieve.`
+
+planet "Tekel LP"
+	landscape "land/Auroran LP"
+	description `The Tekel House maintains a listening post here, manned by a group of extremely dedicated warriors. It is their duty to warn the Tekel fleets of any incoming hostile attackers and then hold them off for as long as possible, to give their fellow warriors time to prepare. It is an arduous position, but the honor earned is immense, and those who survive can wear their many battle tattoos with pride and are treated with respect by all.`
+	spaceport `Tekel LP spaceport`
+
+planet "Tekel Supply Station"
+	landscape "land/Auroran Triple"
+	description `This station orbits the planet Nickas to handle the flow of supplies in and out of the system. The huge amounts of supplies used by the Tekel military ensure that this station is busy even during periods of relative inactivity. Merchants always find that they are kept at the bottom of all the priority lists because of the lack of respect for their work in the eyes of the many fearsomely tattooed retired warriors that run the station.`
+	spaceport `This bar is filled with merchants complaining about the wait for their goods to be processed, and a large group of Tekel House warriors who seem to spend their time mocking their efforts.`
+
+planet "Tre'a Ca"
+	landscape "land/Polaris Station"
+	description `Tre'a Ca is a trading post set up to support the enormous hydrogen sky-mining operation on the gas giant below. It is here that the hydrogen is processed for transport to the various parts of Polaris space that require it. The Tre'pira on the station run a smooth operation that ensures that all necessary hydrogen supplies are delivered ahead of time.`
+	spaceport `This bar is filled with workers having a quiet drink after a long day working. This sea of white clothing is only broken by the occasional green jersey of one of the station's Ver'ash engineers quietly enjoying a meal.`
+
+planet "Tre'a Do"
+	landscape "land/Polaris Station"
+	description `This Tre'pira-run station is used to absorb and funnel the unique radiations emanating from the neutron star named Tre'an Olep. These radiations are then used to alter the crystalline structure of pre-fabricated metal ship frames. The end result is a much stronger and more flexible material.`
+	spaceport `This bar is actually located in the outer areas of the station up against the outer walls. Part of the charm of this place are the occasional low, almost inaudible groans of the bio-organic outer shell of the station slightly shifting position to better shield the occupants from the high levels of radiation outside.`
+
+planet "Tre'a Ro"
+	landscape "land/Polaris Station"
+	description `The Tre'pira built this station originally as a trade center for Tre'ar Pira but as Polaris society expanded, the worker caste expanded also. It has since been moved to a more central location. Now its primary function is to act as a logistical headquarters for the movement of the many thousands of Tre'pira shipments throughout Polaris space. The leaders of the Tre'pira all reside here.`
+	spaceport `This is perhaps the most luxuriously appointed bar you have seen anywhere in the galaxy. Only a few white-cloaked Tre'pira seem to drink here, but the drinks are the best you have had anywhere.`
+
+planet "Tre'a Se"
+	landscape "land/Polaris Station"
+	description `The Tre'pira, the worker caste, working with the Ver'ash, the healer/engineer caste, build and grow many ship parts on this station in order to repair the more common types of damage to Nil'kemorya ships. This then takes the pressure off Ver'ar Sho in the Ver'ashan system, so that they only have to deal with the more seriously damaged warrior caste ships.`
+	spaceport `This bar has a more even mix of castes of any bar you have come across in Polaris space. You see Tre'pira, Ver'ash, Nil'kemorya, a few occasional Mu'Hari and even one or two P'aedt. They all seem to circulate amongst one another with no trouble whatsoever.`
+
+planet "Tre'a Vi"
+	landscape "land/Polaris Station"
+	description `This station, in orbit around Tre'ar Erma, uses the methane gathered on the planet's surface to create organic compounds which are then used to outfit the interior of Polaris ships. Many of the objects created here in the most recent of Polaris stations have started to decorate the interiors of ships throughout Polaris space.`
+	spaceport `The Tre'pira in this homely bar are all quietly relaxing having a few drinks in small groups. In the background you hear some sort of quiet, yet lively music.`
+
+planet Vardoth
+	landscape "land/Deimos"
+	description `This large battle-station stands ready to reinforce Vella space from Federation attacks from the east and north. The warriors here spend a fair amount of time defending against the small probing task-forces of the Wild Geese and Roughneck mercenary groups and returning the favor. The Vella warriors who live to see the end of their time here all carry a great number of the all-blue battle tattoos that are awarded after successful engagements against the Federation. It is named for the Vella engineer who first designed the current configurations of Deimos Hulk Stations that are now used throughout Auroran space.`
+	spaceport `All the warriors drinking here seem to have more blue battle tattoos than you are used to seeing in bars around Auroran space. Other than that, these warriors are like most of the others you have met. Well muscled, dangerous looking men and women who seem ever-ready to issue or accept virtually any challenge.`
+
+planet "Vella LP #1"
+	landscape "land/Auroran LP"
+	description `This early warning post stands along one of the two main routes for interstellar traffic into Vella space from Moash space and the rest of the Empire. Given the constant internal wrangling between all of the Five Families, stations like this have proved to be a necessary part of the defense plans of all the houses. The use of these small listening posts has proven so successful that the Empire itself has also adopted their use as a part of its defenses.`
+	spaceport `Vella LP #1 spaceport`
+
+planet "Vella LP #2"
+	landscape "land/Auroran LP"
+	description `The warriors who staff this small early warning station spend their lives giving the warriors inside Vella space time to prepare to meet incoming hostile forces. Of course, despite the fact that there are only fifty of them, the warriors here would never admit that they could not defeat any incoming force, regardless of size. This means that the warriors who receive a posting here tend not to survive, but that those who do have obviously achieved a high level of skill at battle-craft, and have perhaps learned a little prudence. Many of the Five Houses' leading warriors have served postings to places much like this one.`
+	spaceport `Vella LP #2 spaceport`
+
+planet "Vella LP #3"
+	landscape "land/Auroran LP"
+	description `The warriors at this early-warning station do not see a great deal of action, except for the occasional Moash patrol which tries to sneak around behind the major Vella defense points. This posting is usually given to warriors who have served the Vella House long and honorably, as a rest between being given more demanding positions. Those who serve here spend large portions of their lives training with and against each other, forever honing their fighting skills.`
+	spaceport `Vella LP #3 spaceport`
+
+planet "Vella LP #4"
+	landscape "land/Auroran LP"
+	description `Although officially this listening post is here to watch for Federation soldiers, the real reason for its existence is to keep an eye on the forces loyal to the First Family some two systems away. Suspicious of the Auroran Central Government's decade-long buildup of forces in the Grak system, the leaders of the Vella House ordered this small early-warning station built here. The warriors on this station stay on edge, for they know that if the enormous Auroran fleet does decide to move against the Vella, they will be very difficult to stop.`
+	spaceport `Vella LP #4 spaceport`
+
+planet "Ver'a Ca"
+	landscape "land/Polaris Station"
+	description `This station is used as an emergency medical facility for those warriors who are badly injured during Wraith attacks in the Nil'nesa system. They also have constructed shipyards to receive those ships that are too heavily damaged to land on the planet below. Many young potential Ver'ash are sent here to observe and work on real battlefield casualties.`
+	spaceport `The Ver'ash who are drinking here all look tired yet happy. A couple of them tell you that despite the pressures and hard work that comes with being a member of their caste, they all know that what they are doing is directly helping the survival of their nation. "What greater service could we perform?" asks one patron.`
+
+planet "Ver'a He"
+	landscape "land/Polaris Station"
+	description `Ver'a He is the space-bound campus of the college of Ver'ash. This is where the young healer/engineering caste students come to be taught some of the different applications of their knowledge in a space-based environment. It is also the location of the advanced learning center for Ver'ash students who have passed the age of twelve. From here they journey throughout Polaris space under a tutor, learning the practical side of Ver'ash work, until the age of sixteen whereupon they become full members of the Ver'ash.`
+	spaceport `This small bar has a couple of older Ver'ash talking quietly one-on-one with young Ver'ash aspirants about some procedure you have no understanding of. Despite this you are made to feel welcome.`
+
+planet "Ver'a Se"
+	landscape "land/Polaris Station"
+	description `Ver'a Se is the most prestigious research facility run by the Ver'ash anywhere in Polaris space. Over half of all advances in medicine, ship 'growth', ship repair and design in the two centuries since the station was built have come from here. Only the best and the brightest of the Ver'ash are invited to work here. Other than Ver'ash members, the station also houses a handful of P'aedt, the scientist caste, and one or two Mu'hari, the 'casteless' caste.`
+	spaceport `The engineers and scientists who are in this bar give you a quick glance when you walk in and then continue their discussion about some new technique of growing some ship parts to give them more strength. Only the two black-cloaked Mu'Hari pay any attention to you whatsoever.`
+

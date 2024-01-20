@@ -4,4 +4,8 @@ License: CC-BY-SA-4.0
 
 Writing: Spacedock VII description
 Copyright: Geek
-License: explicit permission given
+License: permission given
+
+Art: Aftermath Landing Pictures
+Copyright: Ragashingo (ragashingo.com)
+License: permission given

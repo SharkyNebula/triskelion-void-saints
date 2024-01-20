@@ -387,7 +387,7 @@ ship "Neon Fighter"
 	attributes
 		"bunks" 2
 		"required crew" 1
-		"fuel capacity" 300
+		"fuel capacity" 20000
 		"energy capacity" 300
 		"fuel generation" 0.016
 		"energy generation" 0.016
@@ -440,7 +440,7 @@ ship "Neon Gunship"
 	attributes
 		"bunks" 5
 		"required crew" 2
-		"fuel capacity" 400
+		"fuel capacity" 20000
 		"energy capacity" 400
 		"fuel generation" 0.016
 		"energy generation" 0.016
@@ -497,7 +497,7 @@ ship "Neon Corvette"
 	attributes
 		"bunks" 14
 		"required crew" 7
-		"fuel capacity" 500
+		"fuel capacity" 20000
 		"energy capacity" 500
 		"fuel generation" 0.016
 		"energy generation" 0.016
@@ -558,7 +558,7 @@ ship "Neon Frigate"
 	attributes
 		"bunks" 27
 		"required crew" 14
-		"fuel capacity" 600
+		"fuel capacity" 20000
 		"energy capacity" 600
 		"fuel generation" 0.016
 		"energy generation" 0.016
@@ -625,7 +625,7 @@ ship "Neon Destroyer"
 	attributes
 		"bunks" 54
 		"required crew" 27
-		"fuel capacity" 700
+		"fuel capacity" 20000
 		"energy capacity" 700
 		"fuel generation" 0.016
 		"energy generation" 0.016
@@ -697,7 +697,7 @@ ship "Neon Cruiser"
 	attributes
 		"bunks" 108
 		"required crew" 54
-		"fuel capacity" 800
+		"fuel capacity" 20000
 		"energy capacity" 800
 		"fuel generation" 0.016
 		"energy generation" 0.016
@@ -777,7 +777,7 @@ ship "Neon Carrier"
 	attributes
 		"bunks" 216
 		"required crew" 108
-		"fuel capacity" 900
+		"fuel capacity" 20000
 		"energy capacity" 900
 		"fuel generation" 0.016
 		"energy generation" 0.016
@@ -857,7 +857,7 @@ ship "Neon Titan"
 	attributes
 		"bunks" 432
 		"required crew" 216
-		"fuel capacity" 1000
+		"fuel capacity" 20000
 		"energy capacity" 1000
 		"fuel generation" 0.016
 		"energy generation" 0.016
