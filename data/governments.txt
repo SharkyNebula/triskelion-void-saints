@@ -49,7 +49,7 @@ color "governments: Roughnecks" 0.165 0.173 0.459
 
 government Escort
 	color "governments: Escort"
-	swizzle 10
+	swizzle 0
 	"fine" 0
 
 government NebulaTank

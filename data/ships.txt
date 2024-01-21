@@ -1,0 +1,72 @@
+ship "Association Reaver"
+	sprite "ship/Reaver-Association"
+	thumbnail "thumbnail/Reaver-Association"
+	attributes
+		category "Carrier"
+		hyperdrive 1
+		"jump speed" .2
+		"jump fuel" 100
+		"flare sprite" "engine/Reaver-Pirate"
+	engine 0 0
+		over
+	attributes
+		"cost" 1048699
+		"shields" 14500
+		"hull" 16111
+		"threshold percentage" 0.1
+		"outfit space" 300
+		"cargo space" 300
+		"engine capacity" 20
+	gun 0 -182
+		under
+	gun -33 -144
+		over
+	gun 33 -144
+		over
+	gun 86 -86
+		over
+	gun 43 -52
+		over
+	gun 0 -20
+		over
+	gun -42 13
+		over
+	gun -84 45
+		over
+	turret 1 -119
+	turret -38 -79
+	turret 128 -90
+	turret -127 105
+	turret 52 81
+	turret 59 131
+	bay "Fighter" 150 -135
+	bay "Fighter" 150 -107
+	bay "Fighter" 150 -79
+	bay "Fighter" -150 96
+	bay "Fighter" -150 122
+	bay "Fighter" -150 150
+	bay "Fighter" 150 -135
+	bay "Fighter" 150 -107
+	bay "Fighter" 150 -79
+	bay "Gunship" -150 96
+	bay "Gunship" -150 122
+	bay "Gunship" -150 150
+	attributes
+		"bunks" 216
+		"required crew" 108
+		"fuel capacity" 2000
+		"energy capacity" 900
+		"fuel generation" 0.016
+		"energy generation" 0.016
+		"shield generation" 1.21
+		"hull repair rate" 1.21
+		"slowing protection" 16.92
+		"slowing resistance" 0.3
+		"heat dissipation" 0.55
+		"thrust" 127.03
+		"turn" 648
+		"mass" 519
+		"drag" 26.35
+	description `* Ship: Reaver`
+	outfits
+		"Lineform 3" 4

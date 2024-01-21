@@ -494,8 +494,8 @@ planet Ormond
 
 planet "Ar'Za Oryhara"
 	landscape "land/Ar'Za Oryhara"
-	description `"The warriors who were patrolling this system when Ory'hara visited it the final time say that this planet simply came into existence at around the same time as Ory'hara vanished off their sensors.
-	description `In their last official act while still nominally a government of their people, the Polaris Ruling Council named this planet Ar'Za Ory'hara as a memorial to the person who guided them toward their destiny. The Polaris and their descendants revere this one above all others, which is odd when you realize that they were the one that suggested they take the action which led to their demise as a nation."`
+	description `The warriors who were patrolling this system when Ory'hara visited it the final time say that this planet simply came into existence at around the same time as Ory'hara vanished off their sensors.`
+	description `In their last official act while still nominally a government of their people, the Polaris Ruling Council named this planet Ar'Za Ory'hara as a memorial to the person who guided them toward their destiny. The Polaris and their descendants revere this one above all others, which is odd when you realize that they were the one that suggested they take the action which led to their demise as a nation.`
 	spaceport `Welcome to the New Sydney Hotel, the best little pub in town. You walk into a happy atmosphere where everyone seems to be enjoying themselves immensely. You notice a group of six people toasting each other over a few beers (and one coke) on one of the high tables near the window. You wonder what they are celebrating.`
 
 planet Outcast

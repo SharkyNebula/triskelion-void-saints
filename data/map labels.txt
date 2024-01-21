@@ -1,0 +1,371 @@
+galaxy Guide
+	pos 0 0
+	sprite galaxy/guide
+
+galaxy "Obatta Nebula"
+	pos -436 286
+	sprite "galaxy/1 Obatta"
+
+galaxy "Holpa Nebula"
+	pos 1004 278
+	sprite "galaxy/1 Holpa"
+
+galaxy "L1551 Nebula"
+	pos -936 -822
+	sprite "galaxy/1 L1551"
+
+galaxy "Rochak Dust Field"
+	pos 580 740
+	sprite "galaxy/1 Rochak"
+
+galaxy "Over the Rainbow"
+	pos -1437 -790
+
+mission "Label Over the Rainbow"
+	landing
+	invisible
+	to offer
+		has "visited system: OG-RA"
+	on offer
+		event "Over the Rainbow label"
+		fail
+	
+event "Over the Rainbow label"
+	galaxy "Over the Rainbow"
+		sprite "galaxy/Over the Rainbow"
+	
+galaxy "Twisted Space"
+	pos -935 -789
+
+mission "Label Twisted Space"
+	landing
+	invisible
+	to offer
+		has "visited system: OG-TW"
+	on offer
+		event "Twisted Space label"
+		fail
+	
+event "Twisted Space label"
+	galaxy "Twisted Space"
+		sprite "galaxy/Twisted Space"
+
+galaxy "Cradle"
+	pos -436 -787
+
+mission "Label Cradle"
+	landing
+	invisible
+	to offer
+		has "visited system: OG-CR"
+	on offer
+		event "Cradle label"
+		fail
+	
+event "Cradle label"
+	galaxy "Cradle"
+		sprite "galaxy/Cradle"
+
+galaxy "Sheol"
+	pos 64 -789
+
+mission "Label Sheol"
+	landing
+	invisible
+	to offer
+		has "visited system: OG-SH"
+	on offer
+		event "Sheol label"
+		fail
+	
+event "Sheol label"
+	galaxy "Sheol"
+		sprite "galaxy/Sheol"
+
+galaxy "Ossuary"
+	pos 564 -791
+
+mission "Label Ossuary"
+	landing
+	invisible
+	to offer
+		has "visited system: Cros'T'Road"
+	on offer
+		event "Ossuary label"
+		fail
+	
+event "Ossuary label"
+	galaxy "Ossuary"
+		sprite "galaxy/Ossuary"
+
+galaxy "Vell-os"
+	pos -1186 -353
+
+mission "Label Vell-os"
+	landing
+	invisible
+	to offer
+		has "visited system: OG-VO"
+	on offer
+		event "Vell-os label"
+		fail
+	
+event "Vell-os label"
+	galaxy "Vell-os"
+		sprite "galaxy/Vell-os"
+
+galaxy "Sol"
+	pos -687 -352
+	
+mission "Label Sol"
+	landing
+	invisible
+	to offer
+		has "visited system: OG-SO"
+	on offer
+		event "Sol label"
+		fail
+	
+event "Sol label"
+	galaxy "Sol"
+		sprite "galaxy/Sol"
+
+galaxy "Primus"
+	pos -185 -352
+
+mission "Label Primus"
+	landing
+	invisible
+	to offer
+		has "visited system: OG-PR"
+	on offer
+		event "Primus label"
+		fail
+	
+event "Primus label"
+	galaxy "Primus"
+		sprite "galaxy/Primus"
+
+galaxy "Abaddon"
+	pos 315 -355
+
+mission "Label Abaddon"
+	landing
+	invisible
+	to offer
+		has "visited system: OG-AB"
+	on offer
+		event "Abaddon label"
+		fail
+	
+event "Abaddon label"
+	galaxy "Abaddon"
+		sprite "galaxy/Abaddon"
+
+galaxy "Dreamcatcher"
+	pos 815 -352
+
+mission "Label Dreamcatcher"
+	landing
+	invisible
+	to offer
+		has "visited system: OG-DR"
+	on offer
+		event "Dreamcatcher label"
+		fail
+	
+event "Dreamcatcher label"
+	galaxy "Dreamcatcher"
+		sprite "galaxy/Dreamcatcher"
+
+galaxy "Vella"
+	pos -938 80
+
+mission "Label Vella"
+	landing
+	invisible
+	to offer
+		has "visited system: OG-VE"
+	on offer
+		event "Vella label"
+		fail
+	
+event "Vella label"
+	galaxy "Vella"
+		sprite "galaxy/Vella"
+
+galaxy "Secundus"
+	pos -438 80
+
+mission "Label Secundus"
+	landing
+	invisible
+	to offer
+		has "visited system: OG-SE"
+	on offer
+		event "Secundus label"
+		fail
+	
+event "Secundus label"
+	galaxy "Secundus"
+		sprite "galaxy/Secundus"
+
+galaxy "Kane"
+	pos 64 82
+
+mission "Label Kane"
+	landing
+	invisible
+	to offer
+		has "visited system: OG-KA"
+	on offer
+		event "Kane label"
+		fail
+	
+event "Kane label"
+	galaxy "Kane"
+		sprite "galaxy/Kane"
+
+galaxy "Polaris"
+	pos 563 81
+
+mission "Label Polaris"
+	landing
+	invisible
+	to offer
+		has "visited system: OG-PO"
+	on offer
+		event "Polaris label"
+		fail
+	
+event "Polaris label"
+	galaxy "Polaris"
+		sprite "galaxy/Polaris"
+
+galaxy "Holpa"
+	pos 1064 82
+
+mission "Label Holpa"
+	landing
+	invisible
+	to offer
+		has "visited system: OG-HO"
+	on offer
+		event "Holpa label"
+		fail
+	
+event "Holpa label"
+	galaxy "Holpa"
+		sprite "galaxy/Holpa"
+
+galaxy "Moash"
+	pos -685 514
+
+mission "Label Moash"
+	landing
+	invisible
+	to offer
+		has "visited system: OG-MO"
+	on offer
+		event "Moash label"
+		fail
+	
+event "Moash label"
+	galaxy "Moash"
+		sprite "galaxy/Moash"
+
+galaxy "Heraan"
+	pos -188 517
+
+mission "Label Heraan"
+	landing
+	invisible
+	to offer
+		has "visited system: OG-HE"
+	on offer
+		event "Heraan label"
+		fail
+	
+event "Heraan label"
+	galaxy "Heraan"
+		sprite "galaxy/Heraan"
+
+galaxy "Dani"
+	pos 313 515
+
+mission "Label Dani"
+	landing
+	invisible
+	to offer
+		has "visited system: OG-DA"
+	on offer
+		event "Dani label"
+		fail
+	
+event "Dani label"
+	galaxy "Dani"
+		sprite "galaxy/Dani"
+
+galaxy "Tekel"
+	pos 814 518
+
+mission "Label Tekel"
+	landing
+	invisible
+	to offer
+		has "visited system: OG-TE"
+	on offer
+		event "Tekel label"
+		fail
+	
+event "Tekel label"
+	galaxy "Tekel"
+		sprite "galaxy/Tekel"
+
+galaxy "End"
+	pos -437 951
+
+mission "Label End"
+	landing
+	invisible
+	to offer
+		has "visited system: OG-EN"
+	on offer
+		event "End label"
+		fail
+	
+event "End label"
+	galaxy "End"
+		sprite "galaxy/End"
+
+galaxy "Aurora"
+	pos 63 808
+
+mission "Label Aurora"
+	landing
+	invisible
+	to offer
+		has "visited system: OG-AU"
+	on offer
+		event "Aurora label"
+		fail
+	
+event "Aurora label"
+	galaxy "Aurora"
+		sprite "galaxy/Aurora"
+
+galaxy "Rochak"
+	pos 565 806
+
+mission "Label Rochak"
+	landing
+	invisible
+	to offer
+		has "visited system: OG-RO"
+	on offer
+		event "Rochak label"
+		fail
+	
+event "Rochak label"
+	galaxy "Rochak"
+		sprite "galaxy/Rochak"

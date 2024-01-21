@@ -1,24 +1,4 @@
 
-galaxy Guide
-	pos 0 0
-	sprite galaxy/guide
-
-galaxy "Obatta Nebula"
-	pos -436 286
-	sprite galaxy/Obatta
-
-galaxy "Holpa Nebula"
-	pos 1004 278
-	sprite galaxy/Holpa
-
-galaxy "L1551 Nebula"
-	pos -936 -822
-	sprite galaxy/L1551
-
-galaxy "Rochak Dust Field"
-	pos 580 740
-	sprite galaxy/Rochak
-
 system Aalolph
 	pos -327.173 754.94
 	government Heraan
@@ -172,12 +152,10 @@ system Alphara
 	object
 		sprite star/k5
 		period 10
-		"jump range" 40
 	object "Spacedock III"
 		sprite "planet/Federation Battle Station"
 		distance 500
 		period 500
-		"jump range" 40
 
 system Altair
 	pos -303 -286
@@ -190,17 +168,14 @@ system Altair
 	object
 		sprite star/k5
 		period 10
-		"jump range" 40
 	object Alt
 		sprite "planet/Helium Xenon"
 		distance 1000
 		period 500
-		"jump range" 40
 		object Altia
 			sprite "planet/Moon Rocky cities"
 			distance 600
 			period 500
-			"jump range" 40
 
 system Aludra
 	pos 520 -510
@@ -318,7 +293,6 @@ system Arcturus
 	object
 		sprite star/k5
 		period 10
-		"jump range" 40
 	object Fermia
 		sprite "planet/Argon Atmosphere"
 		distance 1000
@@ -500,7 +474,6 @@ system Bis'routak
 	object
 		sprite star/k5
 		period 10
-		"jump range" 40
 	object "Ar'Bis Routak"
 		sprite "planet/Moon Rocky"
 		distance 500
@@ -884,10 +857,6 @@ system Cros'T'Road
 	object
 		sprite star/k5
 		period 10
-	object
-		sprite "planet/Hypergate Deactivated side"
-		distance 600
-		offset 210
 	object
 		sprite "planet/Hypergate side"
 		distance 600
@@ -3799,6 +3768,21 @@ system OG-AB
 	link Tri'lipra
 	link Tri'niphu
 	"jump range" 40
+	object
+		sprite star/nova
+		period 10
+	object
+		sprite "planet/Hypergate Deactivated side"
+		distance 600
+		offset 90
+	object
+		sprite "planet/Hypergate Deactivated side"
+		distance 600
+		offset 150
+	object
+		sprite "planet/Hypergate Deactivated"
+		distance 1200
+		offset 300
 
 system OG-AU
 	pos 63 808
@@ -3809,6 +3793,33 @@ system OG-AU
 	link Olein
 	link Pimen
 	"jump range" 40
+	object
+		sprite star/nova
+		period 10
+	object
+		sprite "planet/Hypergate Deactivated side"
+		distance 600
+		offset 30
+	object
+		sprite "planet/Hypergate Deactivated side"
+		distance 600
+		offset 90
+	object
+		sprite "planet/Hypergate Deactivated side"
+		distance 600
+		offset 240
+	object
+		sprite "planet/Hypergate Deactivated side"
+		distance 600
+		offset 330
+	object
+		sprite "planet/Hypergate Deactivated"
+		distance 1200
+		offset 0
+	object
+		sprite "planet/Hypergate Deactivated"
+		distance 1200
+		offset 180
 
 system OG-CR
 	pos -436 -787
@@ -3845,6 +3856,49 @@ system OG-DA
 	link Himear
 	link Kilik
 	"jump range" 40
+	object
+		sprite star/nova
+		period 10
+	object
+		sprite "planet/Hypergate Deactivated side"
+		distance 600
+		offset 30
+	object
+		sprite "planet/Hypergate Deactivated side"
+		distance 600
+		offset 90
+	object
+		sprite "planet/Hypergate Deactivated side"
+		distance 600
+		offset 150
+	object
+		sprite "planet/Hypergate Deactivated side"
+		distance 600
+		offset 210
+	object
+		sprite "planet/Hypergate Deactivated side"
+		distance 600
+		offset 270
+	object
+		sprite "planet/Hypergate Deactivated side"
+		distance 600
+		offset 330
+	object
+		sprite "planet/Hypergate Deactivated"
+		distance 1200
+		offset 60
+	object
+		sprite "planet/Hypergate Deactivated"
+		distance 1200
+		offset 120
+	object
+		sprite "planet/Hypergate Deactivated"
+		distance 1200
+		offset 300
+	object
+		sprite "planet/Hypergate Deactivated"
+		distance 1200
+		offset 240
 
 system OG-DR
 	pos 815 -352
@@ -3854,6 +3908,29 @@ system OG-DR
 	link Tre'helov
 	link Za'iuso
 	"jump range" 40
+	object
+		sprite star/nova
+		period 10
+	object
+		sprite "planet/Hypergate Deactivated side"
+		distance 600
+		offset 150
+	object
+		sprite "planet/Hypergate Deactivated side"
+		distance 600
+		offset 210
+	object
+		sprite "planet/Hypergate Deactivated side"
+		distance 600
+		offset 270
+	object
+		sprite "planet/Hypergate Deactivated"
+		distance 1200
+		offset 300
+	object
+		sprite "planet/Hypergate Deactivated"
+		distance 1200
+		offset 240
 
 system OG-EN
 	pos -437 951
@@ -3862,6 +3939,25 @@ system OG-EN
 	link Odnan
 	link Schev
 	"jump range" 40
+	object
+		sprite star/nova
+		period 10
+	object
+		sprite "planet/Hypergate Deactivated side"
+		distance 600
+		offset 30
+	object
+		sprite "planet/Hypergate Deactivated side"
+		distance 600
+		offset 75
+	object
+		sprite "planet/Hypergate Deactivated side"
+		distance 600
+		offset 345
+	object
+		sprite "planet/Hypergate Deactivated"
+		distance 1200
+		offset 180
 
 system OG-HE
 	pos -188 517
@@ -3870,6 +3966,41 @@ system OG-HE
 	link Lacora
 	link Saal
 	"jump range" 40
+	object
+		sprite star/nova
+		period 10
+	object
+		sprite "planet/Hypergate Deactivated side"
+		distance 600
+		offset 30
+	object
+		sprite "planet/Hypergate Deactivated side"
+		distance 600
+		offset 90
+	object
+		sprite "planet/Hypergate Deactivated side"
+		distance 600
+		offset 150
+	object
+		sprite "planet/Hypergate Deactivated side"
+		distance 600
+		offset 210
+	object
+		sprite "planet/Hypergate Deactivated side"
+		distance 600
+		offset 270
+	object
+		sprite "planet/Hypergate Deactivated side"
+		distance 600
+		offset 330
+	object
+		sprite "planet/Hypergate Deactivated"
+		distance 1200
+		offset 60
+	object
+		sprite "planet/Hypergate Deactivated"
+		distance 1200
+		offset 300
 
 system OG-HO
 	pos 1064 82
@@ -3879,6 +4010,21 @@ system OG-HO
 	link Tre'petaka
 	link Tre'pirana
 	"jump range" 40
+	object
+		sprite star/nova
+		period 10
+	object
+		sprite "planet/Hypergate Deactivated side"
+		distance 600
+		offset 270
+	object
+		sprite "planet/Hypergate Deactivated side"
+		distance 600
+		offset 330
+	object
+		sprite "planet/Hypergate Deactivated"
+		distance 1200
+		offset 0
 
 system OG-KA
 	pos 64 82
@@ -3888,6 +4034,49 @@ system OG-KA
 	link NGC-1170
 	link SPC-1927
 	"jump range" 40
+	object
+		sprite star/nova
+		period 10
+	object
+		sprite "planet/Hypergate Deactivated side"
+		distance 600
+		offset 30
+	object
+		sprite "planet/Hypergate Deactivated side"
+		distance 600
+		offset 90
+	object
+		sprite "planet/Hypergate Deactivated side"
+		distance 600
+		offset 150
+	object
+		sprite "planet/Hypergate Deactivated side"
+		distance 600
+		offset 210
+	object
+		sprite "planet/Hypergate Deactivated side"
+		distance 600
+		offset 270
+	object
+		sprite "planet/Hypergate Deactivated side"
+		distance 600
+		offset 330
+	object
+		sprite "planet/Hypergate Deactivated"
+		distance 1200
+		offset 60
+	object
+		sprite "planet/Hypergate Deactivated"
+		distance 1200
+		offset 120
+	object
+		sprite "planet/Hypergate Deactivated"
+		distance 1200
+		offset 300
+	object
+		sprite "planet/Hypergate Deactivated"
+		distance 1200
+		offset 240
 
 system OG-MO
 	pos -685 514
@@ -3896,12 +4085,62 @@ system OG-MO
 	link Jerlyl
 	link Moash
 	"jump range" 40
+	object
+		sprite star/nova
+		period 10
+	object
+		sprite "planet/Hypergate Deactivated side"
+		distance 600
+		offset 30
+	object
+		sprite "planet/Hypergate Deactivated side"
+		distance 600
+		offset 90
+	object
+		sprite "planet/Hypergate Deactivated side"
+		distance 600
+		offset 150
+	object
+		sprite "planet/Hypergate Deactivated side"
+		distance 600
+		offset 330
+	object
+		sprite "planet/Hypergate Deactivated"
+		distance 1200
+		offset 90
+	object
+		sprite "planet/Hypergate Deactivated"
+		distance 1200
+		offset 270
 
 system OG-PO
 	pos 563 81
 	government Uninhabited
 	link K'marak
 	"jump range" 40
+	object
+		sprite star/nova
+		period 10
+	object
+		sprite "planet/Hypergate Deactivated side"
+		distance 600
+		offset 30
+	object
+		sprite "planet/Hypergate Deactivated side"
+		distance 600
+		offset 90
+	object
+		sprite "planet/Hypergate Deactivated side"
+		distance 600
+		offset 270
+	object
+		sprite "planet/Hypergate Deactivated side"
+		distance 600
+		offset 330
+	object
+		sprite "planet/Hypergate Deactivated"
+		distance 1200
+		offset 180
 
 system OG-PR
 	pos -185 -352
@@ -3959,6 +4198,49 @@ system OG-RA
 	pos -1437 -790
 	government Uninhabited
 	"jump range" 40
+	object
+		sprite star/nova
+		period 10
+	object
+		sprite "planet/Hypergate Deactivated side"
+		distance 600
+		offset 30
+	object
+		sprite "planet/Hypergate Deactivated side"
+		distance 600
+		offset 90
+	object
+		sprite "planet/Hypergate Deactivated side"
+		distance 600
+		offset 150
+	object
+		sprite "planet/Hypergate Deactivated side"
+		distance 600
+		offset 210
+	object
+		sprite "planet/Hypergate Deactivated side"
+		distance 600
+		offset 270
+	object
+		sprite "planet/Hypergate Deactivated side"
+		distance 600
+		offset 330
+	object
+		sprite "planet/Hypergate Deactivated"
+		distance 1200
+		offset 60
+	object
+		sprite "planet/Hypergate Deactivated"
+		distance 1200
+		offset 120
+	object
+		sprite "planet/Hypergate Deactivated"
+		distance 1200
+		offset 300
+	object
+		sprite "planet/Hypergate Deactivated"
+		distance 1200
+		offset 240
 
 system OG-RO
 	pos 565 806
@@ -3966,6 +4248,25 @@ system OG-RO
 	link Kipa
 	link Neilha
 	"jump range" 40
+	object
+		sprite star/nova
+		period 10
+	object
+		sprite "planet/Hypergate Deactivated side"
+		distance 600
+		offset 30
+	object
+		sprite "planet/Hypergate Deactivated side"
+		distance 600
+		offset 270
+	object
+		sprite "planet/Hypergate Deactivated side"
+		distance 600
+		offset 330
+	object
+		sprite "planet/Hypergate Deactivated"
+		distance 1200
+		offset 120
 
 system OG-SE
 	pos -438 80
@@ -3973,6 +4274,49 @@ system OG-SE
 	link Hannaford
 	link Spica
 	"jump range" 40
+	object
+		sprite star/nova
+		period 10
+	object
+		sprite "planet/Hypergate Deactivated side"
+		distance 600
+		offset 30
+	object
+		sprite "planet/Hypergate Deactivated side"
+		distance 600
+		offset 90
+	object
+		sprite "planet/Hypergate Deactivated side"
+		distance 600
+		offset 150
+	object
+		sprite "planet/Hypergate Deactivated side"
+		distance 600
+		offset 210
+	object
+		sprite "planet/Hypergate Deactivated side"
+		distance 600
+		offset 270
+	object
+		sprite "planet/Hypergate Deactivated side"
+		distance 600
+		offset 330
+	object
+		sprite "planet/Hypergate Deactivated"
+		distance 1200
+		offset 60
+	object
+		sprite "planet/Hypergate Deactivated"
+		distance 1200
+		offset 120
+	object
+		sprite "planet/Hypergate Deactivated"
+		distance 1200
+		offset 300
+	object
+		sprite "planet/Hypergate Deactivated"
+		distance 1200
+		offset 240
 
 system OG-SH
 	pos 64 -789
@@ -4051,6 +4395,25 @@ system OG-TE
 	link Rome
 	link Tekel
 	"jump range" 40
+	object
+		sprite star/nova
+		period 10
+	object
+		sprite "planet/Hypergate Deactivated side"
+		distance 600
+		offset 210
+	object
+		sprite "planet/Hypergate Deactivated side"
+		distance 600
+		offset 270
+	object
+		sprite "planet/Hypergate Deactivated"
+		distance 1200
+		offset 60
+	object
+		sprite "planet/Hypergate Deactivated"
+		distance 1200
+		offset 240
 
 system OG-TW
 	pos -935 -789
@@ -4058,6 +4421,21 @@ system OG-TW
 	link K20
 	link K48
 	"jump range" 40
+	object
+		sprite star/nova
+		period 10
+	object
+		sprite "planet/Hypergate Deactivated side"
+		distance 600
+		offset 90
+	object
+		sprite "planet/Hypergate Deactivated side"
+		distance 600
+		offset 270
+	object
+		sprite "planet/Hypergate Deactivated"
+		distance 1200
+		offset 0
 
 system OG-VE
 	pos -938 80
@@ -4095,6 +4473,13 @@ system OG-VO
 	government Uninhabited
 	link Dellor
 	"jump range" 40
+	object
+		sprite star/nova
+		period 10
+	object
+		sprite "planet/Hypergate Deactivated side"
+		distance 600
+		offset 120
 
 system Oban
 	pos -807 -78
@@ -5992,65 +6377,6 @@ system Umbira
 	link Alcor
 	link Higiron
 	"jump range" 40
-	asteroids "small rock" 18 6.9552
-	asteroids "medium rock" 56 6.6528
-	asteroids "large rock" 4 7.56
-	asteroids "small metal" 3 5.7456
-	asteroids "medium metal" 7 3.5784
-	asteroids "large metal" 3 7.4088
-	minables iron 13 8.5099
-	minables lead 14 12.5663
-	trade "Data Crystals" 0
-	trade Equipment 0
-	trade Food 0
-	trade Industrial 0
-	trade "Local Alcohols" 0
-	trade "Luxury Goods" 0
-	trade Medical 0
-	trade Metal 0
-	object
-		sprite star/k0
-		period 10
-	object
-		sprite planet/lava1
-		distance 129.24
-		period 26.64
-	object
-		sprite planet/lava7
-		distance 359.48
-		period 123.581
-	object
-		sprite planet/gas7
-		distance 1373.48
-		period 922.936
-		object
-			sprite planet/dust0
-			distance 234
-			period 12.7337
-		object
-			sprite planet/miranda
-			distance 330
-			period 21.3256
-		object
-			sprite planet/rhea
-			distance 500
-			period 39.7727
-	object
-		sprite planet/gas3
-		distance 2610.32
-		period 2418.13
-		object
-			sprite planet/rock14
-			distance 317
-			period 14.4163
-		object
-			sprite planet/dust3
-			distance 431
-			period 22.855
-		object
-			sprite planet/luna
-			distance 598
-			period 37.3522
 
 system Unin
 	pos 214.112 296.702
