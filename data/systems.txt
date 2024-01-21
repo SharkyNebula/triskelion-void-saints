@@ -4,29 +4,30 @@ galaxy Guide
 	sprite galaxy/guide
 
 galaxy "Obatta Nebula"
-	pos -218 143
+	pos -436 286
 	sprite galaxy/Obatta
 
 galaxy "Holpa Nebula"
-	pos 502 139
+	pos 1004 278
 	sprite galaxy/Holpa
 
 galaxy "L1551 Nebula"
-	pos -468 -411
+	pos -936 -822
 	sprite galaxy/L1551
 
 galaxy "Rochak Dust Field"
-	pos 290 370
+	pos 580 740
 	sprite galaxy/Rochak
 
 system Aalolph
-	pos -161 378
+	pos -327.173 754.94
 	government Heraan
 	link Bluyo
 	link Hiferryl
 	link Issar
 	link Kaow
 	link Okiia
+	"jump range" 40
 	object
 		sprite star/k5
 		period 10
@@ -36,13 +37,14 @@ system Aalolph
 		period 500
 
 system Agate
-	pos -346 -284
+	pos -692 -568
 	government Uninhabited
 	link Claimer
 	link Enlightenment
 	link Locuritas
 	link Moonrise
 	link Pontoll
+	"jump range" 40
 	object
 		sprite star/k5
 		period 10
@@ -52,15 +54,17 @@ system Agate
 		period 500
 
 system Akasha
-	pos 126 75
+	pos 250 152
 	government Uninhabited
 	link Marion
+	"jump range" 40
 
 system Alala
-	pos -242 259
+	pos -484 518
 	government Moash
 	link Neirt
 	link Vestin
+	"jump range" 40
 	trade Industrial 300
 	trade "Luxury Goods" 2000
 	trade Metal 600
@@ -73,69 +77,22 @@ system Alala
 		period 500
 
 system Alcor
-	pos -560.512 -562.097
+	pos -1120 -1124
 	government Uninhabited
-	habitable 1050.92
-	belt 1148
 	link Higiron
 	link Hogun
 	link Mizar
 	link Umbira
-	asteroids "medium rock" 11 7.935
-	asteroids "large rock" 1 8.073
-	asteroids "small metal" 61 5.244
-	asteroids "medium metal" 125 4.485
-	asteroids "large metal" 50 8.832
-	minables gold 11 8.17901
-	trade "Data Crystals" 0
-	trade Equipment 0
-	trade Food 0
-	trade Industrial 0
-	trade "Local Alcohols" 0
-	trade "Luxury Goods" 0
-	trade Medical 0
-	trade Metal 600
-	object
-		sprite star/g5
-		distance 45.797
-		period 14.8215
-		offset 180
-	object
-		sprite star/k5
-		distance 67.203
-		period 14.8215
-	object
-		sprite planet/cloud8
-		distance 252.203
-		period 49.4198
-	object
-		sprite planet/gas0
-		distance 675.493
-		period 216.624
-		object
-			sprite planet/europa
-			distance 258
-			period 12.1447
-	object
-		sprite planet/water0
-		distance 1292.5
-		period 573.354
-	object
-		sprite planet/gas11
-		distance 2388.5
-		period 1440.34
-		object
-			sprite planet/desert4
-			distance 228
-			period 11.3548
+	"jump range" 40
 
 system Aldebaran
-	pos -59 -382
+	pos -120.995 -762.872
 	government Federation
 	link Corvus
 	link Mallereth
 	link Petra
 	link Tidbinbilla
+	"jump range" 40
 	trade "Luxury Goods" 2000
 	trade Medical 750
 	object
@@ -155,10 +112,11 @@ system Aldebaran
 				period 100
 
 system Alesia
-	pos -218 -327
+	pos -436 -654
 	government Rebellion
 	link Capella
 	link Reticent
+	"jump range" 40
 	trade Equipment 1250
 	trade Food 450
 	trade Industrial 300
@@ -175,77 +133,89 @@ system Alesia
 			period 100
 
 system Algol
-	pos 111 -168
+	pos 223 -338
 	government Uninhabited
 	link Antares
 	link Nil'kol
 	link Outbound
 	link Threshold
 	link Tichel
+	"jump range" 40
 
 system Allarei
-	pos -647 -103
+	pos -1294 -206
 	government Uninhabited
 	link Dellor
 	link Kanto
 	link Llysla
 	link Qellan
 	link Tonallo
+	"jump range" 40
 
 system Allia
-	pos -434 -190
+	pos -868 -380
 	government Uninhabited
 	link Avalon
 	link Blleia
+	"jump range" 40
 
 system Alphara
-	pos -299 86
+	pos -598 172
 	government Federation
 	link "Journey's End"
 	link Spica
 	link Xante
 	link Yria
+	"jump range" 40
 	trade Food 450
 	trade Medical 750
 	object
 		sprite star/k5
 		period 10
+		"jump range" 40
 	object "Spacedock III"
 		sprite "planet/Federation Battle Station"
 		distance 500
 		period 500
+		"jump range" 40
 
 system Altair
-	pos -152 -144
+	pos -303 -286
 	government Pirate
 	link OG-PR
 	link Tenetria
 	trade Industrial 900
 	trade Medical 750
+	"jump range" 40
 	object
 		sprite star/k5
 		period 10
+		"jump range" 40
 	object Alt
 		sprite "planet/Helium Xenon"
 		distance 1000
 		period 500
+		"jump range" 40
 		object Altia
 			sprite "planet/Moon Rocky cities"
 			distance 600
 			period 500
+			"jump range" 40
 
 system Aludra
-	pos 261 -256
+	pos 520 -510
 	government Uninhabited
 	link J'fhor
 	link Mintaka
+	"jump range" 40
 
 system Amnaho
-	pos 63 428
+	pos 126 856
 	government Empire
 	link Hanova
 	link OG-AU
 	link Ofine
+	"jump range" 40
 	trade "Data Crystals" 900
 	trade Equipment 1250
 	trade Medical 750
@@ -258,7 +228,7 @@ system Amnaho
 		period 500
 
 system Antares
-	pos 107 -89
+	pos 212 -177
 	government Uninhabited
 	link Algol
 	link Kanius
@@ -266,15 +236,17 @@ system Antares
 	link Sirius
 	link Tichel
 	link Widow
+	"jump range" 40
 
 system Aplix
-	pos 140 379
+	pos 284 760
 	government Empire
 	link Ofine
 	link Renan
 	link Zipa
 	trade Equipment 1250
 	trade Metal 200
+	"jump range" 40
 	object
 		sprite star/k5
 		period 10
@@ -284,16 +256,17 @@ system Aplix
 		period 500
 
 system Aradne
-	pos 264 281
+	pos 528 562
 	government Uninhabited
 	link Cipa
 	link Kymon
 	link Reer
 	link Reeva
 	link Tural
+	"jump range" 40
 
 system Aral
-	pos -138 -256
+	pos -276 -512
 	government Federation
 	link Lesten
 	link Pollux
@@ -301,6 +274,7 @@ system Aral
 	link Venture
 	trade Food 450
 	trade Metal 200
+	"jump range" 40
 	object
 		sprite star/k5
 		period 10
@@ -310,10 +284,11 @@ system Aral
 		period 500
 
 system Archenar
-	pos -31 -68
+	pos -74 -131
 	government Independent
 	link Conden
 	link Mark
+	"jump range" 40
 	trade Equipment 500
 	trade Food 450
 	object
@@ -333,15 +308,17 @@ system Archenar
 			period 100
 
 system Arcturus
-	pos -93 -202
+	pos -189 -405
 	government Independent
 	link OG-PR
 	link Pollux
+	"jump range" 40
 	trade Industrial 300
 	trade Medical 1688
 	object
 		sprite star/k5
 		period 10
+		"jump range" 40
 	object Fermia
 		sprite "planet/Argon Atmosphere"
 		distance 1000
@@ -352,10 +329,11 @@ system Arcturus
 			offset 300
 
 system Aria
-	pos 176 136
+	pos 350 269
 	government Empire
 	link Iplik
 	link Unin
+	"jump range" 40
 	trade Food 150
 	trade Metal 600
 	object
@@ -367,11 +345,12 @@ system Aria
 		period 500
 
 system Astra
-	pos -172 212
+	pos -348 422
 	government Heraan
 	link Inci
 	link Tuente
 	link Vantra
+	"jump range" 40
 	trade Medical 1688
 	trade Metal 200
 	object
@@ -383,11 +362,12 @@ system Astra
 		period 500
 
 system Aurora
-	pos 70 378
+	pos 140 756
 	government Empire
 	link Ivoh
 	link OG-AU
 	link Ofine
+	"jump range" 40
 	trade Equipment 500
 	trade Food 450
 	trade "Luxury Goods" 2000
@@ -413,12 +393,13 @@ system Aurora
 		offset 150
 
 system Avalon
-	pos -402 -211
+	pos -804 -422
 	government Federation
 	link Allia
 	link Lotus
 	link Pontoll
 	link Procyon
+	"jump range" 40
 	trade Industrial 900
 	trade Metal 200
 	object
@@ -430,11 +411,12 @@ system Avalon
 		period 500
 
 system Baltar
-	pos -159 -360
+	pos -318 -720
 	government Federation
 	link Reticent
 	link Teleeli
 	link Tidbinbilla
+	"jump range" 40
 	trade Food 450
 	trade "Luxury Goods" 1000
 	object
@@ -450,33 +432,37 @@ system Baltar
 			period 100
 
 system "Barnard's Star"
-	pos -276 -412
+	pos -552 -824
 	government Uninhabited
 	link Denier
 	link Foroth
 	link Ganorran
 	link PsiD-3
 	link Teleeli
+	"jump range" 40
 
 system Bellatrix
-	pos 221 -248
+	pos 442 -496
 	government Uninhabited
 	link Mintaka
 	link Peacock
+	"jump range" 40
 
 system Bellerophon
-	pos -279 -526
+	pos -558 -1052
 	government Uninhabited
 	link Evlei
 	link Ganorran
 	link Nestin
+	"jump range" 40
 
 system Belt
-	pos -446 108
+	pos -892 216
 	government Vella
 	link Manit
 	link Ovia
 	link Warana
+	"jump range" 40
 	trade Equipment 500
 	trade Medical 1688
 	trade Metal 600
@@ -489,11 +475,12 @@ system Belt
 		period 500
 
 system Biri
-	pos -398 138
+	pos -796 272
 	government Moash
 	link Reacher
 	link Reap
 	link Warana
+	"jump range" 40
 	object
 		sprite star/k5
 		period 10
@@ -503,26 +490,29 @@ system Biri
 		period 500
 
 system Bis'routak
-	pos 407 -69
+	pos 816 -138
 	government Uninhabited
 	link Bis'valalo
 	link Kel'ariy
 	link Tri'cikilla
 	link Ver'ikar
+	"jump range" 40
 	object
 		sprite star/k5
 		period 10
+		"jump range" 40
 	object "Ar'Bis Routak"
 		sprite "planet/Moon Rocky"
 		distance 500
 		period 500
 
 system Bis'usoca
-	pos 498 50
+	pos 996 100
 	government Polaris
 	link Kel'hepera
 	link Ne'helipar
 	link OG-HO
+	"jump range" 40
 	trade Equipment 500
 	trade Industrial 900
 	object
@@ -538,11 +528,12 @@ system Bis'usoca
 			period 500
 
 system Bis'valalo
-	pos 358 -80
+	pos 716 -160
 	government Uninhabited
 	link Bis'routak
 	link Til'kolecto
 	link Ver'avo
+	"jump range" 40
 	object
 		sprite star/k5
 		period 10
@@ -552,20 +543,22 @@ system Bis'valalo
 		period 500
 
 system Blleia
-	pos -458 -168
+	pos -919 -338
 	government Uninhabited
 	link Allia
 	link Estearll
 	link Lalande
 	link Llearn
+	"jump range" 40
 
 system Bloodstone
-	pos -157 -407
+	pos -314.85 -812.899
 	government Federation
 	link Denier
 	link Mallereth
 	link OG-CR
 	link Tidbinbilla
+	"jump range" 40
 	trade "Data Crystals" 525
 	trade Equipment 875
 	trade Food 300
@@ -587,14 +580,15 @@ system Bloodstone
 			period 100
 
 system Bluyo
-	pos -185 418
+	pos -372 833
 	government Uninhabited
 	link Aalolph
 	link Rend
 	link Terval
+	"jump range" 40
 
 system Boro
-	pos 247 151
+	pos 493 303
 	government Dani
 	link Fallen
 	link Ferris
@@ -602,6 +596,7 @@ system Boro
 	link Ivar
 	link Pilot
 	link Sender
+	"jump range" 40
 	object
 		sprite star/k5
 		period 10
@@ -611,51 +606,57 @@ system Boro
 		period 500
 
 system Boundary
-	pos -36 -256
+	pos -73 -513
 	government Uninhabited
-	link "Fomalhaut b"
+	link Fomalhaut
 	link Horizon
 	link "Nesre Primus"
 	link Quandary
 	link Scheros
 	link Venture
+	"jump range" 40
 
 system Bur'I'Loc
-	pos 111 -312
+	pos 223 -625
 	government Uninhabited
 	link Deb'I'Vad
 	link Fer'L'Jus
 	link Het'A'Tallius
 	link NGC-1317
+	"jump range" 40
 
 system CHALLENGE
-	pos -34 -435
+	pos -70.0799 -866.831
 	government Replicant
 	link GATE
 	link TERMINUS
+	"jump range" 40
 
 system CHIMAERA
-	pos 49 -497
+	pos 97.4824 -994.226
 	government Replicant
 	link REUNION
+	"jump range" 40
 
 system CLASH
-	pos 148 -459
+	pos 293.447 -917.891
 	government Replicant
 	link DESTRUCTION
 	link FATE
 	link REUNION
+	"jump range" 40
 
 system Caldos
-	pos 511 242
+	pos 1021 485
 	government Uninhabited
 	link Holpa
 	link Nibos
 	link Nicka
 	link Rome
+	"jump range" 40
 
 system Canopus
-	pos -149 -64
+	pos -298 -127
 	government Uninhabited
 	link Fyre
 	link Mark
@@ -664,14 +665,16 @@ system Canopus
 	link Sanddown
 	link "Sol b"
 	link Tenetria
+	"jump range" 40
 
 system Capella
-	pos -277 -320
+	pos -554 -640
 	government Uninhabited
 	link Alesia
 	link Homeland
 	link Locuritas
 	link Space
+	"jump range" 40
 	object
 		sprite star/k5
 		period 10
@@ -681,12 +684,13 @@ system Capella
 		period 500
 
 system Caryo
-	pos 382 160
+	pos 760 322
 	government Empire
 	link Fallen
 	link J'llon
 	link Pilot
 	link Tiria
+	"jump range" 40
 	trade Equipment 1250
 	trade Food 450
 	trade Metal 200
@@ -703,11 +707,12 @@ system Caryo
 			period 500
 
 system Centauri
-	pos -287 -144
+	pos -565 -272
 	government Federation
 	link Metter
 	link Naka
 	link OG-SO
+	"jump range" 40
 	trade Food 150
 	trade Medical 1688
 	object
@@ -723,10 +728,11 @@ system Centauri
 			period 100
 
 system Chayos
-	pos -26 273
+	pos -53 549
 	government Heraan
 	link Heraan
 	link Hiro
+	"jump range" 40
 	object
 		sprite star/k5
 		period 10
@@ -736,10 +742,11 @@ system Chayos
 		period 500
 
 system Chicea
-	pos 662 -381
+	pos 1324 -764
 	government Independent
 	link Ravelin
 	link S7evyn
+	"jump range" 40
 	trade Industrial 980
 	trade Medical 792
 	object
@@ -751,11 +758,12 @@ system Chicea
 		period 500
 
 system Chirt
-	pos -325 230
+	pos -655 458
 	government Moash
 	link Felos
 	link Neirt
 	link OG-MO
+	"jump range" 40
 	trade Medical 1688
 	trade Metal 200
 	object
@@ -767,29 +775,32 @@ system Chirt
 		period 500
 
 system Cipa
-	pos 283 336
+	pos 565 674
 	government Uninhabited
 	link Aradne
 	link Kipa
 	link Kymon
 	link Zipa
+	"jump range" 40
 
 system Claimer
-	pos -269 -244
+	pos -543 -485
 	government Uninhabited
 	link Agate
 	link Maker
 	link Moonrise
 	link Space
 	link Trishka
+	"jump range" 40
 
 system Codehaven
-	pos 41 -231
+	pos 81 -463
 	government Federation
 	link Eeniar
 	link NGC-1317
 	link Scheros
 	link Tichel
+	"jump range" 40
 	trade "Luxury Goods" 2000
 	trade Medical 750
 	object
@@ -805,35 +816,39 @@ system Codehaven
 			offset 65
 
 system Conden
-	pos -10 -39
+	pos -18 -78
 	government Uninhabited
 	link Archenar
 	link Jenner
 	link Mark
 	link Sirius
+	"jump range" 40
 
 system Confluence
-	pos 140 107
+	pos 278 218
 	government Uninhabited
 	link Sender
 	link Unin
 	link Uroa
+	"jump range" 40
 
 system Corvus
-	pos -26 -391
+	pos -54 -784
 	government Uninhabited
 	link Aldebaran
 	link MAW
 	link OG-SH
 	link Petra
+	"jump range" 40
 
 system Cove
-	pos -92 165
+	pos -187 330
 	government Heraan
 	link Ivia
 	link Peflek
 	link Vemap
 	link Xell
+	"jump range" 40
 	trade Equipment 500
 	trade "Luxury Goods" 2000
 	trade Metal 600
@@ -846,10 +861,11 @@ system Cove
 		period 500
 
 system Creyt
-	pos -246 179
+	pos -499 344
 	government Moash
 	link Eplic
 	link Iris
+	"jump range" 40
 	object
 		sprite star/k5
 		period 10
@@ -859,11 +875,12 @@ system Creyt
 		period 500
 
 system Cros'T'Road
-	pos 282 -394
+	pos 564 -791
 	government Uninhabited
 	link Sur'E'Qoru
 	link Tin'E'Tivel
 	link Xym'E'Caros
+	"jump range" 40
 	object
 		sprite star/k5
 		period 10
@@ -880,12 +897,13 @@ system Cros'T'Road
 		distance 1200
 
 system Cworn
-	pos -127 497
+	pos -255 994
 	government Empire
 	link Firmantar
 	link Hanova
 	link Hepen
 	link Terval
+	"jump range" 40
 	trade Food 150
 	trade Industrial 900
 	object
@@ -897,33 +915,37 @@ system Cworn
 		period 500
 
 system DESTINY
-	pos 34 -603
+	pos 66.6974 -1206.21
 	government Replicant
 	link FATE
 	link GATE
 	link POTENTIAL
+	"jump range" 40
 
 system DESTRUCTION
-	pos 80 -579
+	pos 160.052 -1156.28
 	government Replicant
 	link CLASH
 	link REUNION
+	"jump range" 40
 
 system Dal'U'Sinto
-	pos 210 -439
+	pos 419 -879
 	government Uninhabited
 	link Hot'A'Tanius
 	link Sel'I'Gal
 	link Tin'E'Tivel
 	link Vyl'E'Tinti
 	link Xym'E'Caros
+	"jump range" 40
 
 system Dani
-	pos 66 264
+	pos 136 526
 	government Dani
 	link Himear
 	link Kilik
 	link Renan
+	"jump range" 40
 	trade Food 450
 	trade Metal 200
 	object
@@ -939,7 +961,7 @@ system Dani
 			period 100
 
 system Deb'I'Vad
-	pos 165 -310
+	pos 330 -617
 	government Uninhabited
 	link Bur'I'Loc
 	link Fer'L'Jus
@@ -947,27 +969,30 @@ system Deb'I'Vad
 	link Mintaka
 	link Serpentis
 	link Vyl'E'Tinti
+	"jump range" 40
 
 system Dellor
-	pos -636 -175
+	pos -1271 -351
 	government Uninhabited
 	link Allarei
 	link OG-VO
 	link Qellan
 	link Tonallo
 	link Vellos
+	"jump range" 40
 
 system Demos
-	pos -383 -133
+	pos -765 -267
 	government Uninhabited
 	link Glimmer
 	link Kerella
 	link Lalande
 	link Lotus
 	link Rimshot
+	"jump range" 40
 
 system Denier
-	pos -214 -451
+	pos -428 -897
 	government Uninhabited
 	link "Barnard's Star"
 	link Bloodstone
@@ -975,63 +1000,31 @@ system Denier
 	link Mallereth
 	link SPC-2710
 	link Teltar
+	"jump range" 40
 
 system Derlic
-	pos -182 276
+	pos -367 548
 	government Uninhabited
 	link Kaow
 	link Khyste
+	"jump range" 40
 
 system "Dnun Har"
-	pos -535.512 -453.097
+	pos -1069.51 -907.097
 	government Uninhabited
 	habitable 1080
 	belt 1836
 	link Mizar
-	asteroids "large metal" 1 6.384
-	trade "Data Crystals" 0
-	trade Equipment 0
-	trade Food 0
-	trade Industrial 0
-	trade "Local Alcohols" 0
-	trade "Luxury Goods" 0
-	trade Medical 0
-	trade Metal 0
-	object
-		sprite star/g0
-		period 10
-	object
-		sprite planet/dust5
-		distance 192.61
-		period 32.5362
-	object
-		sprite planet/lava1
-		distance 362.86
-		period 84.1311
-	object
-		sprite planet/ocean0
-		distance 657.35
-		period 205.137
-	object
-		sprite planet/desert2
-		distance 1104.6
-		period 446.844
-		object
-			sprite planet/dust7
-			distance 151
-			period 20.7822
-	object
-		sprite planet/ice7
-		distance 3450.76
-		period 2467.29
+	"jump range" 40
 
 system Eeniar
-	pos 32 -100
+	pos 65 -197
 	government Federation
 	link Codehaven
 	link Kania
 	link Mark
 	link Tichel
+	"jump range" 40
 	trade Equipment 1358
 	trade Medical 817
 	object
@@ -1043,10 +1036,11 @@ system Eeniar
 		period 500
 
 system Eguit
-	pos 340 438
+	pos 678 874
 	government Tekel
 	link Nutin
 	link Smada
+	"jump range" 40
 	trade Food 450
 	trade Industrial 300
 	trade Medical 1688
@@ -1060,10 +1054,11 @@ system Eguit
 		period 500
 
 system Enlightenment
-	pos -401 -274
+	pos -801 -545
 	government Federation
 	link Agate
 	link Pontoll
+	"jump range" 40
 	trade Equipment 1250
 	trade Industrial 300
 	trade "Luxury Goods" 1000
@@ -1089,18 +1084,20 @@ system Enlightenment
 			period 100
 
 system Ento
-	pos -464 2
+	pos -932 2
 	government Uninhabited
 	link Inkira
 	link Jocci
 	link Vella
+	"jump range" 40
 
 system Eplic
-	pos -292 171
+	pos -586 345
 	government Moash
 	link Creyt
 	link Felos
 	link Neirt
+	"jump range" 40
 	trade Equipment 500
 	trade "Luxury Goods" 2000
 	trade Metal 600
@@ -1113,10 +1110,11 @@ system Eplic
 		period 500
 
 system Erante
-	pos -559 36
+	pos -1120 74
 	government Uninhabited
 	link Hevel
 	link Vella
+	"jump range" 40
 	object
 		sprite star/k5
 		period 10
@@ -1126,11 +1124,12 @@ system Erante
 		period 500
 
 system Estearll
-	pos -493 -204
+	pos -983 -407
 	government Independent
 	link Blleia
 	link Llearn
 	link Yllar
+	"jump range" 40
 	trade Food 150
 	trade "Luxury Goods" 1000
 	trade Metal 600
@@ -1147,10 +1146,11 @@ system Estearll
 			period 100
 
 system Evera
-	pos 182 198
+	pos 362 396
 	government Dani
 	link Himear
 	link Ivar
+	"jump range" 40
 	trade Equipment 1250
 	trade Medical 750
 	object
@@ -1162,10 +1162,11 @@ system Evera
 		period 500
 
 system Evlei
-	pos -248 -560
+	pos -494.922 -1120.37
 	government Rebellion
 	link Bellerophon
 	link SPC-0193
+	"jump range" 40
 	trade Food 450
 	trade Industrial 900
 	trade "Luxury Goods" 2000
@@ -1182,21 +1183,23 @@ system Evlei
 			period 100
 
 system F'onora
-	pos 408 -265
+	pos 814 -529
 	government Uninhabited
 	link P'ecksa
 	link Tre'erman
 	link Ver'asplast
+	"jump range" 40
 
 system FATE
-	pos 100 -485
+	pos 203.73 -968.696
 	government Replicant
 	link CLASH
 	link DESTINY
 	link POTENTIAL
+	"jump range" 40
 
 system Fallen
-	pos 326 148
+	pos 650 295
 	government Empire
 	link Boro
 	link Caryo
@@ -1204,6 +1207,7 @@ system Fallen
 	link Over
 	link Pilot
 	link Tiria
+	"jump range" 40
 	object
 		sprite star/k5
 		period 10
@@ -1213,18 +1217,20 @@ system Fallen
 		period 500
 
 system Far'E'Bunor
-	pos 224 -490
+	pos 449 -981
 	government Uninhabited
 	link Iwo'U'Sentar
 	link Lil'E'Song
+	"jump range" 40
 
 system Felos
-	pos -348 177
+	pos -692 355
 	government Empire
 	link Chirt
 	link Eplic
 	link Reap
 	link Xante
+	"jump range" 40
 	object
 		sprite star/k5
 		period 10
@@ -1234,29 +1240,32 @@ system Felos
 		period 500
 
 system Fer'L'Jus
-	pos 142 -359
+	pos 279 -716
 	government Uninhabited
 	link Bur'I'Loc
 	link Deb'I'Vad
 	link Sel'I'Gal
 	link Ukari
+	"jump range" 40
 
 system Ferris
-	pos 246 107
+	pos 487 215
 	government Uninhabited
 	link Boro
 	link J'narr
 	link Nil'kemorya
 	link Z'heaj
+	"jump range" 40
 
 system Firmantar
-	pos -166 474
+	pos -332 949
 	government Empire
 	link Cworn
 	link OG-EN
 	link Odnan
 	link Schev
 	link Terval
+	"jump range" 40
 	trade "Data Crystals" 150
 	object
 		sprite star/k5
@@ -1266,14 +1275,18 @@ system Firmantar
 		distance 1000
 		period 500
 
-system "Fomalhaut a"
-	pos -18 -191
+system Fomalhaut
+	pos -57 -403
 	government Federation
-	link "Fomalhaut b"
+	link Boundary
 	link Nemesis
+	link OG-PR
 	link Quandary
+	"jump range" 40
 	trade Food 450
+	trade Industrial 900
 	trade "Luxury Goods" 1000
+	trade Metal 200
 	object
 		sprite star/k5
 		period 10
@@ -1281,43 +1294,35 @@ system "Fomalhaut a"
 		sprite "planet/Ice Planet"
 		distance 500
 		period 500
-
-system "Fomalhaut b"
-	pos -36 -210
-	government Federation
-	link Boundary
-	link "Fomalhaut a"
-	link OG-PR
-	trade Industrial 900
-	trade Metal 200
-	object
-		sprite star/k5
-		period 10
 	object Gem
 		sprite "planet/Class K cities"
 		distance 500
 		period 500
+		offset 250
 
 system For'U'Destro
-	pos 321 -305
+	pos 642 -606
 	government Uninhabited
 	link "Last Stop"
 	link Mis'E'Odres
 	link Ver'E'Liani
+	"jump range" 40
 
 system Foroth
-	pos -289 -477
+	pos -575.384 -952.804
 	government Uninhabited
 	link "Barnard's Star"
 	link Denier
 	link Ganorran
 	link Nestin
+	"jump range" 40
 
 system Fort
-	pos 221 268
+	pos 443 535
 	government Dani
 	link Ivar
 	link Kilik
+	"jump range" 40
 	trade Equipment 500
 	trade Metal 600
 	object
@@ -1333,12 +1338,13 @@ system Fort
 			period 500
 
 system Freya
-	pos 17 295
+	pos 32 590
 	government Empire
 	link Kine
 	link Pimen
 	link Rcaris
 	link Renan
+	"jump range" 40
 	object
 		sprite star/k5
 		period 10
@@ -1348,11 +1354,12 @@ system Freya
 		period 500
 
 system Futurend
-	pos -243 564
+	pos -489 1129
 	government Empire
 	link Hepen
 	link Odnan
 	link Sonete
+	"jump range" 40
 	trade Equipment 1250
 	trade Medical 750
 	object
@@ -1364,18 +1371,20 @@ system Futurend
 		period 500
 
 system Fynar
-	pos -301 378
+	pos -600 755
 	government Uninhabited
 	link Hiferryl
 	link Mackle
 	link Pact
+	"jump range" 40
 
 system Fyre
-	pos -217 -26
+	pos -436 -54
 	government Federation
 	link Canopus
 	link HJG-0637
 	link Yennin
+	"jump range" 40
 	trade Equipment 1250
 	trade Medical 1688
 	trade Metal 200
@@ -1392,24 +1401,27 @@ system Fyre
 			period 100
 
 system G'amit
-	pos 586 -50
+	pos 1168 -98
 	government Uninhabited
 	link Ne'ritai
 	link Tre'minor
 	link Z'elta
+	"jump range" 40
 
 system GATE
-	pos 33 -553
+	pos 66.8249 -1105.47
 	government Replicant
 	link CHALLENGE
 	link DESTINY
 	link TERMINUS
+	"jump range" 40
 
 system Galvan
-	pos -94 41
+	pos -186 80
 	government Federation
 	link Tirna
 	link Zone
+	"jump range" 40
 	trade Food 450
 	trade Industrial 300
 	object
@@ -1421,29 +1433,32 @@ system Galvan
 		period 500
 
 system Gan'U'Tornes
-	pos 216 -344
+	pos 430 -687
 	government Uninhabited
 	link Hot'A'Tanius
 	link Kor'D'On
 	link Sur'E'Qoru
 	link Vyl'E'Tinti
 	link Xym'E'Caros
+	"jump range" 40
 
 system Ganorran
-	pos -335 -517
+	pos -673 -1034
 	government Uninhabited
 	link "Barnard's Star"
 	link Bellerophon
 	link Foroth
 	link Nestin
+	"jump range" 40
 
 system Gary
-	pos 202 404
+	pos 403 819
 	government Empire
 	link Ivoh
 	link Neilha
 	link Nutin
 	link Zipa
+	"jump range" 40
 	trade Food 150
 	trade "Luxury Goods" 2000
 	trade Metal 600
@@ -1456,11 +1471,12 @@ system Gary
 		period 500
 
 system Gateway
-	pos 32 108
+	pos 64 216
 	government Federation
 	link NGC-1170
 	link SPC-1927
 	link Uroa
+	"jump range" 40
 	trade Food 450
 	trade "Luxury Goods" 1000
 	object
@@ -1472,10 +1488,11 @@ system Gateway
 		period 500
 
 system Gechta
-	pos -469 185
+	pos -937 370
 	government Empire
 	link Jerlyl
 	link Warana
+	"jump range" 40
 	trade "Luxury Goods" 1000
 	trade Medical 1688
 	object
@@ -1491,11 +1508,12 @@ system Gechta
 			period 100
 
 system Gefjon
-	pos -72 -322
+	pos -144 -643
 	government Federation
 	link Horizon
 	link Tidbinbilla
 	link Venture
+	"jump range" 40
 	trade Equipment 1250
 	trade Food 150
 	trade Medical 1688
@@ -1518,10 +1536,11 @@ system Gefjon
 		offset 180
 
 system Glimmer
-	pos -340 -151
+	pos -679 -302
 	government Independent
 	link Demos
 	link OG-SO
+	"jump range" 40
 	trade Food 450
 	trade Industrial 300
 	object
@@ -1537,17 +1556,19 @@ system Glimmer
 			period 100
 
 system Gotim
-	pos 134 195
+	pos 268 389
 	government Uninhabited
 	link Himear
 	link Hope
 	link Iplik
+	"jump range" 40
 
 system Grak
-	pos -475 -109
+	pos -947 -216
 	government Empire
 	link Kanto
 	link Narcissus
+	"jump range" 40
 	trade Equipment 500
 	trade "Luxury Goods" 2000
 	trade Medical 1688
@@ -1561,11 +1582,12 @@ system Grak
 		period 500
 
 system Grip
-	pos 480 183
+	pos 959 361
 	government Uninhabited
 	link Holpa
 	link Hook
 	link Rome
+	"jump range" 40
 	object
 		sprite star/k5
 		period 10
@@ -1575,10 +1597,11 @@ system Grip
 		period 500
 
 system Gulag
-	pos -33 329
+	pos -65 659
 	government Heraan
 	link Pimen
 	link Typin
+	"jump range" 40
 	trade Food 450
 	trade Metal 200
 	object
@@ -1590,17 +1613,19 @@ system Gulag
 		period 500
 
 system HJG-0637
-	pos -275 -21
+	pos -552 -43
 	government Uninhabited
 	link Fyre
 	link "Journey's End"
 	link Spica
 	link "Tau Ceti"
+	"jump range" 40
 
 system HJG-1034
-	pos -256 95
+	pos -510 193
 	government Uninhabited
 	link McMurdo
+	"jump range" 40
 	object
 		sprite star/k5
 		period 10
@@ -1610,12 +1635,13 @@ system HJG-1034
 		period 500
 
 system Hannaford
-	pos -218 66
+	pos -435 132
 	government Independent
 	link McMurdo
 	link OG-SE
 	link Spica
 	link Yennin
+	"jump range" 40
 	trade Equipment 1250
 	trade "Luxury Goods" 1000
 	object
@@ -1627,16 +1653,18 @@ system Hannaford
 		period 500
 
 system Hanova
-	pos -21 479
+	pos -38 957
 	government Uninhabited
 	link Amnaho
 	link Cworn
+	"jump range" 40
 
 system Hel'A'Forius
-	pos 319 -459
+	pos 636 -918
 	government Wraith
 	link Iwo'U'Sentar
 	link Mes'E'Ruma
+	"jump range" 40
 	object
 		sprite star/k5
 		period 10
@@ -1646,17 +1674,19 @@ system Hel'A'Forius
 		period 500
 
 system Hepen
-	pos -186 531
+	pos -371 1059
 	government Uninhabited
 	link Cworn
 	link Futurend
+	"jump range" 40
 
 system Heraan
-	pos -63 245
+	pos -127 491
 	government Heraan
 	link Chayos
 	link OG-HE
 	link Peflek
+	"jump range" 40
 	trade Food 450
 	trade Industrial 300
 	trade "Luxury Goods" 2000
@@ -1677,10 +1707,11 @@ system Heraan
 			period 500
 
 system Het'A'Tallius
-	pos 105 -251
+	pos 207 -503
 	government Wraith
 	link Bur'I'Loc
 	link Deb'I'Vad
+	"jump range" 40
 	object
 		sprite star/k5
 		period 10
@@ -1690,11 +1721,12 @@ system Het'A'Tallius
 		period 500
 
 system Hevel
-	pos -506 71
+	pos -1013 141
 	government Vella
 	link Erante
 	link OG-VE
 	link Warana
+	"jump range" 40
 	trade Food 450
 	trade "Local Alcohols" 1000
 	trade Medical 750
@@ -1707,13 +1739,14 @@ system Hevel
 		period 500
 
 system Hiferryl
-	pos -260 356
+	pos -523 706
 	government Moash
 	link Aalolph
 	link Fynar
 	link Kaow
 	link Neck
 	link Rend
+	"jump range" 40
 	object
 		sprite star/k5
 		period 10
@@ -1723,59 +1756,17 @@ system Hiferryl
 		period 500
 
 system Higiron
-	pos -515.512 -505.097
+	pos -1029.51 -1011.1
 	government Uninhabited
 	habitable 486.68
 	belt 1495
 	link Alcor
 	link Mizar
 	link Umbira
-	asteroids "small rock" 44 7.83
-	asteroids "medium rock" 72 5.67
-	asteroids "large rock" 3 4.6575
-	asteroids "small metal" 9 4.05
-	asteroids "medium metal" 9 9.18
-	asteroids "large metal" 17 4.5225
-	minables aluminum 33 8.10781
-	minables iron 13 10.202
-	trade "Data Crystals" 0
-	trade Equipment 0
-	trade Food 0
-	trade Industrial 0
-	trade "Local Alcohols" 0
-	trade "Luxury Goods" 0
-	trade Medical 0
-	trade Metal 600
-	object
-		sprite star/k0
-		period 10
-	object
-		sprite planet/cloud7
-		distance 143.81
-		period 31.2696
-	object
-		sprite planet/gas16
-		distance 482.45
-		period 192.14
-	object
-		sprite planet/forest2
-		distance 846.7
-		period 446.717
-	object
-		sprite planet/gas6
-		distance 1608.39
-		period 1169.57
-		object
-			sprite planet/dust3
-			distance 305
-			period 13.6055
-		object
-			sprite planet/rock7
-			distance 402
-			period 20.5875
+	"jump range" 40
 
 system Himear
-	pos 135 248
+	pos 269 499
 	government Dani
 	link Dani
 	link Evera
@@ -1783,6 +1774,7 @@ system Himear
 	link Kilik
 	link OG-DA
 	link Renan
+	"jump range" 40
 	trade "Luxury Goods" 1000
 	object
 		sprite star/k5
@@ -1793,10 +1785,11 @@ system Himear
 		period 500
 
 system Hiro
-	pos 6 244
+	pos 12 493
 	government Uninhabited
 	link Chayos
 	link Hope
+	"jump range" 40
 	object
 		sprite star/k5
 		period 10
@@ -1806,54 +1799,20 @@ system Hiro
 		period 500
 
 system Hogun
-	pos -591.512 -525.097
+	pos -1183.45 -1048.26
 	government Uninhabited
 	habitable 135
 	belt 1298
 	link Alcor
 	link Mizar
-	asteroids "large rock" 16 0.9828
-	asteroids "medium metal" 4 0.9048
-	asteroids "large metal" 13 1.1388
-	minables copper 3 1.08447
-	minables silver 3 1.32972
-	trade "Data Crystals" 0
-	trade Equipment 0
-	trade Food 0
-	trade Industrial 0
-	trade "Local Alcohols" 0
-	trade "Luxury Goods" 0
-	trade Medical 0
-	trade Metal 600
-	object
-		sprite star/m8
-		period 10
-	object
-		sprite planet/ocean8
-		distance 163.24
-		period 71.8014
-	object
-		sprite planet/lava5
-		distance 458.88
-		period 338.409
-	object
-		sprite planet/gas5
-		distance 893.77
-		period 919.881
-	object
-		sprite planet/desert4
-		distance 1665.02
-		period 2338.96
-	object
-		sprite planet/ice8
-		distance 2165.27
-		period 3468.66
+	"jump range" 40
 
 system Holpa
-	pos 522 196
+	pos 1041 393
 	government Empire
 	link Caldos
 	link Grip
+	"jump range" 40
 	trade Equipment 1250
 	trade Medical 750
 	object
@@ -1865,10 +1824,11 @@ system Holpa
 		period 500
 
 system Homeland
-	pos -276 -360
+	pos -556 -721
 	government Federation
 	link Capella
 	link Teleeli
+	"jump range" 40
 	trade Equipment 1250
 	trade Food 150
 	object
@@ -1880,11 +1840,12 @@ system Homeland
 		period 500
 
 system Hook
-	pos 421 202
+	pos 842 405
 	government Tekel
 	link Grip
 	link J'llon
 	link Zeles
+	"jump range" 40
 	trade Equipment 1250
 	trade Food 150
 	trade Industrial 900
@@ -1897,19 +1858,21 @@ system Hook
 		period 500
 
 system Hope
-	pos 79 235
+	pos 157 472
 	government Uninhabited
 	link Gotim
 	link Hiro
 	link Rcaris
 	link Wittor
+	"jump range" 40
 
 system Horizon
-	pos -63 -287
+	pos -126 -575
 	government Federation
 	link Boundary
 	link Gefjon
 	link Petra
+	"jump range" 40
 	trade Industrial 900
 	trade "Luxury Goods" 1000
 	object
@@ -1931,10 +1894,11 @@ system Horizon
 			offset 400
 
 system Hot'A'Tanius
-	pos 225 -391
+	pos 448 -784
 	government Wraith
 	link Dal'U'Sinto
 	link Gan'U'Tornes
+	"jump range" 40
 	object
 		sprite star/k5
 		period 10
@@ -1944,13 +1908,14 @@ system Hot'A'Tanius
 		period 500
 
 system Hydden
-	pos -440 -65
+	pos -877 -131
 	government Vella
 	link Kanto
 	link Kerella
 	link Narcissus
 	link Oban
 	link Olaralo
+	"jump range" 40
 	object
 		sprite star/k5
 		period 10
@@ -1960,25 +1925,28 @@ system Hydden
 		period 500
 
 system Illiask
-	pos -545 -268
+	pos -1093 -533
 	government Uninhabited
 	link Jellosia
 	link Qellan
 	link Vellos
 	link Yllar
+	"jump range" 40
 
 system Inci
-	pos -147 240
+	pos -298 478
 	government Uninhabited
 	link Astra
 	link Malo
 	link Saal
+	"jump range" 40
 
 system Inkira
-	pos -453 -20
+	pos -910 -43
 	government Vella
 	link Ento
 	link Oban
+	"jump range" 40
 	trade Equipment 500
 	trade Medical 1688
 	trade Metal 600
@@ -1991,16 +1959,17 @@ system Inkira
 		period 500
 
 system Iplik
-	pos 190 162
+	pos 377 321
 	government Uninhabited
 	link Aria
 	link Boro
 	link Gotim
 	link Pilot
 	link Unin
+	"jump range" 40
 
 system Iris
-	pos -206 154
+	pos -414 307
 	government Wraith
 	link Creyt
 	link Ivia
@@ -2008,6 +1977,7 @@ system Iris
 	link Obatta
 	link Tuente
 	link Xante
+	"jump range" 40
 	object
 		sprite star/k5
 		period 10
@@ -2017,12 +1987,13 @@ system Iris
 		period 500
 
 system Issar
-	pos -88 429
+	pos -173 859
 	government Empire
 	link Aalolph
 	link Kine
 	link Olein
 	link Terval
+	"jump range" 40
 	object
 		sprite star/k5
 		period 10
@@ -2032,11 +2003,12 @@ system Issar
 		period 500
 
 system Ivar
-	pos 229 218
+	pos 455 437
 	government Dani
 	link Boro
 	link Evera
 	link Fort
+	"jump range" 40
 	trade Food 150
 	trade Industrial 900
 	object
@@ -2048,11 +2020,12 @@ system Ivar
 		period 500
 
 system Ivia
-	pos -150 175
+	pos -302 350
 	government Heraan
 	link Cove
 	link Iris
 	link Malo
+	"jump range" 40
 	object
 		sprite star/k5
 		period 10
@@ -2062,26 +2035,29 @@ system Ivia
 		period 500
 
 system Ivoh
-	pos 151 401
+	pos 299 799
 	government Uninhabited
 	link Aurora
 	link Gary
+	"jump range" 40
 
 system Iwo'U'Sentar
-	pos 278 -495
+	pos 557 -986
 	government Uninhabited
 	link Far'E'Bunor
 	link Hel'A'Forius
 	link Ran'E'Shepos
 	link Sur'E'Qoru
 	link Tin'E'Tivel
+	"jump range" 40
 
 system J'fhor
-	pos 281 -277
+	pos 563 -553
 	government Polaris
 	link Aludra
 	link Nil'nesa
 	link Ver'E'Liani
+	"jump range" 40
 	object
 		sprite star/k5
 		period 10
@@ -2091,12 +2067,13 @@ system J'fhor
 		period 500
 
 system J'llon
-	pos 457 144
+	pos 915 288
 	government Polaris
 	link Caryo
 	link Hook
 	link Nil'ikro
 	link Tiria
+	"jump range" 40
 	object
 		sprite star/k5
 		period 10
@@ -2106,12 +2083,13 @@ system J'llon
 		period 500
 
 system J'narr
-	pos 331 115
+	pos 662 228
 	government Polaris
 	link Fallen
 	link Ferris
 	link Nil'kemorya
 	link Pilot
+	"jump range" 40
 	object
 		sprite star/k5
 		period 10
@@ -2121,9 +2099,10 @@ system J'narr
 		period 500
 
 system J'raphit
-	pos 619 -350
+	pos 1238 -697
 	government Polaris
 	link P'aedt
+	"jump range" 40
 	object
 		sprite star/k5
 		period 10
@@ -2133,14 +2112,15 @@ system J'raphit
 		period 500
 
 system Jellosia
-	pos -556 -305
+	pos -1115 -606
 	government Uninhabited
 	link Illiask
 	link Systoll
 	link Uriall
+	"jump range" 40
 
 system Jenner
-	pos -70 14
+	pos -141 25
 	government Uninhabited
 	link Conden
 	link Kuon
@@ -2149,14 +2129,16 @@ system Jenner
 	link "Red Winged Blackbird"
 	link Sanddown
 	link Tirna
+	"jump range" 40
 
 system Jerlyl
-	pos -403 222
+	pos -810 445
 	government Moash
 	link Gechta
 	link Llima
 	link OG-MO
 	link Reap
+	"jump range" 40
 	object
 		sprite star/k5
 		period 10
@@ -2166,12 +2148,13 @@ system Jerlyl
 		period 500
 
 system Jocci
-	pos -442 20
+	pos -886 40
 	government Vella
 	link Ento
 	link Manit
 	link OG-VE
 	link Uvon
+	"jump range" 40
 	trade Industrial 900
 	trade Medical 750
 	object
@@ -2187,12 +2170,13 @@ system Jocci
 			period 500
 
 system "Journey's End"
-	pos -310 19
+	pos -618 45
 	government Federation
 	link Alphara
 	link HJG-0637
 	link "Nesre Secundus"
 	link Spica
+	"jump range" 40
 	trade "Luxury Goods" 2000
 	trade Medical 750
 	object
@@ -2208,15 +2192,17 @@ system "Journey's End"
 			period 100
 
 system K'falla
-	pos 589 -261
+	pos 1177 -519
 	government Uninhabited
 	link Nil'pesetra
 	link P'aedt
+	"jump range" 40
 
 system K'kiptorak
-	pos 679 -83
+	pos 1356 -166
 	government Polaris
 	link Ki'asman
+	"jump range" 40
 	object
 		sprite star/k5
 		period 10
@@ -2230,7 +2216,7 @@ system K'kiptorak
 			period 500
 
 system K'marak
-	pos 296 16
+	pos 595 28
 	government Polaris
 	link Nil'kemorya
 	link OG-PO
@@ -2239,6 +2225,7 @@ system K'marak
 	link Tre'vasar
 	link Tri'cikilla
 	link Za'krana
+	"jump range" 40
 	object
 		sprite star/k5
 		period 10
@@ -2248,12 +2235,13 @@ system K'marak
 		period 500
 
 system K'minkek
-	pos 325 -212
+	pos 650 -424
 	government Polaris
 	link Ne'prata
 	link P'ecksa
 	link Z'precti
 	link Za'iuso
+	"jump range" 40
 	trade "Data Crystals" 150
 	trade Food 450
 	object
@@ -2265,7 +2253,7 @@ system K'minkek
 		period 500
 
 system K'onl
-	pos 225 -124
+	pos 445 -244
 	government Polaris
 	link Ne'prata
 	link Nil'vran
@@ -2273,6 +2261,7 @@ system K'onl
 	link Tre'illica
 	link Tri'niphu
 	link Z'precti
+	"jump range" 40
 	object
 		sprite star/k5
 		period 10
@@ -2282,10 +2271,11 @@ system K'onl
 		period 500
 
 system K'yapta
-	pos 446 -147
+	pos 887 -296
 	government Polaris
 	link OG-DR
 	link Ver'ikar
+	"jump range" 40
 	object
 		sprite star/k5
 		period 10
@@ -2295,12 +2285,13 @@ system K'yapta
 		period 500
 
 system K1
-	pos -398 -394
+	pos -799 -788
 	government Uninhabited
 	link K11
 	link K22
 	link K33
 	link K44
+	"jump range" 40
 	object
 		sprite star/k5
 		period 10
@@ -2315,10 +2306,11 @@ system K1
 		offset 180
 
 system K11
-	pos -399 -359
+	pos -798 -717
 	government Uninhabited
 	link K1
 	link K18
+	"jump range" 40
 	object
 		sprite star/k5
 		period 10
@@ -2328,46 +2320,53 @@ system K11
 		period 500
 
 system K12
-	pos -415 -421
+	pos -828 -839
 	government Uninhabited
 	link K20
 	link K4
+	"jump range" 40
 
 system K14
-	pos -332 -426
+	pos -665 -850
 	government Uninhabited
 	link K21
 	link K7
+	"jump range" 40
 
 system K16
-	pos -462 -369
+	pos -929 -737
 	government Uninhabited
 	link K24
 	link K8
+	"jump range" 40
 
 system K18
-	pos -380 -379
+	pos -756 -759
 	government Uninhabited
 	link K11
 	link Numamba
+	"jump range" 40
 
 system K20
-	pos -508 -422
+	pos -1015 -848
 	government Uninhabited
 	link K12
 	link OG-TW
+	"jump range" 40
 
 system K21
-	pos -468 -433
+	pos -933 -864
 	government Uninhabited
 	link K14
 	link Numamba
+	"jump range" 40
 
 system K22
-	pos -321 -402
+	pos -642 -805
 	government Uninhabited
 	link K1
 	link K30
+	"jump range" 40
 	object
 		sprite star/k5
 		period 10
@@ -2377,28 +2376,32 @@ system K22
 		period 500
 
 system K24
-	pos -352 -326
+	pos -707 -655
 	government Uninhabited
 	link K16
 	link Korell
+	"jump range" 40
 
 system K3
-	pos -332 -359
+	pos -664 -722
 	government Uninhabited
 	link K6
 	link PsiD-3
+	"jump range" 40
 
 system K30
-	pos -335 -377
+	pos -671 -754
 	government Uninhabited
 	link K22
 	link Korell
+	"jump range" 40
 
 system K33
-	pos -458 -412
+	pos -913 -824
 	government Uninhabited
 	link K1
 	link K36
+	"jump range" 40
 	object
 		sprite star/k5
 		period 10
@@ -2408,22 +2411,25 @@ system K33
 		period 500
 
 system K36
-	pos -425 -373
+	pos -850 -745
 	government Uninhabited
 	link K33
 	link K9
+	"jump range" 40
 
 system K4
-	pos -402 -521
+	pos -803.389 -1038.52
 	government Uninhabited
 	link K12
 	link PsiD-4
+	"jump range" 40
 
 system K44
-	pos -396 -444
+	pos -793 -886
 	government Uninhabited
 	link K1
 	link K48
+	"jump range" 40
 	object
 		sprite star/k5
 		period 10
@@ -2433,42 +2439,48 @@ system K44
 		period 500
 
 system K48
-	pos -374 -415
+	pos -748 -830
 	government Uninhabited
 	link K44
 	link OG-TW
+	"jump range" 40
 
 system K6
-	pos -446 -342
+	pos -890 -685
 	government Uninhabited
 	link K3
 	link K9
+	"jump range" 40
 
 system K7
-	pos -413 -316
+	pos -822 -633
 	government Uninhabited
 	link K14
 	link PsiD-1
+	"jump range" 40
 
 system K8
-	pos -590 -367
+	pos -1180.81 -734.564
 	government Uninhabited
 	link K16
 	link PsiD-2
+	"jump range" 40
 
 system K9
-	pos -433 -443
+	pos -868.214 -883.851
 	government Uninhabited
 	link K36
 	link K6
 	link PsiD-5
+	"jump range" 40
 
 system Kania
-	pos 90 8
+	pos 182 16
 	government Independent
 	link Eeniar
 	link Kanius
 	link OG-KA
+	"jump range" 40
 	trade "Luxury Goods" 2000
 	trade Medical 750
 	object
@@ -2484,15 +2496,16 @@ system Kania
 			period 100
 
 system Kanius
-	pos 119 -18
+	pos 238 -38
 	government Uninhabited
 	link Antares
 	link Kania
 	link Polaris
 	link Repede
+	"jump range" 40
 
 system Kanto
-	pos -523 -113
+	pos -1045 -227
 	government Empire
 	link Allarei
 	link Grak
@@ -2500,6 +2513,7 @@ system Kanto
 	link Llysla
 	link Narcissus
 	link Tonallo
+	"jump range" 40
 	object
 		sprite star/k5
 		period 10
@@ -2509,13 +2523,14 @@ system Kanto
 		period 500
 
 system Kaow
-	pos -218 330
+	pos -439 658
 	government Empire
 	link Aalolph
 	link Derlic
 	link Hiferryl
 	trade Equipment 500
 	trade Metal 600
+	"jump range" 40
 	object
 		sprite star/k5
 		period 10
@@ -2525,10 +2540,11 @@ system Kaow
 		period 500
 
 system Kel'ariy
-	pos 393 -122
+	pos 785 -244
 	government Polaris
 	link Bis'routak
 	link OG-DR
+	"jump range" 40
 	trade "Data Crystals" 900
 	trade Food 150
 	trade "Luxury Goods" 2000
@@ -2550,13 +2566,14 @@ system Kel'ariy
 			period 100
 
 system Kel'fella
-	pos 517 -236
+	pos 1034 -470
 	government Polaris
 	link Ki'ade
 	link Nil'pesetra
 	link Tre'olepla
 	link Ver'ashan
 	link Ver'asplast
+	"jump range" 40
 	trade "Data Crystals" 150
 	trade "Luxury Goods" 2000
 	object
@@ -2568,11 +2585,12 @@ system Kel'fella
 		period 500
 
 system Kel'hepera
-	pos 478 81
+	pos 952 159
 	government Polaris
 	link Bis'usoca
 	link Ne'helipar
 	link Nil'ikro
+	"jump range" 40
 	trade "Data Crystals" 150
 	trade Food 150
 	trade "Luxury Goods" 1000
@@ -2586,13 +2604,14 @@ system Kel'hepera
 		period 500
 
 system Kerella
-	pos -394 -87
+	pos -791 -173
 	government "Wild Geese"
 	link Demos
 	link Hydden
 	link Narcissus
 	link Rimshot
 	link Zalo
+	"jump range" 40
 	trade Food 450
 	trade Medical 1688
 	trade Metal 200
@@ -2605,17 +2624,19 @@ system Kerella
 		period 500
 
 system Khyste
-	pos -223 285
+	pos -446 567
 	government Uninhabited
 	link Derlic
 	link Vantra
+	"jump range" 40
 
 system Ki'actia
-	pos 414 -308
+	pos 827 -613
 	government Polaris
 	link Nil'blei
 	link Tre'erman
 	link Ver'asplast
+	"jump range" 40
 	object
 		sprite star/k5
 		period 10
@@ -2625,11 +2646,12 @@ system Ki'actia
 		period 500
 
 system Ki'ade
-	pos 521 -313
+	pos 1043 -627
 	government Polaris
 	link Kel'fella
 	link P'aedt
 	link Ver'asplast
+	"jump range" 40
 	object
 		sprite star/k5
 		period 10
@@ -2639,10 +2661,11 @@ system Ki'ade
 		period 500
 
 system Ki'asman
-	pos 648 -123
+	pos 1296 -245
 	government Polaris
 	link K'kiptorak
 	link Z'elta
+	"jump range" 40
 	object
 		sprite star/k5
 		period 10
@@ -2652,13 +2675,14 @@ system Ki'asman
 		period 500
 
 system Ki'manora
-	pos 556 18
+	pos 1110 40
 	government Polaris
 	link Mu'hari
 	link Ne'ritai
 	link OG-HO
 	link Tre'petaka
 	link Ver'roqi
+	"jump range" 40
 	object
 		sprite star/k5
 		period 10
@@ -2668,13 +2692,14 @@ system Ki'manora
 		period 500
 
 system Kilik
-	pos 154 282
+	pos 309 568
 	government Dani
 	link Dani
 	link Fort
 	link Himear
 	link OG-DA
 	link Tural
+	"jump range" 40
 	trade "Luxury Goods" 1000
 	trade Metal 600
 	object
@@ -2686,11 +2711,12 @@ system Kilik
 		period 500
 
 system Kine
-	pos 1 379
+	pos 5 761
 	government Empire
 	link Freya
 	link Issar
 	link OG-AU
+	"jump range" 40
 	trade Food 150
 	trade Industrial 900
 	object
@@ -2702,12 +2728,13 @@ system Kine
 		period 500
 
 system Kipa
-	pos 282 378
+	pos 565 758
 	government Ronin
 	link Cipa
 	link OG-RO
 	link Pippa
 	link Zipa
+	"jump range" 40
 	trade "Data Crystals" 525
 	trade Equipment 1250
 	trade Food 450
@@ -2725,9 +2752,10 @@ system Kipa
 		period 500
 
 system Kontik
-	pos 422 402
+	pos 842 808
 	government Uninhabited
 	link Smada
+	"jump range" 40
 	object
 		sprite star/k5
 		period 10
@@ -2737,17 +2765,19 @@ system Kontik
 		period 500
 
 system Kor'D'On
-	pos 232 -307
+	pos 463 -612
 	government Uninhabited
 	link Gan'U'Tornes
 	link Peacock
 	link Ver'E'Liani
+	"jump range" 40
 
 system Korell
-	pos -350 -457
+	pos -702 -915
 	government Krypt
 	link K24
 	link K30
+	"jump range" 40
 	object
 		sprite star/k5
 		period 10
@@ -2757,10 +2787,11 @@ system Korell
 		period 500
 
 system Koria
-	pos -154 -507
+	pos -309.595 -1012.12
 	government Rebellion
 	link SPC-1555
 	link Teltar
+	"jump range" 40
 	trade Equipment 1250
 	trade Medical 1688
 	trade Metal 600
@@ -2777,19 +2808,21 @@ system Koria
 			period 100
 
 system Kratos
-	pos 378 267
+	pos 755 531
 	government Uninhabited
 	link Nicka
 	link Over
 	link Reeva
 	link Tekel
 	link Zeles
+	"jump range" 40
 
 system Kuon
-	pos -26 8
+	pos -52 15
 	government Federation
 	link Jenner
 	link OG-KA
+	"jump range" 40
 	trade Food 150
 	trade Metal 600
 	object
@@ -2805,11 +2838,12 @@ system Kuon
 			period 100
 
 system Kymon
-	pos 334 331
+	pos 668 665
 	government Tekel
 	link Aradne
 	link Cipa
 	link Smada
+	"jump range" 40
 	trade Industrial 900
 	trade Medical 750
 	object
@@ -2825,11 +2859,12 @@ system Kymon
 			period 500
 
 system Lacora
-	pos -74 301
+	pos -150 598
 	government Heraan
 	link OG-HE
 	link Saal
 	link Typin
+	"jump range" 40
 	trade Equipment 500
 	trade Industrial 900
 	trade Metal 600
@@ -2842,11 +2877,12 @@ system Lacora
 		period 500
 
 system Lalande
-	pos -429 -141
+	pos -857 -282
 	government Federation
 	link Blleia
 	link Demos
 	link Narcissus
+	"jump range" 40
 	trade Equipment 1250
 	trade Industrial 300
 	object
@@ -2862,11 +2898,12 @@ system Lalande
 			period 100
 
 system "Last Stop"
-	pos 308 -347
+	pos 614 -692
 	government Uninhabited
 	link For'U'Destro
 	link Mis'E'Odres
 	link Ver'E'Liani
+	"jump range" 40
 	object
 		sprite star/k5
 		period 10
@@ -2880,11 +2917,12 @@ system "Last Stop"
 			period 100
 
 system Lesten
-	pos -155 -286
+	pos -312 -574
 	government Federation
 	link Aral
 	link Reticent
 	link Space
+	"jump range" 40
 	trade Equipment 500
 	trade Food 450
 	object
@@ -2896,23 +2934,26 @@ system Lesten
 		period 500
 
 system Lil'E'Song
-	pos 237 -533
+	pos 474 -1067
 	government Uninhabited
 	link Far'E'Bunor
 	link Ran'E'Shepos
+	"jump range" 40
 
 system Llearn
-	pos -513 -177
+	pos -1023 -353
 	government Uninhabited
 	link Blleia
 	link Estearll
 	link Manchester
+	"jump range" 40
 
 system Llima
-	pos -443 258
+	pos -891 516
 	government Moash
 	link Jerlyl
 	link Qreck
+	"jump range" 40
 	trade Equipment 500
 	trade Industrial 300
 	trade Metal 600
@@ -2925,12 +2966,13 @@ system Llima
 		period 500
 
 system Llysla
-	pos -540 -87
+	pos -1084 -173
 	government Vell-os
 	link Allarei
 	link Kanto
 	link Mikhail
 	link Teft
+	"jump range" 40
 	object
 		sprite star/k5
 		period 10
@@ -2940,10 +2982,11 @@ system Llysla
 		period 500
 
 system Locuritas
-	pos -328 -314
+	pos -657 -627
 	government Pirate
 	link Agate
 	link Capella
+	"jump range" 40
 	trade Equipment 500
 	trade Metal 600
 	object
@@ -2955,10 +2998,11 @@ system Locuritas
 		period 500
 
 system Lotus
-	pos -389 -178
+	pos -779 -353
 	government Federation
 	link Avalon
 	link Demos
+	"jump range" 40
 	trade "Luxury Goods" 2000
 	trade Medical 750
 	object
@@ -2974,18 +3018,20 @@ system Lotus
 			period 100
 
 system MAW
-	pos -52 -416
+	pos -101 -834
 	government Replicant
 	link Corvus
 	link Mallereth
+	"jump range" 40
 
 system Mackle
-	pos -284 406
+	pos -565 813
 	government Empire
 	link Fynar
 	link Rend
 	link Sale
 	link Schev
+	"jump range" 40
 	trade Equipment 500
 	trade Metal 600
 	object
@@ -2997,15 +3043,16 @@ system Mackle
 		period 500
 
 system Maker
-	pos -220 -218
+	pos -442 -435
 	government Uninhabited
 	link Claimer
 	link "Outpost 819"
 	link Vega
 	link "Wolf 359"
+	"jump range" 40
 
 system Mallereth
-	pos -89 -428
+	pos -176.945 -856.449
 	government Uninhabited
 	link Aldebaran
 	link Bloodstone
@@ -3013,13 +3060,15 @@ system Mallereth
 	link MAW
 	link Teltar
 	link Tidbinbilla
+	"jump range" 40
 
 system Malo
-	pos -110 204
+	pos -222 409
 	government Heraan
 	link Inci
 	link Ivia
 	link Peflek
+	"jump range" 40
 	trade Equipment 1250
 	trade Industrial 900
 	trade Medical 750
@@ -3036,11 +3085,12 @@ system Malo
 			period 500
 
 system Manchester
-	pos -507 -149
+	pos -1017 -300
 	government Federation
 	link Llearn
 	link Narcissus
 	link Tonallo
+	"jump range" 40
 	trade Equipment 500
 	trade Food 450
 	object
@@ -3056,35 +3106,39 @@ system Manchester
 			period 100
 
 system Manit
-	pos -404 46
+	pos -810 90
 	government Uninhabited
 	link Belt
 	link Jocci
 	link Oban
 	link Queq
+	"jump range" 40
 
 system Marion
-	pos 151 49
+	pos 302 97
 	government Uninhabited
 	link Akasha
 	link Repede
+	"jump range" 40
 
 system Mark
-	pos -21 -99
+	pos -40 -196
 	government Uninhabited
 	link Archenar
 	link Canopus
 	link Conden
 	link Eeniar
 	link Rautherion
+	"jump range" 40
 
 system McMurdo
-	pos -212 110
+	pos -427 217
 	government Pirate
 	link HJG-1034
 	link Hannaford
 	link Iris
 	link Obatta
+	"jump range" 40
 	trade "Data Crystals" 525
 	trade Equipment 875
 	trade Food 300
@@ -3102,10 +3156,11 @@ system McMurdo
 		period 500
 
 system Merrynne
-	pos -160 75
+	pos -320 149
 	government Federation
 	link Tirna
 	link Yennin
+	"jump range" 40
 	trade Equipment 1250
 	trade Medical 750
 	object
@@ -3117,27 +3172,30 @@ system Merrynne
 		period 500
 
 system Mes'E'Ruma
-	pos 368 -442
+	pos 735 -883
 	government Uninhabited
 	link Hel'A'Forius
 	link Ran'E'Shepos
 	link Sur'E'Qoru
 	link Tus'E'Viro
 	link Xym'E'Caros
+	"jump range" 40
 
 system Metter
-	pos -280 -100
+	pos -564 -201
 	government Uninhabited
 	link Centauri
 	link "Nesre Secundus"
 	link Rimshot
 	link "Tau Ceti"
+	"jump range" 40
 
 system Mikhail
-	pos -534 -59
+	pos -1069 -119
 	government Vella
 	link Llysla
 	link Olaralo
+	"jump range" 40
 	trade "Luxury Goods" 1000
 	trade Metal 600
 	object
@@ -3149,86 +3207,38 @@ system Mikhail
 		period 500
 
 system Mintaka
-	pos 182 -271
+	pos 367 -542
 	government Uninhabited
 	link Aludra
 	link Bellatrix
 	link Deb'I'Vad
 	link Serpentis
+	"jump range" 40
 
 system Mis'E'Odres
-	pos 356 -353
+	pos 711 -708
 	government Uninhabited
 	link For'U'Destro
 	link "Last Stop"
 	link Tin'E'Tivel
+	"jump range" 40
 
 system Mizar
-	pos -579.512 -475.097
+	pos -1160.17 -946.391
 	government Uninhabited
-	habitable 912.6
-	belt 1559
 	link Alcor
 	link "Dnun Har"
 	link Higiron
 	link Hogun
-	asteroids "small rock" 21 3.537
-	asteroids "medium rock" 4 3.24
-	asteroids "large rock" 9 2.538
-	asteroids "small metal" 168 2.106
-	asteroids "medium metal" 39 2.7
-	asteroids "large metal" 64 2.565
-	minables aluminum 23 2.47174
-	minables iron 25 4.5708
-	minables silver 1 4.05625
-	trade "Data Crystals" 0
-	trade Equipment 0
-	trade Food 0
-	trade Industrial 0
-	trade "Local Alcohols" 0
-	trade "Luxury Goods" 0
-	trade Medical 0
-	trade Metal 0
-	object
-		sprite star/k0
-		distance 41.5372
-		period 11.1174
-		offset 180
-	object
-		sprite star/k5
-		distance 47.4628
-		period 11.1174
-	object
-		sprite planet/rock14
-		distance 167.423
-		period 28.6841
-	object
-		sprite planet/rock2
-		distance 347.233
-		period 85.6743
-	object
-		sprite planet/cloud1
-		distance 585.523
-		period 187.601
-	object
-		sprite planet/gas7
-		distance 983.483
-		period 408.385
-	object
-		sprite planet/gas10
-		distance 2454.48
-		period 1610.13
-		object
-			sprite planet/rock3
-			distance 186
-			period 13.3526
+	"jump range" 40
 
 system Mjolnir
-	pos 211 35
+	pos 423 71
 	government Nil'kemorya
 	link NGC-0500
 	link Z'heaj
 	link Za'krana
+	"jump range" 40
 	object
 		sprite star/k5
 		period 10
@@ -3242,12 +3252,13 @@ system Mjolnir
 			period 100
 
 system Moash
-	pos -360 286
+	pos -721 574
 	government Moash
 	link Neck
 	link OG-MO
 	link Qreck
 	link Teckra
+	"jump range" 40
 	trade Food 450
 	trade "Luxury Goods" 1000
 	object
@@ -3263,10 +3274,11 @@ system Moash
 			offset 65
 
 system Moonrise
-	pos -288 -279
+	pos -571 -555
 	government Federation
 	link Agate
 	link Claimer
+	"jump range" 40
 	trade Food 450
 	trade "Luxury Goods" 2000
 	trade Metal 200
@@ -3288,9 +3300,10 @@ system Moonrise
 			offset 250
 
 system Mu'hari
-	pos 607 69
+	pos 1213 136
 	government Polaris
 	link Ki'manora
+	"jump range" 40
 	trade Food 450
 	trade Industrial 300
 	object
@@ -3306,10 +3319,11 @@ system Mu'hari
 			offset 65
 
 system Murasaki
-	pos -27 74
+	pos -53 148
 	government Federation
 	link NGC-1170
 	link Tirna
+	"jump range" 40
 	trade Equipment 1250
 	trade "Local Alcohols" 1000
 	trade "Luxury Goods" 1000
@@ -3326,22 +3340,24 @@ system Murasaki
 			period 100
 
 system NGC-0500
-	pos 203 -20
+	pos 405 -44
 	government Uninhabited
 	link Mjolnir
 	link Nil'vran
 	link Polaris
+	"jump range" 40
 
 system NGC-1170
-	pos 14 62
+	pos 25 123
 	government Uninhabited
 	link Gateway
 	link Jenner
 	link Murasaki
 	link OG-KA
+	"jump range" 40
 
 system NGC-1317
-	pos 86 -283
+	pos 169 -568
 	government Uninhabited
 	link Bur'I'Loc
 	link Codehaven
@@ -3350,12 +3366,14 @@ system NGC-1317
 	link Sedina
 	link Serpentis
 	link Threshold
+	"jump range" 40
 
 system Nadir
-	pos -92 -110
+	pos -187 -220
 	government Federation
 	link Canopus
 	link Tenetria
+	"jump range" 40
 	trade Food 150
 	trade Medical 1688
 	object
@@ -3367,14 +3385,15 @@ system Nadir
 		period 500
 
 system Naka
-	pos -239 -152
+	pos -480 -305
 	government Uninhabited
 	link Centauri
 	link "Sol a"
 	link "Wolf 359"
+	"jump range" 40
 
 system Narcissus
-	pos -462 -133
+	pos -920 -266
 	government Uninhabited
 	link Grak
 	link Hydden
@@ -3382,15 +3401,17 @@ system Narcissus
 	link Kerella
 	link Lalande
 	link Manchester
+	"jump range" 40
 
 system Ne'helipar
-	pos 450 32
+	pos 902 66
 	government Nil'kemorya
 	link Bis'usoca
 	link Kel'hepera
 	link Ne'ritai
 	link Tre'vasar
 	link Tri'cikilla
+	"jump range" 40
 	object
 		sprite star/k5
 		period 10
@@ -3400,27 +3421,30 @@ system Ne'helipar
 		period 500
 
 system Ne'mora
-	pos 456 -33
+	pos 914 -65
 	government Uninhabited
 	link Ne'ritai
 	link Til'hapin
 	link Tri'cikilla
+	"jump range" 40
 
 system Ne'prata
-	pos 242 -201
+	pos 485 -402
 	government Uninhabited
 	link K'minkek
 	link K'onl
 	link Nil'nesa
 	link Tri'lipra
+	"jump range" 40
 
 system Ne'ritai
-	pos 516 -12
+	pos 1035 -21
 	government Nil'kemorya
 	link G'amit
 	link Ki'manora
 	link Ne'helipar
 	link Ne'mora
+	"jump range" 40
 	trade Equipment 1250
 	trade Food 150
 	trade Medical 1688
@@ -3437,11 +3461,12 @@ system Ne'ritai
 			period 500
 
 system Neck
-	pos -293 325
+	pos -590 643
 	government Moash
 	link Hiferryl
 	link Moash
 	link Pact
+	"jump range" 40
 	trade Medical 1688
 	trade Metal 200
 	object
@@ -3453,12 +3478,13 @@ system Neck
 		period 500
 
 system Neilha
-	pos 224 438
+	pos 448 875
 	government Tekel
 	link Gary
 	link Nutin
 	link OG-RO
 	link Pren
+	"jump range" 40
 	object
 		sprite star/k5
 		period 10
@@ -3468,26 +3494,29 @@ system Neilha
 		period 500
 
 system Neirt
-	pos -273 222
+	pos -547 446
 	government Uninhabited
 	link Alala
 	link Chirt
 	link Eplic
 	link Teckra
 	link Vestin
+	"jump range" 40
 
 system Nemesis
-	pos 10 -157
+	pos 18 -314
 	government Uninhabited
-	link "Fomalhaut a"
+	link Fomalhaut
 	link Rautherion
 	link Tichel
+	"jump range" 40
 
 system "Nesre Primus"
-	pos -94 -245
+	pos -187 -487
 	government Federation
 	link Boundary
 	link Pollux
+	"jump range" 40
 	trade "Luxury Goods" 2000
 	trade Medical 750
 	trade Metal 600
@@ -3508,12 +3537,13 @@ system "Nesre Primus"
 				offset 65
 
 system "Nesre Secundus"
-	pos -344 -33
+	pos -686 -66
 	government Roughnecks
 	link "Journey's End"
 	link Metter
 	link Yria
 	link Zalo
+	"jump range" 40
 	trade Equipment 1250
 	trade Industrial 300
 	object
@@ -3538,17 +3568,19 @@ system "Nesre Secundus"
 			period 100
 
 system Nestin
-	pos -336 -556
+	pos -673.122 -1108.47
 	government Uninhabited
 	link Bellerophon
 	link Foroth
 	link Ganorran
 	link PsiD-4
+	"jump range" 40
 
 system Nibos
-	pos 511 282
+	pos 1021 566
 	government Empire
 	link Caldos
+	"jump range" 40
 	trade Food 150
 	trade Industrial 900
 	trade "Local Alcohols" 200
@@ -3561,12 +3593,13 @@ system Nibos
 		period 500
 
 system Nicka
-	pos 448 298
+	pos 899 594
 	government Tekel
 	link Caldos
 	link Kratos
 	link Tocc
 	link Zeles
+	"jump range" 40
 	trade Equipment 500
 	trade Food 450
 	object
@@ -3582,10 +3615,11 @@ system Nicka
 			period 500
 
 system Nil'blei
-	pos 420 -353
+	pos 837 -706
 	government Nil'kemorya
 	link Ki'actia
 	link Tus'E'Viro
+	"jump range" 40
 	trade Industrial 300
 	trade Medical 1688
 	object
@@ -3601,11 +3635,12 @@ system Nil'blei
 			period 500
 
 system Nil'ikro
-	pos 515 142
+	pos 1028 283
 	government Nil'kemorya
 	link J'llon
 	link Kel'hepera
 	link Tre'pirana
+	"jump range" 40
 	object
 		sprite star/k5
 		period 10
@@ -3615,11 +3650,12 @@ system Nil'ikro
 		period 500
 
 system Nil'kemorya
-	pos 364 79
+	pos 727 159
 	government Nil'kemorya
 	link Ferris
 	link J'narr
 	link K'marak
+	"jump range" 40
 	trade Equipment 500
 	trade Food 450
 	object
@@ -3635,10 +3671,11 @@ system Nil'kemorya
 			period 100
 
 system Nil'kol
-	pos 142 -133
+	pos 287 -267
 	government Nil'kemorya
 	link Algol
 	link Tri'niphu
+	"jump range" 40
 	trade Equipment 500
 	trade Metal 600
 	object
@@ -3658,11 +3695,12 @@ system Nil'kol
 			period 100
 
 system Nil'kvee
-	pos 167 -227
+	pos 332 -450
 	government Nil'kemorya
 	link Outbound
 	link Serpentis
 	link Tri'lipra
+	"jump range" 40
 	object
 		sprite star/k5
 		period 10
@@ -3672,11 +3710,12 @@ system Nil'kvee
 		period 500
 
 system Nil'nesa
-	pos 297 -259
+	pos 595 -520
 	government Nil'kemorya
 	link J'fhor
 	link Ne'prata
 	link Tre'erman
+	"jump range" 40
 	object
 		sprite star/k5
 		period 10
@@ -3686,11 +3725,12 @@ system Nil'nesa
 		period 500
 
 system Nil'pesetra
-	pos 576 -218
+	pos 1151 -434
 	government Nil'kemorya
 	link K'falla
 	link Kel'fella
 	link Za'diti
+	"jump range" 40
 	trade Equipment 500
 	trade Metal 600
 	object
@@ -3706,12 +3746,13 @@ system Nil'pesetra
 			period 500
 
 system Nil'vran
-	pos 164 -68
+	pos 330 -134
 	government Nil'kemorya
 	link K'onl
 	link NGC-0500
 	link P'napna
 	link Widow
+	"jump range" 40
 	object
 		sprite star/k5
 		period 10
@@ -3721,19 +3762,21 @@ system Nil'vran
 		period 500
 
 system Nthaan
-	pos 688 -492
+	pos 1374 -983
 	government Uninhabited
 	link Pentori
 	link Ravelin
 	link S7evyn
 	link Varden
 	link Willon
+	"jump range" 40
 
 system Numamba
-	pos -508 -335
+	pos -1012 -670
 	government Uninhabited
 	link K18
 	link K21
+	"jump range" 40
 	object
 		sprite star/k5
 		period 10
@@ -3743,32 +3786,36 @@ system Numamba
 		period 500
 
 system Nutin
-	pos 282 428
+	pos 564 859
 	government Uninhabited
 	link Eguit
 	link Gary
 	link Neilha
+	"jump range" 40
 
 system OG-AB
-	pos 157 -176
+	pos 315 -355
 	government Uninhabited
 	link Tri'lipra
 	link Tri'niphu
+	"jump range" 40
 
 system OG-AU
-	pos 33 402
+	pos 63 808
 	government Uninhabited
 	link Amnaho
 	link Aurora
 	link Kine
 	link Olein
 	link Pimen
+	"jump range" 40
 
 system OG-CR
-	pos -217 -394
+	pos -436 -787
 	government Uninhabited
 	link Bloodstone
 	link Teleeli
+	"jump range" 40
 	object
 		sprite star/k5
 		period 10
@@ -3793,67 +3840,77 @@ system OG-CR
 		distance 1200
 
 system OG-DA
-	pos 158 258
+	pos 313 515
 	government Uninhabited
 	link Himear
 	link Kilik
+	"jump range" 40
 
 system OG-DR
-	pos 407 -178
+	pos 815 -352
 	government Uninhabited
 	link K'yapta
 	link Kel'ariy
 	link Tre'helov
 	link Za'iuso
+	"jump range" 40
 
 system OG-EN
-	pos -219 475
+	pos -437 951
 	government Uninhabited
 	link Firmantar
 	link Odnan
 	link Schev
+	"jump range" 40
 
 system OG-HE
-	pos -93 257
+	pos -188 517
 	government Uninhabited
 	link Heraan
 	link Lacora
 	link Saal
+	"jump range" 40
 
 system OG-HO
-	pos 531 41
+	pos 1064 82
 	government Uninhabited
 	link Bis'usoca
 	link Ki'manora
+	link Tre'petaka
 	link Tre'pirana
+	"jump range" 40
 
 system OG-KA
-	pos 33 41
+	pos 64 82
 	government Uninhabited
 	link Kania
 	link Kuon
 	link NGC-1170
 	link SPC-1927
+	"jump range" 40
 
 system OG-MO
-	pos -344 258
+	pos -685 514
 	government Uninhabited
 	link Chirt
 	link Jerlyl
 	link Moash
+	"jump range" 40
 
 system OG-PO
-	pos 282 41
+	pos 563 81
 	government Uninhabited
 	link K'marak
+	"jump range" 40
 
 system OG-PR
-	pos -93 -178
+	pos -185 -352
 	government Uninhabited
 	link Altair
 	link Arcturus
-	link "Fomalhaut b"
+	link Fomalhaut
 	link "Outpost 819"
+	"jump range" 40
 	object
 		sprite star/nova
 		period 10
@@ -3899,27 +3956,31 @@ system OG-PR
 		offset 240
 
 system OG-RA
-	pos -719 -395
+	pos -1437 -790
 	government Uninhabited
+	"jump range" 40
 
 system OG-RO
-	pos 281 403
+	pos 565 806
 	government Uninhabited
 	link Kipa
 	link Neilha
+	"jump range" 40
 
 system OG-SE
-	pos -218 40
+	pos -438 80
 	government Uninhabited
 	link Hannaford
 	link Spica
+	"jump range" 40
 
 system OG-SH
-	pos 32 -394
+	pos 64 -789
 	government Uninhabited
 	link Corvus
 	link Scheall
 	link Ukari
+	"jump range" 40
 	object
 		sprite star/k5
 		period 10
@@ -3945,12 +4006,13 @@ system OG-SH
 		offset 180
 
 system OG-SO
-	pos -343 -177
+	pos -687 -352
 	government Uninhabited
 	link Centauri
 	link Glimmer
 	link Procyon
 	link Trishka
+	"jump range" 40
 	object
 		sprite star/nova
 		period 10
@@ -3984,24 +4046,27 @@ system OG-SO
 		offset 300
 
 system OG-TE
-	pos 408 257
+	pos 814 518
 	government Uninhabited
 	link Rome
 	link Tekel
+	"jump range" 40
 
 system OG-TW
-	pos -469 -394
+	pos -935 -789
 	government Uninhabited
 	link K20
 	link K48
+	"jump range" 40
 
 system OG-VE
-	pos -469 42
+	pos -938 80
 	government Uninhabited
 	link Hevel
 	link Jocci
 	link Queq
 	link Vella
+	"jump range" 40
 	object
 		sprite star/nova
 		period 10
@@ -4026,47 +4091,53 @@ system OG-VE
 		offset 180
 
 system OG-VO
-	pos -593 -177
+	pos -1186 -353
 	government Uninhabited
 	link Dellor
+	"jump range" 40
 
 system Oban
-	pos -405 -33
+	pos -807 -78
 	government Uninhabited
 	link Hydden
 	link Inkira
 	link Manit
 	link Uvon
+	"jump range" 40
 
 system Obatta
-	pos -170 123
+	pos -344 243
 	government Uninhabited
 	link Iris
 	link McMurdo
 	link Tuatha
+	"jump range" 40
 
 system Odnan
-	pos -245 520
+	pos -491 1036
 	government Uninhabited
 	link Firmantar
 	link Futurend
 	link OG-EN
 	link Schev
 	link Sonete
+	"jump range" 40
 
 system Ofine
-	pos 101 403
+	pos 200 807
 	government Uninhabited
 	link Amnaho
 	link Aplix
 	link Aurora
 	link Pren
+	"jump range" 40
 
 system Okiia
-	pos -140 338
+	pos -280 676
 	government Heraan
 	link Aalolph
 	link Saal
+	"jump range" 40
 	trade Equipment 1250
 	trade Medical 750
 	object
@@ -4082,11 +4153,12 @@ system Okiia
 			period 500
 
 system Olaralo
-	pos -492 -43
+	pos -983 -89
 	government Vella
 	link Hydden
 	link Mikhail
 	link Shel
+	"jump range" 40
 	trade Equipment 1250
 	trade Food 150
 	object
@@ -4102,10 +4174,11 @@ system Olaralo
 			period 100
 
 system Olein
-	pos -8 429
+	pos -17 857
 	government Empire
 	link Issar
 	link OG-AU
+	"jump range" 40
 	trade Industrial 300
 	trade Metal 600
 	object
@@ -4117,11 +4190,12 @@ system Olein
 		period 500
 
 system Outbound
-	pos 119 -207
+	pos 237 -412
 	government Independent
 	link Algol
 	link Nil'kvee
 	link Threshold
+	"jump range" 40
 	trade Equipment 1250
 	trade Food 450
 	trade "Luxury Goods" 1000
@@ -4138,11 +4212,12 @@ system Outbound
 			period 100
 
 system "Outpost 819"
-	pos -152 -210
+	pos -301 -420
 	government Federation
 	link Maker
 	link OG-PR
 	link Pollux
+	"jump range" 40
 	trade Industrial 300
 	trade Metal 600
 	object
@@ -4154,12 +4229,13 @@ system "Outpost 819"
 		period 500
 
 system Over
-	pos 365 218
+	pos 730 439
 	government Tekel
 	link Fallen
 	link Kratos
 	link Reer
 	link Zeles
+	"jump range" 40
 	trade Industrial 300
 	trade Metal 600
 	object
@@ -4175,11 +4251,12 @@ system Over
 			period 500
 
 system Ovia
-	pos -367 77
+	pos -738 143
 	government Vella
 	link Belt
 	link Reacher
 	link Uvon
+	"jump range" 40
 	object
 		sprite star/k5
 		period 10
@@ -4189,11 +4266,12 @@ system Ovia
 		period 500
 
 system P'aedt
-	pos 577 -311
+	pos 1158 -622
 	government Polaris
 	link J'raphit
 	link K'falla
 	link Ki'ade
+	"jump range" 40
 	trade Equipment 1250
 	trade Industrial 300
 	object
@@ -4209,11 +4287,12 @@ system P'aedt
 			period 100
 
 system P'ecksa
-	pos 390 -234
+	pos 781 -467
 	government Polaris
 	link F'onora
 	link K'minkek
 	link Tre'helov
+	"jump range" 40
 	trade Equipment 500
 	trade "Luxury Goods" 2000
 	object
@@ -4229,12 +4308,13 @@ system P'ecksa
 			period 500
 
 system P'napna
-	pos 243 -46
+	pos 483 -90
 	government Polaris
 	link K'marak
 	link K'onl
 	link Nil'vran
 	link Za'krana
+	"jump range" 40
 	trade Equipment 500
 	trade Medical 1688
 	object
@@ -4250,9 +4330,10 @@ system P'napna
 			period 200
 
 system P'omlpha
-	pos 617 -82
+	pos 1233 -164
 	government Polaris
 	link Z'elta
+	"jump range" 40
 	trade Equipment 500
 	trade Industrial 900
 	trade Metal 600
@@ -4265,37 +4346,42 @@ system P'omlpha
 		period 360
 
 system POTENTIAL
-	pos -35 -484
+	pos -71.0799 -965.441
 	government Replicant
 	link DESTINY
 	link FATE
+	"jump range" 40
 
 system Pact
-	pos -339 337
+	pos -680 675
 	government Uninhabited
 	link Fynar
 	link Neck
 	link Qreck
 	link Sect
+	"jump range" 40
 
 system Peacock
-	pos 219 -288
+	pos 437 -575
 	government Uninhabited
 	link Bellatrix
 	link Kor'D'On
+	"jump range" 40
 
 system Peflek
-	pos -50 208
+	pos -103 413
 	government Uninhabited
 	link Cove
 	link Heraan
 	link Malo
+	"jump range" 40
 
 system Pentori
-	pos 718 -452
+	pos 1434 -905
 	government Independent
 	link Nthaan
 	link Ravelin
+	"jump range" 40
 	trade Equipment 1250
 	trade Industrial 300
 	object
@@ -4307,7 +4393,7 @@ system Pentori
 		period 500
 
 system Petra
-	pos -12 -343
+	pos -26 -687
 	government Uninhabited
 	link Aldebaran
 	link Corvus
@@ -4316,6 +4402,7 @@ system Petra
 	link Scheros
 	link Sedina
 	link Tidbinbilla
+	"jump range" 40
 	object
 		sprite star/k5
 		period 10
@@ -4325,7 +4412,7 @@ system Petra
 		period 500
 
 system Pilot
-	pos 288 191
+	pos 575 381
 	government Empire
 	link Boro
 	link Caryo
@@ -4333,6 +4420,7 @@ system Pilot
 	link Iplik
 	link J'narr
 	link Reer
+	"jump range" 40
 	trade Medical 1688
 	trade Metal 200
 	object
@@ -4344,11 +4432,12 @@ system Pilot
 		period 500
 
 system Pimen
-	pos 42 344
+	pos 83 689
 	government Dechtakar
 	link Freya
 	link Gulag
 	link OG-AU
+	"jump range" 40
 	trade Food 450
 	trade "Luxury Goods" 1000
 	trade Medical 1688
@@ -4361,43 +4450,48 @@ system Pimen
 		period 500
 
 system Pippa
-	pos 328 369
+	pos 646 739
 	government Uninhabited
 	link Kipa
 	link Smada
+	"jump range" 40
 
 system Polaris
-	pos 185 7
+	pos 372 12
 	government Uninhabited
 	link Antares
 	link Kanius
 	link NGC-0500
 	link Sender
+	"jump range" 40
 
 system Pollux
-	pos -122 -226
+	pos -241 -451
 	government Uninhabited
 	link Aral
 	link Arcturus
 	link "Nesre Primus"
 	link "Outpost 819"
 	link Tenetria
+	"jump range" 40
 
 system Pontoll
-	pos -392 -243
+	pos -787 -485
 	government Uninhabited
 	link Agate
 	link Avalon
 	link Enlightenment
 	link Sibko
 	link Systoll
+	"jump range" 40
 
 system "Porto Rillia"
-	pos -161 8
+	pos -322 15
 	government Federation
 	link Canopus
 	link Jenner
 	link Yennin
+	"jump range" 40
 	trade Equipment 527
 	trade Industrial 960
 	object
@@ -4413,11 +4507,12 @@ system "Porto Rillia"
 			period 100
 
 system Pren
-	pos 129 428
+	pos 261 858
 	government Empire
 	link Neilha
 	link Ofine
 	link Renan
+	"jump range" 40
 	trade "Luxury Goods" 1000
 	trade Medical 1688
 	trade Metal 600
@@ -4430,12 +4525,13 @@ system Pren
 		period 500
 
 system Procyon
-	pos -350 -203
+	pos -698 -406
 	government Uninhabited
 	link Avalon
 	link OG-SO
 	link Sibko
 	link Trishka
+	"jump range" 40
 	trade Food 150
 	trade Industrial 900
 	object
@@ -4452,10 +4548,11 @@ system Procyon
 		offset 150
 
 system PsiD-1
-	pos -479 -299
+	pos -956 -595
 	government Uninhabited
 	link K7
 	link Systoll
+	"jump range" 40
 	object
 		sprite star/k5
 		period 10
@@ -4465,10 +4562,11 @@ system PsiD-1
 		period 500
 
 system PsiD-2
-	pos -603 -317
+	pos -1206.21 -631.572
 	government Uninhabited
 	link K8
 	link Uriall
+	"jump range" 40
 	object
 		sprite star/k5
 		period 10
@@ -4478,10 +4576,11 @@ system PsiD-2
 		period 500
 
 system PsiD-3
-	pos -281 -391
+	pos -560 -780
 	government Uninhabited
 	link "Barnard's Star"
 	link K3
+	"jump range" 40
 	object
 		sprite star/k5
 		period 10
@@ -4491,10 +4590,11 @@ system PsiD-3
 		period 500
 
 system PsiD-4
-	pos -356 -536
+	pos -714.544 -1069.31
 	government Uninhabited
 	link K4
 	link Nestin
+	"jump range" 40
 	object
 		sprite star/k5
 		period 10
@@ -4504,10 +4604,11 @@ system PsiD-4
 		period 500
 
 system PsiD-5
-	pos -473 -461
+	pos -949 -924
 	government Uninhabited
 	link K9
 	link Residio
+	"jump range" 40
 	object
 		sprite star/k5
 		period 10
@@ -4517,34 +4618,38 @@ system PsiD-5
 		period 500
 
 system Qellan
-	pos -659 -244
+	pos -1318 -488
 	government Uninhabited
 	link Allarei
 	link Dellor
 	link Illiask
 	link Uriall
 	link Vellos
+	"jump range" 40
 
 system Qreck
-	pos -413 294
+	pos -832 589
 	government Uninhabited
 	link Llima
 	link Moash
 	link Pact
 	link Sect
+	"jump range" 40
 
 system Quandary
-	pos -62 -165
+	pos -125 -333
 	government Uninhabited
 	link Boundary
-	link "Fomalhaut a"
+	link Fomalhaut
 	link Tenetria
+	"jump range" 40
 
 system Queq
-	pos -453 57
+	pos -905 114
 	government Vella
 	link Manit
 	link OG-VE
+	"jump range" 40
 	trade Equipment 1250
 	trade Food 150
 	object
@@ -4556,25 +4661,28 @@ system Queq
 		period 500
 
 system REUNION
-	pos 13 -460
+	pos 23.1475 -917.764
 	government Replicant
 	link CHIMAERA
 	link CLASH
 	link DESTRUCTION
+	"jump range" 40
 
 system Ran'E'Shepos
-	pos 342 -499
+	pos 682 -996
 	government Uninhabited
 	link Iwo'U'Sentar
 	link Lil'E'Song
 	link Mes'E'Ruma
 	link Ser'E'Ousa
+	"jump range" 40
 
 system Rautherion
-	pos -37 -143
+	pos -73 -286
 	government Federation
 	link Mark
 	link Nemesis
+	"jump range" 40
 	trade Equipment 500
 	trade Industrial 900
 	trade Metal 600
@@ -4595,34 +4703,38 @@ system Rautherion
 				period 100
 
 system Ravelin
-	pos 707 -403
+	pos 1414 -807
 	government Uninhabited
 	link Chicea
 	link Nthaan
 	link Pentori
 	link S7evyn
 	link Willon
+	"jump range" 40
 
 system Rcaris
-	pos 28 217
+	pos 55 433
 	government Uninhabited
 	link Freya
 	link Hope
+	"jump range" 40
 
 system Reacher
-	pos -366 116
+	pos -736 230
 	government Uninhabited
 	link Biri
 	link Ovia
 	link Xante
 	link Yria
+	"jump range" 40
 
 system Reap
-	pos -392 172
+	pos -790 340
 	government Moash
 	link Biri
 	link Felos
 	link Jerlyl
+	"jump range" 40
 	trade Equipment 1250
 	trade Food 150
 	trade Industrial 900
@@ -4643,9 +4755,10 @@ system Reap
 			period 100
 
 system "Red Winged Blackbird"
-	pos -122.163 -14.8856
+	pos -210.163 -22.8856
 	government NebulaTank
 	link Jenner
+	"jump range" 40
 	object "Neon Station"
 		sprite planet/Racetrack
 		object "Clear Arena"
@@ -4655,12 +4768,13 @@ system "Red Winged Blackbird"
 			offset 250
 
 system Reer
-	pos 306 233
+	pos 610 464
 	government Tekel
 	link Aradne
 	link Over
 	link Pilot
 	link Reeva
+	"jump range" 40
 	object
 		sprite star/k5
 		period 10
@@ -4670,7 +4784,7 @@ system Reer
 		period 500
 
 system Reeva
-	pos 349 279
+	pos 706 547
 	government Tekel
 	link Aradne
 	link Kratos
@@ -4678,6 +4792,7 @@ system Reeva
 	trade Equipment 1250
 	trade Medical 1688
 	trade Metal 200
+	"jump range" 40
 	object
 		sprite star/k5
 		period 10
@@ -4687,13 +4802,14 @@ system Reeva
 		period 500
 
 system Renan
-	pos 105 333
+	pos 214 668
 	government Dani
 	link Aplix
 	link Dani
 	link Freya
 	link Himear
 	link Pren
+	"jump range" 40
 	trade Industrial 300
 	trade Medical 1688
 	object
@@ -4705,12 +4821,13 @@ system Renan
 		period 500
 
 system Rend
-	pos -244 383
+	pos -489 766
 	government Empire
 	link Bluyo
 	link Hiferryl
 	link Mackle
 	link Schev
+	"jump range" 40
 	trade Industrial 300
 	trade "Luxury Goods" 2000
 	object
@@ -4722,32 +4839,36 @@ system Rend
 		period 500
 
 system Repede
-	pos 111 37
+	pos 226 74
 	government Uninhabited
 	link Kanius
 	link Marion
 	link SPC-1927
+	"jump range" 40
 
 system Residio
-	pos -489 -475
+	pos -979 -951
 	government Uninhabited
 	link PsiD-5
+	"jump range" 40
 
 system Reticent
-	pos -159 -324
+	pos -318 -644
 	government Uninhabited
 	link Alesia
 	link Baltar
 	link Lesten
 	link Venture
+	"jump range" 40
 
 system Rigel
-	pos 34 -311
+	pos 67 -622
 	government Federation
 	link NGC-1317
 	link Petra
 	link Scheros
 	link Sedina
+	"jump range" 40
 	trade Industrial 300
 	trade Medical 1688
 	object
@@ -4768,11 +4889,12 @@ system Rigel
 			period 100
 
 system Rimshot
-	pos -342 -110
+	pos -684 -223
 	government Federation
 	link Demos
 	link Kerella
 	link Metter
+	"jump range" 40
 	trade Industrial 900
 	trade Metal 200
 	object
@@ -4788,11 +4910,12 @@ system Rimshot
 			period 100
 
 system Rome
-	pos 464 242
+	pos 926 484
 	government Tekel
 	link Caldos
 	link Grip
 	link OG-TE
+	"jump range" 40
 	trade Industrial 300
 	trade "Luxury Goods" 1000
 	trade Medical 1688
@@ -4805,12 +4928,13 @@ system Rome
 		period 500
 
 system S7evyn
-	pos 616 -402
+	pos 1233 -805
 	government ATMOS
 	link Chicea
 	link Nthaan
 	link Ravelin
 	link Willon
+	"jump range" 40
 	trade Metal 600
 	object
 		sprite star/k5
@@ -4821,24 +4945,27 @@ system S7evyn
 		period 500
 
 system SPC-0193
-	pos -171 -550
+	pos -337.87 -1099.09
 	government Uninhabited
 	link Evlei
 	link SPC-1555
+	"jump range" 40
 
 system SPC-1555
-	pos -203 -519
+	pos -405.95 -1041.03
 	government Uninhabited
 	link Koria
 	link SPC-0193
 	link SPC-2710
+	"jump range" 40
 
 system SPC-1927
-	pos 71 61
+	pos 143 123
 	government Pirate
 	link Gateway
 	link OG-KA
 	link Repede
+	"jump range" 40
 	trade "Data Crystals" 525
 	trade Equipment 875
 	trade Food 300
@@ -4860,12 +4987,13 @@ system SPC-1927
 			offset 300
 
 system SPC-1948
-	pos 16 152
+	pos 33 306
 	government Empire
 	link Unin
 	link Uroa
 	link Vemap
 	link Wittor
+	"jump range" 40
 	object
 		sprite star/k5
 		period 10
@@ -4875,18 +5003,20 @@ system SPC-1948
 		period 500
 
 system SPC-2710
-	pos -230 -491
+	pos -454 -981
 	government Uninhabited
 	link Denier
 	link SPC-1555
+	"jump range" 40
 
 system Saal
-	pos -134 283
+	pos -269 568
 	government Heraan
 	link Inci
 	link Lacora
 	link OG-HE
 	link Okiia
+	"jump range" 40
 	trade Food 150
 	trade "Luxury Goods" 1000
 	trade Medical 1688
@@ -4903,16 +5033,18 @@ system Saal
 			period 500
 
 system Sale
-	pos -283 475
+	pos -566 949
 	government Uninhabited
 	link Mackle
 	link Sonete
+	"jump range" 40
 
 system Sanddown
-	pos -93 -33
+	pos -188 -65
 	government Federation
 	link Canopus
 	link Jenner
+	"jump range" 40
 	trade Industrial 300
 	trade "Luxury Goods" 2000
 	trade Metal 600
@@ -4933,10 +5065,11 @@ system Sanddown
 				period 500
 
 system Scheall
-	pos 32 -369
+	pos 108 -740
 	government Pirate
 	link OG-SH
 	link Ukari
+	"jump range" 40
 	trade "Data Crystals" 525
 	trade Equipment 1250
 	trade Food 450
@@ -4958,7 +5091,7 @@ system Scheall
 			period 100
 
 system Scheros
-	pos 9 -279
+	pos 18 -557
 	government Uninhabited
 	link Boundary
 	link Codehaven
@@ -4966,21 +5099,24 @@ system Scheros
 	link Petra
 	link Rigel
 	link Tidbinbilla
+	"jump range" 40
 
 system Schev
-	pos -243 430
+	pos -486 858
 	government Uninhabited
 	link Firmantar
 	link Mackle
 	link OG-EN
 	link Odnan
 	link Rend
+	"jump range" 40
 
 system Sect
-	pos -394 344
+	pos -789 690
 	government Empire
 	link Pact
 	link Qreck
+	"jump range" 40
 	trade Food 150
 	trade Metal 600
 	object
@@ -4996,54 +5132,61 @@ system Sect
 			period 100
 
 system Sedina
-	pos 69 -336
+	pos 138 -670
 	government Uninhabited
 	link NGC-1317
 	link Petra
 	link Rigel
 	link Ukari
+	"jump range" 40
 
 system Sel'I'Gal
-	pos 156 -418
+	pos 311 -835
 	government Uninhabited
 	link Dal'U'Sinto
 	link Fer'L'Jus
 	link Vyl'E'Tinti
+	"jump range" 40
 
 system Sender
-	pos 194 86
+	pos 388 173
 	government Uninhabited
 	link Boro
 	link Confluence
 	link Polaris
 	link Z'heaj
+	"jump range" 40
 
 system Ser'E'Ousa
-	pos 423 -424
+	pos 847 -851
 	government Uninhabited
 	link Ran'E'Shepos
 	link Tus'E'Viro
+	"jump range" 40
 
 system Serpentis
-	pos 148 -260
+	pos 297 -523
 	government Uninhabited
 	link Deb'I'Vad
 	link Mintaka
 	link NGC-1317
 	link Nil'kvee
+	"jump range" 40
 
 system Shel
-	pos -522 -30
+	pos -1047 -60
 	government Uninhabited
 	link Olaralo
 	link Teft
 	link Vella
+	"jump range" 40
 
 system Sibko
-	pos -339 -247
+	pos -680 -494
 	government Federation
 	link Pontoll
 	link Procyon
+	"jump range" 40
 	trade Equipment 500
 	trade Metal 600
 	object
@@ -5055,10 +5198,11 @@ system Sibko
 		period 500
 
 system Sirius
-	pos 31 -27
+	pos 62 -50
 	government Federation
 	link Antares
 	link Conden
+	"jump range" 40
 	trade Medical 1688
 	trade Metal 200
 	object
@@ -5095,20 +5239,22 @@ system Sirius
 			offset 180
 
 system Smada
-	pos 371 385
+	pos 740 773
 	government Uninhabited
 	link Eguit
 	link Kontik
 	link Kymon
 	link Pippa
 	link Tekel
+	"jump range" 40
 
 system "Sol a"
-	pos -218 -123
+	pos -435 -244
 	government Federation
 	link Naka
 	link "Sol b"
 	link "Sol c"
+	"jump range" 40
 	trade Equipment 1250
 	trade Medical 750
 	object
@@ -5120,11 +5266,12 @@ system "Sol a"
 		period 500
 
 system "Sol b"
-	pos -201 -96
+	pos -403 -189
 	government Federation
 	link Canopus
 	link "Sol a"
 	link "Sol c"
+	"jump range" 40
 	trade Food 450
 	trade Industrial 300
 	object
@@ -5140,11 +5287,12 @@ system "Sol b"
 			offset 300
 
 system "Sol c"
-	pos -235 -95
+	pos -469 -192
 	government Federation
 	link "Sol a"
 	link "Sol b"
 	link "Tau Ceti"
+	"jump range" 40
 	trade "Luxury Goods" 1000
 	trade Metal 600
 	object
@@ -5160,11 +5308,12 @@ system "Sol c"
 			period 500
 
 system Sonete
-	pos -283 541
+	pos -568 1082
 	government Empire
 	link Futurend
 	link Odnan
 	link Sale
+	"jump range" 40
 	trade Food 450
 	trade "Luxury Goods" 1000
 	object
@@ -5176,16 +5325,17 @@ system Sonete
 		period 500
 
 system Space
-	pos -210 -287
+	pos -418 -572
 	government Uninhabited
 	link Aral
 	link Capella
 	link Claimer
 	link Lesten
 	link Vega
+	"jump range" 40
 
 system Spica
-	pos -255 32
+	pos -512 65
 	government Uninhabited
 	link Alphara
 	link HJG-0637
@@ -5193,6 +5343,7 @@ system Spica
 	link "Journey's End"
 	link OG-SE
 	link Yennin
+	"jump range" 40
 	object
 		sprite star/k5
 		period 10
@@ -5202,34 +5353,38 @@ system Spica
 		period 500
 
 system Sur'E'Qoru
-	pos 260 -359
+	pos 523 -718
 	government Uninhabited
 	link Cros'T'Road
 	link Gan'U'Tornes
 	link Iwo'U'Sentar
 	link Mes'E'Ruma
 	link Ver'E'Liani
+	"jump range" 40
 
 system Systoll
-	pos -470 -279
+	pos -940 -558
 	government Uninhabited
 	link Jellosia
 	link Pontoll
 	link PsiD-1
 	link Yllar
+	"jump range" 40
 
 system TERMINUS
-	pos 103 -435
+	pos 205.602 -867.959
 	government Uninhabited
 	link CHALLENGE
 	link GATE
+	"jump range" 40
 
 system "Tau Ceti"
-	pos -290 -64
+	pos -577 -127
 	government Federation
 	link HJG-0637
 	link Metter
 	link "Sol c"
+	"jump range" 40
 	trade Equipment 500
 	trade Food 150
 	trade Medical 1688
@@ -5251,10 +5406,11 @@ system "Tau Ceti"
 			period 100
 
 system Teckra
-	pos -299 283
+	pos -600 567
 	government Moash
 	link Moash
 	link Neirt
+	"jump range" 40
 	trade Equipment 1250
 	trade Industrial 900
 	trade Medical 750
@@ -5267,10 +5423,11 @@ system Teckra
 		period 500
 
 system Teft
-	pos -572 -40
+	pos -1146 -81
 	government Empire
 	link Llysla
 	link Shel
+	"jump range" 40
 	trade Food 450
 	trade Metal 200
 	object
@@ -5282,12 +5439,13 @@ system Teft
 		period 500
 
 system Tekel
-	pos 392 316
+	pos 786 627
 	government Tekel
 	link Kratos
 	link OG-TE
 	link Smada
 	link Tocc
+	"jump range" 40
 	trade Food 450
 	trade Industrial 300
 	trade "Luxury Goods" 2000
@@ -5304,36 +5462,40 @@ system Tekel
 			period 100
 
 system Teleeli
-	pos -218 -370
+	pos -438 -742
 	government Uninhabited
 	link Baltar
 	link "Barnard's Star"
 	link Homeland
 	link OG-CR
+	"jump range" 40
 
 system Teltar
-	pos -144 -470
+	pos -288.32 -940.167
 	government Uninhabited
 	link Denier
 	link Koria
 	link Mallereth
+	"jump range" 40
 
 system Tenetria
-	pos -106 -144
+	pos -209 -288
 	government Uninhabited
 	link Altair
 	link Canopus
 	link Nadir
 	link Pollux
 	link Quandary
+	"jump range" 40
 
 system Terval
-	pos -127 450
+	pos -253 902
 	government Empire
 	link Bluyo
 	link Cworn
 	link Firmantar
 	link Issar
+	"jump range" 40
 	trade Medical 1688
 	trade Metal 200
 	object
@@ -5345,15 +5507,16 @@ system Terval
 		period 500
 
 system Threshold
-	pos 87 -219
+	pos 173 -438
 	government Uninhabited
 	link Algol
 	link NGC-1317
 	link Outbound
 	link Tichel
+	"jump range" 40
 
 system Tichel
-	pos 61 -163
+	pos 124 -324
 	government Federation
 	link Algol
 	link Antares
@@ -5361,6 +5524,7 @@ system Tichel
 	link Eeniar
 	link Nemesis
 	link Threshold
+	"jump range" 40
 	trade "Luxury Goods" 2000
 	trade Metal 200
 	object
@@ -5380,7 +5544,7 @@ system Tichel
 				offset 65
 
 system Tidbinbilla
-	pos -86 -354
+	pos -174 -706
 	government Uninhabited
 	link Aldebaran
 	link Baltar
@@ -5389,6 +5553,7 @@ system Tidbinbilla
 	link Mallereth
 	link Petra
 	link Scheros
+	"jump range" 40
 	object
 		sprite star/k5
 		period 10
@@ -5402,12 +5567,13 @@ system Tidbinbilla
 			period 100
 
 system Til'hapin
-	pos 497 -87
+	pos 993 -174
 	government Polaris
 	link Ne'mora
 	link Tre'minor
 	link Ver'ashan
 	link Ver'ikar
+	"jump range" 40
 	trade Equipment 500
 	trade Metal 600
 	object
@@ -5419,12 +5585,13 @@ system Til'hapin
 		period 500
 
 system Til'kolecto
-	pos 325 -32
+	pos 653 -65
 	government Polaris
 	link Bis'valalo
 	link K'marak
 	link Tre'illica
 	link Tri'cikilla
+	"jump range" 40
 	trade Equipment 500
 	trade Food 150
 	trade Industrial 300
@@ -5444,35 +5611,39 @@ system Til'kolecto
 			period 100
 
 system Tin'E'Tivel
-	pos 257 -442
+	pos 513 -885
 	government Uninhabited
 	link Cros'T'Road
 	link Dal'U'Sinto
 	link Iwo'U'Sentar
 	link Mis'E'Odres
 	link Ver'E'Liani
+	"jump range" 40
 
 system Tiria
-	pos 414 110
+	pos 824 223
 	government Uninhabited
 	link Caryo
 	link Fallen
 	link J'llon
+	"jump range" 40
 
 system Tirna
-	pos -69 68
+	pos -141 134
 	government Uninhabited
 	link Galvan
 	link Jenner
 	link Merrynne
 	link Murasaki
 	link Tuatha
+	"jump range" 40
 
 system Tocc
-	pos 435 357
+	pos 869 716
 	government Uninhabited
 	link Nicka
 	link Tekel
+	"jump range" 40
 	object
 		sprite star/k5
 		period 10
@@ -5482,20 +5653,22 @@ system Tocc
 		period 500
 
 system Tonallo
-	pos -586 -142
+	pos -1173 -287
 	government Uninhabited
 	link Allarei
 	link Dellor
 	link Kanto
 	link Manchester
+	"jump range" 40
 
 system Tre'erman
-	pos 372 -289
+	pos 742 -577
 	government Polaris
 	link F'onora
 	link Ki'actia
 	link Nil'nesa
 	link Ver'asplast
+	"jump range" 40
 	trade Industrial 900
 	trade "Luxury Goods" 1000
 	trade Metal 600
@@ -5512,11 +5685,12 @@ system Tre'erman
 			period 500
 
 system Tre'helov
-	pos 456 -212
+	pos 912 -426
 	government Polaris
 	link OG-DR
 	link P'ecksa
 	link Ver'ashan
+	"jump range" 40
 	trade Food 450
 	trade Medical 1688
 	trade Metal 200
@@ -5529,11 +5703,12 @@ system Tre'helov
 		period 500
 
 system Tre'illica
-	pos 286 -88
+	pos 571 -175
 	government Polaris
 	link K'onl
 	link Til'kolecto
 	link Z'precti
+	"jump range" 40
 	trade Equipment 1250
 	trade Food 150
 	object
@@ -5551,11 +5726,12 @@ system Tre'illica
 			period 100
 
 system Tre'minor
-	pos 553 -83
+	pos 1103 -163
 	government Polaris
 	link G'amit
 	link Til'hapin
 	link Z'elta
+	"jump range" 40
 	trade Food 450
 	trade Industrial 300
 	object
@@ -5583,11 +5759,12 @@ system Tre'minor
 			offset 180
 
 system Tre'olepla
-	pos 553 -163
+	pos 1106 -325
 	government Polaris
 	link Kel'fella
 	link Z'elta
 	link Za'diti
+	"jump range" 40
 	trade Medical 1688
 	trade Metal 200
 	object
@@ -5599,10 +5776,12 @@ system Tre'olepla
 		period 360
 
 system Tre'petaka
-	pos 550 77
+	pos 1101 161
 	government Polaris
 	link Ki'manora
+	link OG-HO
 	link Tre'pirana
+	"jump range" 40
 	trade Medical 1688
 	trade Metal 200
 	object
@@ -5614,11 +5793,12 @@ system Tre'petaka
 		period 360
 
 system Tre'pirana
-	pos 521 108
+	pos 1042 218
 	government Polaris
 	link Nil'ikro
 	link OG-HO
 	link Tre'petaka
+	"jump range" 40
 	trade Food 150
 	trade Industrial 300
 	trade "Local Alcohols" 1000
@@ -5645,10 +5825,11 @@ system Tre'pirana
 			period 100
 
 system Tre'vasar
-	pos 372 43
+	pos 742 86
 	government Polaris
 	link K'marak
 	link Ne'helipar
+	"jump range" 40
 	trade Equipment 1250
 	trade Metal 200
 	object
@@ -5660,13 +5841,14 @@ system Tre'vasar
 		period 500
 
 system Tri'cikilla
-	pos 390 -11
+	pos 781 -24
 	government Polaris
 	link Bis'routak
 	link K'marak
 	link Ne'helipar
 	link Ne'mora
 	link Til'kolecto
+	"jump range" 40
 	trade Food 150
 	trade Metal 600
 	object
@@ -5678,11 +5860,12 @@ system Tri'cikilla
 		period 500
 
 system Tri'lipra
-	pos 207 -192
+	pos 415 -386
 	government Polaris
 	link Ne'prata
 	link Nil'kvee
 	link OG-AB
+	"jump range" 40
 	trade Industrial 300
 	trade "Luxury Goods" 2000
 	object
@@ -5698,11 +5881,12 @@ system Tri'lipra
 			period 500
 
 system Tri'niphu
-	pos 197 -145
+	pos 393 -291
 	government Polaris
 	link K'onl
 	link Nil'kol
 	link OG-AB
+	"jump range" 40
 	trade Food 150
 	trade Industrial 900
 	object
@@ -5714,11 +5898,12 @@ system Tri'niphu
 		period 500
 
 system Trishka
-	pos -286 -209
+	pos -571 -420
 	government Federation
 	link Claimer
 	link OG-SO
 	link Procyon
+	"jump range" 40
 	trade Equipment 1250
 	trade Medical 750
 	object
@@ -5730,11 +5915,12 @@ system Trishka
 		period 500
 
 system Tuatha
-	pos -92 112
+	pos -186 226
 	government "Wild Geese"
 	link Obatta
 	link Tirna
 	link Xell
+	"jump range" 40
 	trade Food 150
 	trade "Local Alcohols" 300
 	trade Medical 1688
@@ -5751,19 +5937,21 @@ system Tuatha
 			period 100
 
 system Tuente
-	pos -205 198
+	pos -411 397
 	government Uninhabited
 	link Astra
 	link Iris
 	link Vantra
 	link Vestin
+	"jump range" 40
 
 system Tural
-	pos 206 315
+	pos 410 629
 	government Uninhabited
 	link Aradne
 	link Kilik
 	link Zipa
+	"jump range" 40
 	object
 		sprite star/k5
 		period 10
@@ -5773,33 +5961,37 @@ system Tural
 		period 500
 
 system Tus'E'Viro
-	pos 393 -394
+	pos 784 -789
 	government Uninhabited
 	link Mes'E'Ruma
 	link Nil'blei
 	link Ser'E'Ousa
+	"jump range" 40
 
 system Typin
-	pos -75 327
+	pos -150 654
 	government Uninhabited
 	link Gulag
 	link Lacora
+	"jump range" 40
 
 system Ukari
-	pos 102 -387
+	pos 202 -777
 	government Uninhabited
 	link Fer'L'Jus
 	link OG-SH
 	link Scheall
 	link Sedina
+	"jump range" 40
 
 system Umbira
-	pos -476.512 -522.097
+	pos -958.512 -1046.1
 	government Uninhabited
 	habitable 486.68
 	belt 1263
 	link Alcor
 	link Higiron
+	"jump range" 40
 	asteroids "small rock" 18 6.9552
 	asteroids "medium rock" 56 6.6528
 	asteroids "large rock" 4 7.56
@@ -5861,7 +6053,7 @@ system Umbira
 			period 37.3522
 
 system Unin
-	pos 107 149
+	pos 214.112 296.702
 	government Empire
 	link Aria
 	link Confluence
@@ -5869,6 +6061,7 @@ system Unin
 	link SPC-1948
 	link Uroa
 	link Wittor
+	"jump range" 40
 	object
 		sprite star/k5
 		period 10
@@ -5878,28 +6071,31 @@ system Unin
 		period 500
 
 system Uriall
-	pos -614 -297
+	pos -1228 -591
 	government Uninhabited
 	link Jellosia
 	link PsiD-2
 	link Qellan
+	"jump range" 40
 
 system Uroa
-	pos 67 130
+	pos 130 257
 	government Uninhabited
 	link Confluence
 	link Gateway
 	link SPC-1948
 	link Unin
+	"jump range" 40
 
 system Uvon
-	pos -369 4
+	pos -740 8
 	government Vella
 	link Jocci
 	link Oban
 	link Ovia
 	link Yria
 	link Zalo
+	"jump range" 40
 	object
 		sprite star/k5
 		period 10
@@ -5909,12 +6105,13 @@ system Uvon
 		period 500
 
 system Vantra
-	pos -202 233
+	pos -406 463
 	government Heraan
 	link Astra
 	link Khyste
 	link Tuente
 	link Vestin
+	"jump range" 40
 	object
 		sprite star/k5
 		period 10
@@ -5924,9 +6121,10 @@ system Vantra
 		period 500
 
 system Varden
-	pos 635 -491
+	pos 1271 -981
 	government Independent
 	link Nthaan
+	"jump range" 40
 	trade Equipment 500
 	trade "Luxury Goods" 2000
 	object
@@ -5942,10 +6140,11 @@ system Varden
 			period 100
 
 system Vega
-	pos -204 -249
+	pos -404 -497
 	government Federation
 	link Maker
 	link Space
+	"jump range" 40
 	trade Food 150
 	trade Industrial 900
 	object
@@ -5961,12 +6160,13 @@ system Vega
 			period 100
 
 system Vella
-	pos -502 7
+	pos -1006 16
 	government Vella
 	link Ento
 	link Erante
 	link OG-VE
 	link Shel
+	"jump range" 40
 	trade Food 450
 	trade Industrial 300
 	trade "Local Alcohols" 300
@@ -5984,11 +6184,12 @@ system Vella
 			period 100
 
 system Vellos
-	pos -590 -225
+	pos -1180 -450
 	government Vell-os
 	link Dellor
 	link Illiask
 	link Qellan
+	"jump range" 40
 	object
 		sprite star/k5
 		period 10
@@ -6002,12 +6203,13 @@ system Vellos
 			period 100
 
 system Vemap
-	pos -31 184
+	pos -64 367
 	government Heraan
 	link Cove
 	link SPC-1948
 	link Wittor
 	link Xell
+	"jump range" 40
 	object
 		sprite star/k5
 		period 10
@@ -6017,15 +6219,16 @@ system Vemap
 		period 500
 
 system Venture
-	pos -104 -278
+	pos -208 -556
 	government Uninhabited
 	link Aral
 	link Boundary
 	link Gefjon
 	link Reticent
+	"jump range" 40
 
 system Ver'E'Liani
-	pos 272 -314
+	pos 544 -626
 	government Uninhabited
 	link For'U'Destro
 	link J'fhor
@@ -6033,13 +6236,15 @@ system Ver'E'Liani
 	link "Last Stop"
 	link Sur'E'Qoru
 	link Tin'E'Tivel
+	"jump range" 40
 
 system Ver'ashan
-	pos 497 -157
+	pos 991 -314
 	government Polaris
 	link Kel'fella
 	link Til'hapin
 	link Tre'helov
+	"jump range" 40
 	trade Industrial 900
 	trade Medical 750
 	object
@@ -6059,13 +6264,14 @@ system Ver'ashan
 			period 100
 
 system Ver'asplast
-	pos 451 -279
+	pos 902 -556
 	government Polaris
 	link F'onora
 	link Kel'fella
 	link Ki'actia
 	link Ki'ade
 	link Tre'erman
+	"jump range" 40
 	trade Equipment 1250
 	trade Medical 750
 	object
@@ -6081,11 +6287,12 @@ system Ver'asplast
 			period 500
 
 system Ver'avo
-	pos 339 -123
+	pos 674 -243
 	government Polaris
 	link Bis'valalo
 	link Z'precti
 	link Za'iuso
+	"jump range" 40
 	trade Food 450
 	trade Industrial 300
 	object
@@ -6097,11 +6304,12 @@ system Ver'avo
 		period 500
 
 system Ver'ikar
-	pos 445 -98
+	pos 888 -199
 	government Polaris
 	link Bis'routak
 	link K'yapta
 	link Til'hapin
+	"jump range" 40
 	trade Industrial 900
 	trade Medical 750
 	object
@@ -6117,9 +6325,10 @@ system Ver'ikar
 			period 500
 
 system Ver'roqi
-	pos 618 11
+	pos 1235 21
 	government Polaris
 	link Ki'manora
+	"jump range" 40
 	trade Industrial 900
 	trade Medical 750
 	object
@@ -6140,12 +6349,13 @@ system Ver'roqi
 		offset 180
 
 system Vestin
-	pos -236 222
+	pos -483 439
 	government Moash
 	link Alala
 	link Neirt
 	link Tuente
 	link Vantra
+	"jump range" 40
 	object
 		sprite star/k5
 		period 10
@@ -6155,20 +6365,22 @@ system Vestin
 		period 500
 
 system Vyl'E'Tinti
-	pos 193 -372
+	pos 387 -747
 	government Uninhabited
 	link Dal'U'Sinto
 	link Deb'I'Vad
 	link Gan'U'Tornes
 	link Sel'I'Gal
+	"jump range" 40
 
 system Warana
-	pos -462 139
+	pos -925 277
 	government Vella
 	link Belt
 	link Biri
 	link Gechta
 	link Hevel
+	"jump range" 40
 	object
 		sprite star/k5
 		period 10
@@ -6178,17 +6390,19 @@ system Warana
 		period 500
 
 system Widow
-	pos 154 -103
+	pos 304 -207
 	government Uninhabited
 	link Antares
 	link Nil'vran
+	"jump range" 40
 
 system Willon
-	pos 603 -451
+	pos 1208 -902
 	government Independent
 	link Nthaan
 	link Ravelin
 	link S7evyn
+	"jump range" 40
 	trade "Luxury Goods" 1000
 	trade Medical 1688
 	object
@@ -6200,12 +6414,13 @@ system Willon
 		period 500
 
 system Wittor
-	pos 63 206
+	pos 130 413
 	government Empire
 	link Hope
 	link SPC-1948
 	link Unin
 	link Vemap
+	"jump range" 40
 	trade "Luxury Goods" 2000
 	trade Metal 200
 	object
@@ -6221,10 +6436,11 @@ system Wittor
 			period 500
 
 system "Wolf 359"
-	pos -219 -185
+	pos -437 -371
 	government Federation
 	link Maker
 	link Naka
+	"jump range" 40
 	trade Equipment 500
 	trade Industrial 900
 	object
@@ -6240,31 +6456,34 @@ system "Wolf 359"
 			period 100
 
 system Xante
-	pos -299 123
+	pos -604 244
 	government Uninhabited
 	link Alphara
 	link Felos
 	link Iris
 	link Reacher
 	link Yria
+	"jump range" 40
 
 system Xell
-	pos -33 131
+	pos -65 264
 	government Uninhabited
 	link Cove
 	link Tuatha
 	link Vemap
+	"jump range" 40
 
 system Xym'E'Caros
-	pos 334 -400
+	pos 671 -802
 	government Uninhabited
 	link Cros'T'Road
 	link Dal'U'Sinto
 	link Gan'U'Tornes
 	link Mes'E'Ruma
+	"jump range" 40
 
 system Yennin
-	pos -194 22
+	pos -388 45
 	government Uninhabited
 	link Fyre
 	link Hannaford
@@ -6272,38 +6491,43 @@ system Yennin
 	link "Porto Rillia"
 	link Spica
 	link Zone
+	"jump range" 40
 
 system Yllar
-	pos -469 -238
+	pos -940 -479
 	government Uninhabited
 	link Estearll
 	link Illiask
 	link Systoll
+	"jump range" 40
 
 system Yria
-	pos -321 55
+	pos -641 111
 	government Uninhabited
 	link Alphara
 	link "Nesre Secundus"
 	link Reacher
 	link Uvon
 	link Xante
+	"jump range" 40
 
 system Z'elta
-	pos 586 -123
+	pos 1170 -246
 	government Uninhabited
 	link G'amit
 	link Ki'asman
 	link P'omlpha
 	link Tre'minor
 	link Tre'olepla
+	"jump range" 40
 
 system Z'heaj
-	pos 245 65
+	pos 486 128
 	government Uninhabited
 	link Ferris
 	link Mjolnir
 	link Sender
+	"jump range" 40
 	object
 		sprite star/k5
 		period 10
@@ -6313,12 +6537,13 @@ system Z'heaj
 		period 500
 
 system Z'precti
-	pos 285 -156
+	pos 570 -311
 	government Uninhabited
 	link K'minkek
 	link K'onl
 	link Tre'illica
 	link Ver'avo
+	"jump range" 40
 	object
 		sprite star/k5
 		period 10
@@ -6328,10 +6553,11 @@ system Z'precti
 		period 500
 
 system Za'diti
-	pos 611 -177
+	pos 1219 -351
 	government Uninhabited
 	link Nil'pesetra
 	link Tre'olepla
+	"jump range" 40
 	object
 		sprite star/k5
 		period 10
@@ -6341,11 +6567,12 @@ system Za'diti
 		period 500
 
 system Za'iuso
-	pos 360 -167
+	pos 716 -333
 	government Uninhabited
 	link K'minkek
 	link OG-DR
 	link Ver'avo
+	"jump range" 40
 	object
 		sprite star/k5
 		period 10
@@ -6355,39 +6582,44 @@ system Za'iuso
 		period 500
 
 system Za'krana
-	pos 251 -1
+	pos 504 -1
 	government Uninhabited
 	link K'marak
 	link Mjolnir
 	link P'napna
+	"jump range" 40
 
 system Zalo
-	pos -366 -65
+	pos -733 -132
 	government Uninhabited
 	link Kerella
 	link "Nesre Secundus"
 	link Uvon
+	"jump range" 40
 
 system Zeles
-	pos 417 229
+	pos 830 461
 	government Uninhabited
 	link Hook
 	link Kratos
 	link Nicka
 	link Over
+	"jump range" 40
 
 system Zipa
-	pos 224 369
+	pos 450 740
 	government Uninhabited
 	link Aplix
 	link Cipa
 	link Gary
 	link Kipa
 	link Tural
+	"jump range" 40
 
 system Zone
-	pos -146 40
+	pos -292 83
 	government Uninhabited
 	link Galvan
 	link Yennin
+	"jump range" 40
 
