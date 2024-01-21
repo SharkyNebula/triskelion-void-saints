@@ -73,13 +73,61 @@ system Alala
 		period 500
 
 system Alcor
-	pos 548 -492
+	pos -560.512 -562.097
 	government Uninhabited
+	habitable 1050.92
+	belt 1148
+	link Higiron
+	link Hogun
 	link Mizar
-	link Pentori
-	link S7evyn
-	link Varden
-	link Willon
+	link Umbira
+	asteroids "medium rock" 11 7.935
+	asteroids "large rock" 1 8.073
+	asteroids "small metal" 61 5.244
+	asteroids "medium metal" 125 4.485
+	asteroids "large metal" 50 8.832
+	minables gold 11 8.17901
+	trade "Data Crystals" 0
+	trade Equipment 0
+	trade Food 0
+	trade Industrial 0
+	trade "Local Alcohols" 0
+	trade "Luxury Goods" 0
+	trade Medical 0
+	trade Metal 600
+	object
+		sprite star/g5
+		distance 45.797
+		period 14.8215
+		offset 180
+	object
+		sprite star/k5
+		distance 67.203
+		period 14.8215
+	object
+		sprite planet/cloud8
+		distance 252.203
+		period 49.4198
+	object
+		sprite planet/gas0
+		distance 675.493
+		period 216.624
+		object
+			sprite planet/europa
+			distance 258
+			period 12.1447
+	object
+		sprite planet/water0
+		distance 1292.5
+		period 573.354
+	object
+		sprite planet/gas11
+		distance 2388.5
+		period 1440.34
+		object
+			sprite planet/desert4
+			distance 228
+			period 11.3548
 
 system Aldebaran
 	pos -59 -382
@@ -688,9 +736,9 @@ system Chayos
 		period 500
 
 system Chicea
-	pos 572 -381
+	pos 662 -381
 	government Independent
-	link Mizar
+	link Ravelin
 	link S7evyn
 	trade Industrial 980
 	trade Medical 792
@@ -939,7 +987,7 @@ system "Dnun Har"
 	government Uninhabited
 	habitable 1080
 	belt 1836
-	link Zillon
+	link Mizar
 	asteroids "large metal" 1 6.384
 	trade "Data Crystals" 0
 	trade Equipment 0
@@ -1676,12 +1724,12 @@ system Hiferryl
 
 system Higiron
 	pos -515.512 -505.097
-	government ATMOS
+	government Uninhabited
 	habitable 486.68
 	belt 1495
-	link Numamba
+	link Alcor
+	link Mizar
 	link Umbira
-	link Zillon
 	asteroids "small rock" 44 7.83
 	asteroids "medium rock" 72 5.67
 	asteroids "large rock" 3 4.6575
@@ -1759,11 +1807,11 @@ system Hiro
 
 system Hogun
 	pos -591.512 -525.097
-	government ATMOS
+	government Uninhabited
 	habitable 135
 	belt 1298
-	link Numamba
-	link Zillon
+	link Alcor
+	link Mizar
 	asteroids "large rock" 16 0.9828
 	asteroids "medium metal" 4 0.9048
 	asteroids "large metal" 13 1.1388
@@ -2301,7 +2349,7 @@ system K18
 	pos -380 -379
 	government Uninhabited
 	link K11
-	link "The Tower"
+	link Numamba
 
 system K20
 	pos -508 -422
@@ -2313,7 +2361,7 @@ system K21
 	pos -468 -433
 	government Uninhabited
 	link K14
-	link "The Tower"
+	link Numamba
 
 system K22
 	pos -321 -402
@@ -3116,13 +3164,64 @@ system Mis'E'Odres
 	link Tin'E'Tivel
 
 system Mizar
-	pos 525 -403
+	pos -579.512 -475.097
 	government Uninhabited
+	habitable 912.6
+	belt 1559
 	link Alcor
-	link Chicea
-	link Pentori
-	link S7evyn
-	link Willon
+	link "Dnun Har"
+	link Higiron
+	link Hogun
+	asteroids "small rock" 21 3.537
+	asteroids "medium rock" 4 3.24
+	asteroids "large rock" 9 2.538
+	asteroids "small metal" 168 2.106
+	asteroids "medium metal" 39 2.7
+	asteroids "large metal" 64 2.565
+	minables aluminum 23 2.47174
+	minables iron 25 4.5708
+	minables silver 1 4.05625
+	trade "Data Crystals" 0
+	trade Equipment 0
+	trade Food 0
+	trade Industrial 0
+	trade "Local Alcohols" 0
+	trade "Luxury Goods" 0
+	trade Medical 0
+	trade Metal 0
+	object
+		sprite star/k0
+		distance 41.5372
+		period 11.1174
+		offset 180
+	object
+		sprite star/k5
+		distance 47.4628
+		period 11.1174
+	object
+		sprite planet/rock14
+		distance 167.423
+		period 28.6841
+	object
+		sprite planet/rock2
+		distance 347.233
+		period 85.6743
+	object
+		sprite planet/cloud1
+		distance 585.523
+		period 187.601
+	object
+		sprite planet/gas7
+		distance 983.483
+		period 408.385
+	object
+		sprite planet/gas10
+		distance 2454.48
+		period 1610.13
+		object
+			sprite planet/rock3
+			distance 186
+			period 13.3526
 
 system Mjolnir
 	pos 211 35
@@ -3621,62 +3720,27 @@ system Nil'vran
 		distance 1000
 		period 500
 
+system Nthaan
+	pos 688 -492
+	government Uninhabited
+	link Pentori
+	link Ravelin
+	link S7evyn
+	link Varden
+	link Willon
+
 system Numamba
-	pos -560.512 -562.097
-	government ATMOS
-	habitable 1050.92
-	belt 1148
-	link Higiron
-	link Hogun
-	link Umbira
-	link Zillon
-	asteroids "medium rock" 11 7.935
-	asteroids "large rock" 1 8.073
-	asteroids "small metal" 61 5.244
-	asteroids "medium metal" 125 4.485
-	asteroids "large metal" 50 8.832
-	minables gold 11 8.17901
-	trade "Data Crystals" 0
-	trade Equipment 0
-	trade Food 0
-	trade Industrial 0
-	trade "Local Alcohols" 0
-	trade "Luxury Goods" 0
-	trade Medical 0
-	trade Metal 600
-	object
-		sprite star/g5
-		distance 45.797
-		period 14.8215
-		offset 180
+	pos -508 -335
+	government Uninhabited
+	link K18
+	link K21
 	object
 		sprite star/k5
-		distance 67.203
-		period 14.8215
+		period 10
 	object
-		sprite planet/cloud8
-		distance 252.203
-		period 49.4198
-	object
-		sprite planet/gas0
-		distance 675.493
-		period 216.624
-		object
-			sprite planet/europa
-			distance 258
-			period 12.1447
-	object
-		sprite planet/water0
-		distance 1292.5
-		period 573.354
-	object
-		sprite planet/gas11
-		distance 2388.5
-		period 1440.34
-		object
-			sprite planet/desert4
-			distance 228
-			period 11.3548
+		sprite "planet/Dark World"
+		distance 1000
+		period 500
 
 system Nutin
 	pos 282 428
@@ -4228,10 +4292,10 @@ system Peflek
 	link Malo
 
 system Pentori
-	pos 514 -453
+	pos 718 -452
 	government Independent
-	link Alcor
-	link Mizar
+	link Nthaan
+	link Ravelin
 	trade Equipment 1250
 	trade Industrial 300
 	object
@@ -4530,6 +4594,15 @@ system Rautherion
 				distance 300
 				period 100
 
+system Ravelin
+	pos 707 -403
+	government Uninhabited
+	link Chicea
+	link Nthaan
+	link Pentori
+	link S7evyn
+	link Willon
+
 system Rcaris
 	pos 28 217
 	government Uninhabited
@@ -4734,9 +4807,9 @@ system Rome
 system S7evyn
 	pos 616 -402
 	government ATMOS
-	link Alcor
 	link Chicea
-	link Mizar
+	link Nthaan
+	link Ravelin
 	link Willon
 	trade Metal 600
 	object
@@ -5271,19 +5344,6 @@ system Terval
 		distance 1000
 		period 500
 
-system "The Tower"
-	pos -508 -335
-	government Uninhabited
-	link K18
-	link K21
-	object
-		sprite star/k5
-		period 10
-	object
-		sprite "planet/Dark World"
-		distance 1000
-		period 500
-
 system Threshold
 	pos 87 -219
 	government Uninhabited
@@ -5738,8 +5798,8 @@ system Umbira
 	government Uninhabited
 	habitable 486.68
 	belt 1263
+	link Alcor
 	link Higiron
-	link Numamba
 	asteroids "small rock" 18 6.9552
 	asteroids "medium rock" 56 6.6528
 	asteroids "large rock" 4 7.56
@@ -5864,9 +5924,9 @@ system Vantra
 		period 500
 
 system Varden
-	pos 599 -492
+	pos 635 -491
 	government Independent
-	link Alcor
+	link Nthaan
 	trade Equipment 500
 	trade "Luxury Goods" 2000
 	object
@@ -6124,10 +6184,10 @@ system Widow
 	link Nil'vran
 
 system Willon
-	pos 629 -451
+	pos 603 -451
 	government Independent
-	link Alcor
-	link Mizar
+	link Nthaan
+	link Ravelin
 	link S7evyn
 	trade "Luxury Goods" 1000
 	trade Medical 1688
@@ -6315,66 +6375,6 @@ system Zeles
 	link Kratos
 	link Nicka
 	link Over
-
-system Zillon
-	pos -579.512 -475.097
-	government Uninhabited
-	habitable 912.6
-	belt 1559
-	link "Dnun Har"
-	link Higiron
-	link Hogun
-	link Numamba
-	asteroids "small rock" 21 3.537
-	asteroids "medium rock" 4 3.24
-	asteroids "large rock" 9 2.538
-	asteroids "small metal" 168 2.106
-	asteroids "medium metal" 39 2.7
-	asteroids "large metal" 64 2.565
-	minables aluminum 23 2.47174
-	minables iron 25 4.5708
-	minables silver 1 4.05625
-	trade "Data Crystals" 0
-	trade Equipment 0
-	trade Food 0
-	trade Industrial 0
-	trade "Local Alcohols" 0
-	trade "Luxury Goods" 0
-	trade Medical 0
-	trade Metal 0
-	object
-		sprite star/k0
-		distance 41.5372
-		period 11.1174
-		offset 180
-	object
-		sprite star/k5
-		distance 47.4628
-		period 11.1174
-	object
-		sprite planet/rock14
-		distance 167.423
-		period 28.6841
-	object
-		sprite planet/rock2
-		distance 347.233
-		period 85.6743
-	object
-		sprite planet/cloud1
-		distance 585.523
-		period 187.601
-	object
-		sprite planet/gas7
-		distance 983.483
-		period 408.385
-	object
-		sprite planet/gas10
-		distance 2454.48
-		period 1610.13
-		object
-			sprite planet/rock3
-			distance 186
-			period 13.3526
 
 system Zipa
 	pos 224 369
