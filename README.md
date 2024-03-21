@@ -1,7 +1,7 @@
 # ES:EVEN:T
 
 <p align="center">
-  <img src="https://raw.githubusercontent.com/NebulaTank/Supernova-Shipyard-Source/main/Blends%20-%20UI/Triskele%20with%20Triquetra/Triskele%20with%20Triquetra%20Badge%400.5x.png" alt="ES:EVENT Badge"/>
+  <img src="https://raw.githubusercontent.com/SharkyNebula/Supernova-Shipyard-Source/main/Blends%20-%20UI/Triskele%20with%20Triquetra/Triskele%20with%20Triquetra%20Badge%400.5x.png" alt="ES:EVENT Badge"/>
 </p>
 
 **ES:EVEN:T** is an acronym that stands for **E**ndless **S**ky: **E**scape **V**elocity **E**nhanced **N**ova: **T**riskelion. EVEN:T is my TC for Endless Sky that recreates the Novaverse. It's main features are
